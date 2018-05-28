@@ -168,32 +168,35 @@ a {
     left: 0;
 }
 #mainimage1 {
-  background-image: url("#");
+  background-image: url("../images/asset6.jpeg");
   display: block;
 }
 #mainimage2 {
-  background-image: url("#");
+  background-image: url("../images/asset7.jpeg");
   display: none;
 }
 #mainimage3 {
-  background-image: url("#");
+  background-image: url("../images/asset8.jpeg");
   display: none;
 }
 #mainimage4 {
-  background-image: url("#");
+  background-image: url("../images/asset9.jpeg");
   display: none;
 }
 #mainimage5 {
-  background-image: url("#");
+  background-image: url("../images/asset6.jpeg");
   display: none;
 }
 #mainimage6 {
-  background-image: url("#");
+  background-image: url("../images/asset7.jpeg");
   display: none;
 }
 #mainimage7 {
-  background-image: url("#");
+  background-image: url("../images/asset8.jpeg");
   display: none;
+}
+.slide p {
+  margin-top: 170px;
 }
 
 /* #header */
