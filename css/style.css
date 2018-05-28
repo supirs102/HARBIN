@@ -141,6 +141,61 @@ a {
   }
 }
 
+#mainimage {
+  min-height: 573px;
+    height: calc(100% * 630 / 1262);
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#mainimage1,
+#mainimage2,
+#mainimage3,
+#mainimage4,
+#mainimage5,
+#mainimage6,
+#mainimage7 {
+  background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 573px;
+    height: calc(100%*630/1262);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#mainimage1 {
+  background-image: url("#");
+  display: block;
+}
+#mainimage2 {
+  background-image: url("#");
+  display: none;
+}
+#mainimage3 {
+  background-image: url("#");
+  display: none;
+}
+#mainimage4 {
+  background-image: url("#");
+  display: none;
+}
+#mainimage5 {
+  background-image: url("#");
+  display: none;
+}
+#mainimage6 {
+  background-image: url("#");
+  display: none;
+}
+#mainimage7 {
+  background-image: url("#");
+  display: none;
+}
+
 /* #header */
 header {
 	width: 100vw;
