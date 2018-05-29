@@ -204,6 +204,7 @@ p.modalall {
   display: none;
 }
 
+
 /* #header */
 header {
 	width: 100vw;
@@ -237,6 +238,26 @@ header nav ul {
 #main {}
 /* #about */
 #about {}
+/* test01 */
+#test01all {
+  position: relative;
+}
+#test01content {
+  width: 100%;
+  height: 500px;
+  z-index: 2;
+}
+#test01 {
+  width: 100%;
+  height: 500px;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  background-image: url("../images/close_animated.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 /* #cuisine */
 #cuisine {}
 /* #cheffowner */

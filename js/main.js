@@ -14,4 +14,14 @@ $(function(){
 			currentIndex = nextIndex;
 		}
 	});
+
+	// scrollsvg
+	var batusvg = $('#test01');    
+	batusvg.hide();
+	//スクロールが100に達したらボタン表示
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) {
+			batusvg.fadeIn();
+		}
+	});
 });
