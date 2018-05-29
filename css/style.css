@@ -141,9 +141,17 @@ a {
   }
 }
 
+.modal {
+  color: #fff;
+}
+p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
 #mainimage {
-  min-height: 573px;
-    height: calc(100% * 630 / 1262);
+    height: 100%;
     position: relative;
     margin: 0;
     padding: 0;
@@ -156,13 +164,13 @@ a {
 #mainimage6,
 #mainimage7 {
   background-position: center center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 573px;
-    height: calc(100%*630/1262);
+    min-height: 100%;
+    height: calc(100%*1380/2230);
     position: absolute;
     top: 0;
     left: 0;
@@ -194,17 +202,6 @@ a {
 #mainimage7 {
   background-image: url("../images/asset8.jpeg");
   display: none;
-}
-.slide h2 {
-  margin-left: 100px;
-}
-.ttlnotes {
-  font-size: 12px;
-  margin-top: 50px;
-}
-.slide p {
-  margin-top: 100px;
-  margin-left: 100px;
 }
 
 /* #header */

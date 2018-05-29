@@ -30,7 +30,7 @@ Github: http://github.com/jorgechavz
 .modal .modal-wrap{
   background-color: #ddd;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
-  padding: 40px 50px;
+  padding: 0;
   width: 60%;
   margin: 0;
   align-self: flex-start;
@@ -65,12 +65,9 @@ Github: http://github.com/jorgechavz
 /* Close button */
 .modal .modal-overlay .close{
   position: absolute;
-  right: 10px;
+  right: 40px;
   top: 10px;
-  font-size: 40px;
-  width: 30px;
-  height: 30px;
-  color: #282c34;
+  z-index: 1;
 }
 
 .modal .modal-overlay .close:hover{
@@ -107,7 +104,7 @@ Github: http://github.com/jorgechavz
 @media (max-width: 800px){
   .modal .modal-wrap {
     width: 80%;
-    padding: 20px;
+    padding: 0;
   }
 }
 
