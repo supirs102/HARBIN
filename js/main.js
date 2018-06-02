@@ -1,5 +1,5 @@
 $(function(){
-	// headerslide
+	// mainimageslide
 	$('#mainimage').each(function(){
 		var $slides = $(this).find('.slide'),
 			slideCount = $slides.length,
@@ -18,10 +18,26 @@ $(function(){
 	// scrollsvg
 	var batusvg = $('#test01');    
 	batusvg.hide();
-	//スクロールが100に達したらボタン表示
+	// スクロールが100に達したらSVG起動
 	$(window).scroll(function () {
 		if ($(this).scrollTop() > 100) {
 			batusvg.fadeIn();
 		}
+	});
+
+	// headerサイズ調整
+	var w = window.outerWidth;
+	var h = window.outerHeight;
+	$('header').css({
+		width : w,
+		height : h + 24
+	});
+	$(window).resize(function(){
+		var w = window.outerWidth;
+		var h = window.outerHeight;
+		$('header').css({
+			width : w,
+			height : h + 24
+		});
 	});
 });
