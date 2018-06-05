@@ -55,8 +55,6 @@ body {
 	background-color: #fff;
 	color: #00010c;
 	width: 100vw;
-	min-width: 1080px;
-	max-width: 1440px;
 	font-size: 14px;
 	line-height: 20px;
 }
@@ -81,7 +79,9 @@ html, body {
   position: relative;
   height: auto;
   min-height: 100%;
-  background-color: #787;
+  background-image: url("../images/asset8.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 /* #test02 */

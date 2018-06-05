@@ -26,18 +26,18 @@ $(function(){
 	});
 
 	// headerサイズ調整
-	var w = window.outerWidth;
-	var h = window.outerHeight;
-	$('header').css({
-		width : w,
-		height : h + 24
-	});
-	$(window).resize(function(){
-		var w = window.outerWidth;
-		var h = window.outerHeight;
-		$('header').css({
-			width : w,
-			height : h + 24
-		});
-	});
+	// var w = window.outerWidth;
+	// var h = window.outerHeight;
+	// $('header').css({
+	// 	width : w,
+	// 	height : h + 24
+	// });
+	// $(window).resize(function(){
+	// 	var w = window.outerWidth;
+	// 	var h = window.outerHeight;
+	// 	$('header').css({
+	// 		width : w,
+	// 		height : h + 24
+	// 	});
+	// });
 });
