@@ -65,6 +65,24 @@ a {
 	color: #fff;
 }
 
+/* .page */
+/* min-heightは100%でページ内容が100％を超えたら縦に伸びるというマークアップ
+   一個外にマークアップ用のdivを挟むとうまくいく
+   通常フローで配置されたheight:100%;の要素を「ブラウザ画面の高さ100%」で表示させたい場合
+   ブロックボックスを形成する祖先要素それぞれに対してもheight:100%;を指定する必要がある
+   （％は親要素が基準になるから、その祖先全てにheight:100%;にしなきゃだめ） */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  background-color: #ccc;
+}
 
 /* #test02 */
 #test02 {
