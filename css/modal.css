@@ -12,7 +12,7 @@ Github: http://github.com/jorgechavz
 /* Gray background */
 .modal .modal-overlay{
   opacity: 0;
-  transition: all 0.3s ease;
+  transition: all 0.7s ease;
   width: 50%;
   position: absolute;
   width: 100%;
