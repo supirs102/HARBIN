@@ -21,11 +21,13 @@ $(function(){
 	});
 
 	// scrollsvg
-	var batusvg = $('#test01');    
+	var batusvg = $('#test01');
+	var batuTop = batusvg.offset().top-500;
 	batusvg.hide();
-	// スクロールが100に達したらSVG起動
+	// スクロールがSVGに達したらSVG起動
 	$(window).scroll(function () {
-		if ($(this).scrollTop() > 100) {
+		var winTop = $(this).scrollTop();
+		if (winTop >= batuTop) {
 			batusvg.fadeIn();
 		}
 	});
