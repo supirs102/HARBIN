@@ -1,12 +1,17 @@
 $(function(){
+
 	// mainimageslide
 	$('#mainimage').each(function(){
 		var $slides = $(this).find('.slide'),
 			slideCount = $slides.length,
 			currentIndex = 0;
 
-		$slides.eq(currentIndex).fadeIn();
-		setInterval(showNextSlide, 7000);
+		$('#modalopenlabel').on('click', function() {
+
+			$slides.eq(currentIndex).fadeIn();
+			setInterval(showNextSlide, 7000);
+
+		});
 		function showNextSlide(){
 			var nextIndex = (currentIndex + 1) % slideCount;
 			$slides.eq(currentIndex).fadeOut(3000);
