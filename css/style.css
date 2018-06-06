@@ -256,7 +256,9 @@ header nav ul {
 /* #main */
 #main {}
 /* #about */
-#about {}
+#about {
+  height: 180px;
+}
 /* test01 */
 #test01all {
   position: relative;

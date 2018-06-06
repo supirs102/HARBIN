@@ -32,6 +32,19 @@ $(function(){
 		}
 	});
 
+	// scrollabout
+	var aboutmovep = $('#about').find('p');
+	var aboutTop = aboutmovep.offset().top-300;
+	aboutmovep.hide();
+	// スクロールがaboutに達したらabout起動
+	$(window).scroll(function () {
+		var winTop = $(this).scrollTop();
+		if (winTop >= aboutTop) {
+			aboutmovep.fadeIn(2000);
+		}
+	});
+
+
 	// headerサイズ調整
 	// var w = window.outerWidth;
 	// var h = window.outerHeight;
