@@ -7,10 +7,15 @@ $(function(){
 			currentIndex = 0;
 
 		$('#modalopenlabel').on('click', function() {
-
+			currentIndex = 0;
 			$slides.eq(currentIndex).fadeIn();
-			setInterval(showNextSlide, 7000);
+			idmodal = setInterval(showNextSlide, 7000);
 
+		});
+
+		$('label.close').on('click', function() {
+			clearInterval(idmodal);
+			$slides.fadeOut();
 		});
 		function showNextSlide(){
 			var nextIndex = (currentIndex + 1) % slideCount;
