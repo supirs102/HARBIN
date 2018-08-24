@@ -53,6 +53,7 @@ border-spacing: 0;
 }
 html,
 body {
+  font-family: YuMincho, 'Yu Mincho', serif;
 	background-color: #000417;
 	color: #fff;
 	width: 100vw;
@@ -92,13 +93,13 @@ a {
 header {
 	width: 100vw;
 	min-width: 1080px;
-	max-width: 1440px;
+	max-width: 2000px;
 }
 header h1 {
 	float: left;
 	width: 50vw;
 	min-width: 540px;
-	max-width: 720px;
+	max-width: 1000px;
 	text-align: right;
 }
 header h1 img {
@@ -110,7 +111,7 @@ header nav {
 	float: right;
 	width: 50vw;
 	min-width: 540px;
-	max-width: 720px;
+	max-width: 1000px;
 	text-align: left;
 	margin-top: calc(43vh - 42px);
 }
@@ -192,7 +193,10 @@ header nav ul {
 
 /* #mastercheff */
 #mastercheff {
-  padding-top: 34vh;
+  padding-top: 37vh;
+  background-image: url('../images/centerline.svg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #mastercheff h2 {
   font-size: 16px;
@@ -242,19 +246,21 @@ header nav ul {
 }
 #element ul {
   font-size: 0;
+  width: 80%;
+  margin: 0 auto;
+  background-image: url('../images/recommend01.jpg'), url('../images/recommend01.jpg'), url('../images/recommend01.jpg');
+  background-position: left bottom, center top, right bottom;
+  background-size: calc(33%);
+  background-repeat: no-repeat;
 }
 #element li {
   display: inline-block;
   width: calc(33% - 30px * 2);
-  height: 150px;
+  height: 300px;
   margin: 30px;
   font-size: 14px;
   position: relative;
   border: 1px solid #fff;
-}
-#element ul li#element001 {
-  background-image: url('../images/recommend01.jpg');
-  background-position: center bottom;
 }
 #element a{
   display: block;
@@ -263,7 +269,7 @@ header nav ul {
 }
 #element a.elementdown span {
   position: relative;
-  bottom: -100px;
+  bottom: -222px;
 }
 
 /* #information */

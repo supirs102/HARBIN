@@ -52,8 +52,8 @@ border-spacing: 0;
   box-sizing: border-box;
 }
 body {
-	background-color: #fff;
-	color: #00010c;
+	background-color: #000417;
+	color: #fff;
 	width: 100vw;
 	font-size: 14px;
 	line-height: 20px;
@@ -289,6 +289,94 @@ header nav ul {
 #cheffowner {}
 /* recommend */
 #recommend {}
+/* #element */
+#element {
+  padding-top: 120px;
+  background-image: url('');
+  text-align: center;
+}
+#element h2 {
+  font-size: 18px;
+}
+#element .ttlnotes {
+  font-size: 11px;
+}
+#element p {
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 172px;
+}
+#element ul {
+  font-size: 0;
+  background-image: url('../images/recommend01.jpg'), url('../images/recommend01.jpg'), url('../images/recommend01.jpg');
+  background-position: left bottom, center top, right bottom;
+  background-size: calc(33%);
+  background-repeat: no-repeat;
+}
+#element li {
+  display: inline-block;
+  width: calc(33% - 30px * 2);
+  height: 300px;
+  margin: 30px;
+  font-size: 14px;
+  position: relative;
+  border: 1px solid #fff;
+}
+#element a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#element a.elementdown span {
+  position: relative;
+  bottom: -100px;
+}
+/* #element1 */
+#element1 {
+  padding-top: 120px;
+  background-image: url('');
+  text-align: center;
+}
+#element1 h2 {
+  font-size: 18px;
+}
+#element1 .ttlnotes {
+  font-size: 11px;
+}
+#element1 p {
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 172px;
+}
+#element1 ul {
+  font-size: 0;
+}
+#element1 li {
+  display: inline-block;
+  width: calc(33% - 30px * 2);
+  height: 150px;
+  margin: 30px;
+  font-size: 14px;
+  position: relative;
+  border: 1px solid #fff;
+}
+#element1 ul {
+  background-image: url('../images/recommend01.jpg'), url('../images/recommend01.jpg'), url('../images/recommend01.jpg');
+  background-position: left bottom, center top, right bottom;
+  background-size: calc(33%);
+  background-repeat: no-repeat;
+}
+#element1 a{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#element1 a.elementdown span {
+  position: relative;
+  bottom: -100px;
+}
 /* information */
 #information {}
 /* footer */
