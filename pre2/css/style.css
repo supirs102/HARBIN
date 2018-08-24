@@ -75,13 +75,16 @@ a {
   font-size: 0;
   visibility: hidden;
 }
+.fs14 {
+  font-size: 14px;
+}
 
 /* .page */
 .page {
   position: relative;
   height: auto;
   min-height: 100%;
-  border-bottom: 1px solid red;
+  /* border-bottom: 1px solid red; */
   box-sizing: border-box;
 }
 
@@ -116,6 +119,7 @@ header nav ul {
   font-size: 13px;
   line-height: 26px;
 }
+
 /* #main */
 #main {
   position: relative;
@@ -138,6 +142,7 @@ header nav ul {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 /* #about */
 #about {
   padding-top: 170px;
@@ -152,24 +157,56 @@ header nav ul {
   height: 158px;
   margin: 0 auto;
   padding: 70px 0;
+  background-image: url('../images/monogatari.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
 /* #cuisine */
-#cuisine {}
+#cuisine {
+  padding-top: 170px;
+  /* width: 50%; */
+  width: 604px;
+  margin: 0 auto;
+}
+#cuisine h2 {
+  font-size: 17px;
+}
+#cuisine .ttlnotes {
+  font-size: 12px;
+}
 #cuisine ul {
   font-size: 0;
+  margin-top: 50px;
 }
 #cuisine ul li {
   display: inline-block;
-  width: 25%;
-  padding: 5px;
+  /* width: 25%; */
+  width: 142px;
+  padding: 4.5px;
 }
+#cuisine ul li img {
+  width: 100%;
+}
+
 /* #mastercheff */
 #mastercheff {
-  height: 250px;
+  padding-top: 34vh;
+}
+#mastercheff h2 {
+  font-size: 16px;
+}
+#mastercheff .ttlnotes {
+  font-size: 12px;
+}
+#mastercheff p {
+  margin-top: 36px;
 }
 #master h2#masterttl {
   float: left;
   width: 10vw;
+  margin-top: 102px;
 }
 #mastercontent {
   float: left;
@@ -179,14 +216,30 @@ header nav ul {
 #cheff h2#cheffttl {
   float: right;
   width: 10vw;
+  margin-top: 102px;
 }
 #cheffcontent {
   float: right;
   width: 40vw;
   text-align: left;
 }
+
 /* #element */
-#element {}
+#element {
+  padding-top: 120px;
+}
+#element h2 {
+  font-size: 18px;
+}
+#element .ttlnotes {
+  font-size: 11px;
+}
+#element p {
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 172px;
+}
 #element ul {
   font-size: 0;
 }
@@ -199,6 +252,10 @@ header nav ul {
   position: relative;
   border: 1px solid #fff;
 }
+#element ul li#element001 {
+  background-image: url('../images/recommend01.jpg');
+  background-position: center bottom;
+}
 #element a{
   display: block;
   width: 100%;
@@ -208,16 +265,53 @@ header nav ul {
   position: relative;
   bottom: -100px;
 }
+
 /* #information */
-#information {}
+#information {
+  padding-top: 200px;
+}
 #infoleft {
   float: left;
   width: 50vw;
+}
+#infoleft img {
+  width: 267px;
 }
 #inforight {
   float: right;
   width: 50vw;
   text-align: left;
 }
+#inforight h2 {
+  font-size: 17px;
+  margin-bottom: 70px;
+}
+#inforight .ttlnotes {
+  font-size: 12px;
+}
+#inforight p {
+  font-size: 12px;
+  margin-bottom: 23px;
+}
+
 /* footer */
 footer {}
+footer ul li {
+  font-size: 12px;
+  line-height: 28px;
+}
+footer h2 {
+  font-size: 17px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+footer .ttlnotes {
+  font-size: 11px;
+}
+#footershopinfo {
+  margin-bottom: 250px;
+}
+#footerlogo img {
+  width: 73px;
+  margin-bottom: 40px;
+}
