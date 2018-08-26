@@ -51,7 +51,7 @@ $(function(){
 
 	// bottomsvg
 	var bottomsvg = $('#bottom-svg');
-	var bottomTop = bottomsvg.offset().top-500;
+	var bottomTop = bottomsvg.offset().top-700;
 	bottomsvg.hide();
 	// スクロールがSVGに達したらSVG起動
 	$(window).scroll(function () {
