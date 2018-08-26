@@ -63,7 +63,7 @@ body {
 	font-size: 14px;
 	line-height: 20px;
   text-align: center;
-  background-image: url('../images/centerline.svg');
+  /* background-image: url('../images/centerline.svg'); */
 }
 a {
 	text-decoration: none;
