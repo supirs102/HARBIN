@@ -25,30 +25,41 @@ $(function(){
 		}
 	});
 
-	// scrollsvg
-	var batusvg = $('#test01');
-	var batuTop = batusvg.offset().top-500;
-	batusvg.hide();
+	// topsvg
+	var topsvg = $('#top-svg');
+	var topTop = topsvg.offset().top-500;
+	topsvg.hide();
 	// スクロールがSVGに達したらSVG起動
 	$(window).scroll(function () {
 		var winTop = $(this).scrollTop();
-		if (winTop >= batuTop) {
-			batusvg.fadeIn();
+		if (winTop >= topTop) {
+			topsvg.fadeIn();
 		}
 	});
 
-	// scrollabout
-	var aboutmovep = $('#about').find('p');
-	var aboutTop = aboutmovep.offset().top-300;
-	aboutmovep.hide();
-	// スクロールがaboutに達したらabout起動
+	// centersvg
+	var centersvg = $('#center-svg');
+	var centerTop = centersvg.offset().top-500;
+	centersvg.hide();
+	// スクロールがSVGに達したらSVG起動
 	$(window).scroll(function () {
 		var winTop = $(this).scrollTop();
-		if (winTop >= aboutTop) {
-			aboutmovep.fadeIn(2000);
+		if (winTop >= centerTop) {
+			centersvg.fadeIn();
 		}
 	});
 
+	// bottomsvg
+	var bottomsvg = $('#bottom-svg');
+	var bottomTop = bottomsvg.offset().top-500;
+	bottomsvg.hide();
+	// スクロールがSVGに達したらSVG起動
+	$(window).scroll(function () {
+		var winTop = $(this).scrollTop();
+		if (winTop >= bottomTop) {
+			bottomsvg.fadeIn();
+		}
+	});
 
 	// headerサイズ調整
 	// var w = window.outerWidth;

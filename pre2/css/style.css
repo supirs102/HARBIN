@@ -63,7 +63,6 @@ body {
 	font-size: 14px;
 	line-height: 20px;
   text-align: center;
-  /* background-image: url('../images/centerline.svg'); */
 }
 a {
 	text-decoration: none;
@@ -86,8 +85,51 @@ a {
   position: relative;
   height: auto;
   min-height: 100%;
-  /* border-bottom: 1px solid red; */
+  border-bottom: 1px solid red;
   box-sizing: border-box;
+}
+
+/* #top-svg */
+#top-svg {
+  position: absolute;
+  top: 85%;
+  width: 100%;
+  height: 200%;
+  background-image: url('../images/top.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  background-position: center;
+}
+
+/* #center-svg */
+#center-svg {
+  position: absolute;
+  top: 350%;
+  width: 100%;
+  height: 200%;
+  background-image: url('../images/centerline.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* #bottom-svg */
+#bottom-svg {
+  position: absolute;
+  top: 580%;
+  width: 100%;
+  height: 200%;
+  background-image: url('../images/footerline.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* #wrapper */
+#wrapper {
+  position: relative;
+  height: 100%;
 }
 
 /* header */
@@ -133,16 +175,6 @@ header nav ul {
 }
 #main #main-content img {
   width: 65%;
-}
-#main #main-svg {
-  width: 100%;
-  height: 500px;
-  z-index: 1;
-  position: absolute;
-  top: 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 /* #about */
@@ -195,9 +227,6 @@ header nav ul {
 /* #mastercheff */
 #mastercheff {
   padding-top: 37vh;
-  background-image: url('../images/centerline.svg');
-  background-repeat: no-repeat;
-  background-position: center;
 }
 #mastercheff h2 {
   font-size: 16px;
