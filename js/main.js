@@ -25,6 +25,21 @@ $(function(){
 		}
 	});
 
+	// informationslide
+	$('#information').each(function(){
+		var $slides = $('.slideshow').find('img'),
+				slideCount = $slides.length,
+				currentIndex = 0;
+		$slides.eq(0).fadeIn();
+		setInterval(showNextSlide,5000);
+		function showNextSlide(){
+			var nextIndex = (currentIndex+1)%slideCount;
+			$slides.eq(currentIndex).fadeOut(1000);
+			$slides.eq(nextIndex).fadeIn(1000);
+			currentIndex=nextIndex;
+		}
+	});
+
 	// topsvg
 	var topsvg = $('#top-svg');
 	var topTop = topsvg.offset().top-500;

@@ -315,6 +315,16 @@ header nav ul {
 #infoleft img {
   width: 267px;
 }
+.slideshow {
+  position: relative;
+}
+.slideshow img {
+  width: 100%;
+  height: auto;
+  display: none;
+  position: absolute;
+  right: 0;
+}
 #inforight {
   float: right;
   width: 50vw;
@@ -338,6 +348,31 @@ footer {}
 footer ul li {
   font-size: 12px;
   line-height: 28px;
+}
+footer ul li a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+footer ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+footer ul li a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
 }
 footer h2 {
   font-size: 17px;
