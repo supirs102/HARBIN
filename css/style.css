@@ -239,22 +239,26 @@ header nav ul {
 }
 #master h2#masterttl {
   float: left;
-  width: 10vw;
+  /* width: 10vw; */
+  width: 14vw;
   margin-top: 102px;
 }
 #mastercontent {
   float: left;
-  width: 40vw;
+  /* width: 40vw; */
+  width: 33vw;
   text-align: right;
 }
 #cheff h2#cheffttl {
   float: right;
-  width: 10vw;
+  /* width: 10vw; */
+  width: 14vw;
   margin-top: 102px;
 }
 #cheffcontent {
   float: right;
-  width: 40vw;
+  /* width: 40vw; */
+  width: 33vw;
   text-align: left;
 }
 
@@ -276,7 +280,8 @@ header nav ul {
 }
 #element ul {
   font-size: 0;
-  width: 80%;
+  /* width: 80%; */
+  width: 958px;
   margin: 0 auto;
   background-image: url('../images/recommend01.jpg'), url('../images/recommend01.jpg'), url('../images/recommend01.jpg');
   background-position: left bottom, center top, right bottom;
@@ -285,8 +290,9 @@ header nav ul {
 }
 #element li {
   display: inline-block;
-  width: calc(33% - 30px * 2);
-  height: 300px;
+  /* width: calc(33% - 30px * 2); */
+  width: 259px;
+  height: 235px;
   margin: 30px;
   font-size: 14px;
   position: relative;
@@ -299,7 +305,8 @@ header nav ul {
 }
 #element a.elementdown span {
   position: relative;
-  bottom: -222px;
+  /* bottom: -222px; */
+  bottom: -191px;
 }
 
 /* #information */
