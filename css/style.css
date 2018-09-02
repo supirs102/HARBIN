@@ -186,15 +186,129 @@ header nav ul {
   line-height: 44px;
   margin-bottom: 172px;
 }
-#about #about-link {
+#about .about-link {
   width: 80%;
   height: 158px;
+  display: block;
   margin: 0 auto;
   padding: 70px 0;
   background-image: url('../images/monogatari.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  z-index: 5;
+  position: relative;
+}
+
+/* #about modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #about .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #about .wrap h1{
+    font-size: 70px;
+  }
+  #about .wrap h1 span{
+    color: #F42A54;
+  }
+  #about .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #about .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #about .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #about .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #about .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #about .wrap {
+      width: 100%;
+    }
+  }
+
+#about .modal {
+  color: #fff;
+}
+#about p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#about #aboutimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#about #aboutimage1,
+#about #aboutimage2,
+#about #aboutimage3 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#about #aboutimage1 {
+  background-image: url("../images/asset6.jpeg");
+  display: block;
+}
+#about #aboutimage2 {
+  background-image: url("../images/asset7.jpeg");
+  display: none;
+}
+#about #aboutimage3 {
+  background-image: url("../images/asset8.jpeg");
+  display: none;
+}
+#about #aboutimage p {
+  padding-top: 23vh;
+  font-size: 13px;
+  line-height: 29px;
 }
 
 /* #cuisine */
@@ -239,22 +353,26 @@ header nav ul {
 }
 #master h2#masterttl {
   float: left;
-  width: 10vw;
+  /* width: 10vw; */
+  width: 14vw;
   margin-top: 102px;
 }
 #mastercontent {
   float: left;
-  width: 40vw;
+  /* width: 40vw; */
+  width: 33vw;
   text-align: right;
 }
 #cheff h2#cheffttl {
   float: right;
-  width: 10vw;
+  /* width: 10vw; */
+  width: 14vw;
   margin-top: 102px;
 }
 #cheffcontent {
   float: right;
-  width: 40vw;
+  /* width: 40vw; */
+  width: 33vw;
   text-align: left;
 }
 
@@ -276,7 +394,8 @@ header nav ul {
 }
 #element ul {
   font-size: 0;
-  width: 80%;
+  /* width: 80%; */
+  width: 958px;
   margin: 0 auto;
   background-image: url('../images/recommend01.jpg'), url('../images/recommend01.jpg'), url('../images/recommend01.jpg');
   background-position: left bottom, center top, right bottom;
@@ -285,8 +404,9 @@ header nav ul {
 }
 #element li {
   display: inline-block;
-  width: calc(33% - 30px * 2);
-  height: 300px;
+  /* width: calc(33% - 30px * 2); */
+  width: 259px;
+  height: 235px;
   margin: 30px;
   font-size: 14px;
   position: relative;
@@ -299,7 +419,8 @@ header nav ul {
 }
 #element a.elementdown span {
   position: relative;
-  bottom: -222px;
+  /* bottom: -222px; */
+  bottom: -191px;
 }
 
 /* #information */
@@ -314,6 +435,16 @@ header nav ul {
 }
 #infoleft img {
   width: 267px;
+}
+.slideshow {
+  position: relative;
+}
+.slideshow img {
+  width: 100%;
+  height: auto;
+  display: none;
+  position: absolute;
+  right: 0;
 }
 #inforight {
   float: right;
@@ -339,6 +470,31 @@ footer ul li {
   font-size: 12px;
   line-height: 28px;
 }
+footer ul li a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+footer ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+footer ul li a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
 footer h2 {
   font-size: 17px;
   margin-top: 120px;
@@ -353,4 +509,134 @@ footer .ttlnotes {
 #footerlogo img {
   width: 73px;
   margin-bottom: 40px;
+}
+
+/* #test02 */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #test02 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #test02 .wrap h1{
+    font-size: 70px;
+  }
+  #test02 .wrap h1 span{
+    color: #F42A54;
+  }
+  #test02 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #test02 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #test02 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+
+  #test02 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+
+  #test02 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+
+  @media (max-width: 500px){
+    #test02 .wrap {
+      width: 100%;
+    }
+  }
+
+
+#test02 .modal {
+  color: #fff;
+}
+#test02 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#test02 #mainimage {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#test02 #mainimage1,
+#test02 #mainimage2,
+#test02 #mainimage3,
+#test02 #mainimage4,
+#test02 #mainimage5,
+#test02 #mainimage6,
+#test02 #mainimage7 {
+  background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    height: calc(100%*1380/2230);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#test02 #mainimage1 {
+  background-image: url("../images/asset6.jpeg");
+  display: block;
+}
+#test02 #mainimage2 {
+  background-image: url("../images/asset7.jpeg");
+  display: none;
+}
+#test02 #mainimage3 {
+  background-image: url("../images/asset8.jpeg");
+  display: none;
+}
+#test02 #mainimage4 {
+  background-image: url("../images/asset9.jpeg");
+  display: none;
+}
+#test02 #mainimage5 {
+  background-image: url("../images/asset6.jpeg");
+  display: none;
+}
+#test02 #mainimage6 {
+  background-image: url("../images/asset7.jpeg");
+  display: none;
+}
+#test02 #mainimage7 {
+  background-image: url("../images/asset8.jpeg");
+  display: none;
 }

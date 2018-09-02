@@ -1,18 +1,16 @@
 $(function(){
 
-	// mainimageslide
-	$('#mainimage').each(function(){
+	// aboutimageslide
+	$('#aboutimage').each(function(){
 		var $slides = $(this).find('.slide'),
 			slideCount = $slides.length,
 			currentIndex = 0;
-
 		$('#modalopenlabel').on('click', function() {
 			currentIndex = 0;
 			$slides.eq(currentIndex).fadeIn();
 			idmodal = setInterval(showNextSlide, 7000);
 
 		});
-
 		$('label.close').on('click', function() {
 			clearInterval(idmodal);
 			$slides.fadeOut();
@@ -22,6 +20,21 @@ $(function(){
 			$slides.eq(currentIndex).fadeOut(3000);
 			$slides.eq(nextIndex).fadeIn(3000);
 			currentIndex = nextIndex;
+		}
+	});
+
+	// informationslide
+	$('#information').each(function(){
+		var $slides = $('.slideshow').find('img'),
+				slideCount = $slides.length,
+				currentIndex = 0;
+		$slides.eq(0).fadeIn();
+		setInterval(showNextSlide,5000);
+		function showNextSlide(){
+			var nextIndex = (currentIndex+1)%slideCount;
+			$slides.eq(currentIndex).fadeOut(1000);
+			$slides.eq(nextIndex).fadeIn(1000);
+			currentIndex=nextIndex;
 		}
 	});
 
