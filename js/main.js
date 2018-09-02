@@ -1,18 +1,16 @@
 $(function(){
 
-	// mainimageslide
-	$('#mainimage').each(function(){
+	// aboutimageslide
+	$('#aboutimage').each(function(){
 		var $slides = $(this).find('.slide'),
 			slideCount = $slides.length,
 			currentIndex = 0;
-
 		$('#modalopenlabel').on('click', function() {
 			currentIndex = 0;
 			$slides.eq(currentIndex).fadeIn();
 			idmodal = setInterval(showNextSlide, 7000);
 
 		});
-
 		$('label.close').on('click', function() {
 			clearInterval(idmodal);
 			$slides.fadeOut();
