@@ -6,14 +6,17 @@
 	<meta http-equiv=”Cache-Control” content=”no-cache”>
 	<meta name="description" content="ロシア料理の名店「ハルビン」は、長崎の地で長く愛されている名店です。">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+
 	<script type="text/javascript" src="js/main.js"></script>
 	<title>HARBIN</title>
+  	<script type="text/javascript" src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
 </head>
 <body>
 <div id="wrapper">
@@ -22,13 +25,13 @@
 <div id="bottom-svg"></div><!-- #bottom-svg -->
 <header class="page">
 	<h1><img src="images/logo01.png"></h1>
-	<nav>
+	<nav id="navya">
 		<ul>
 			<li><a href="#">TOP</a></li>
 			<li><a href="#about">ABOUT</a></li>
 			<li><a href="#cuisine">CUISINE</a></li>
 			<li><a href="#mastercheff">MASTER&nbsp;×&nbsp;CHEFF</a></li>
-			<li><a href="#crystal">ELEMENT</a></li>
+			<li><a href="#element">ELEMENT</a></li>
 			<li><a href="#information">INFORMATION</a></li>
 			<li><a href="#journal">JOURNAL</a></li>
 		</ul>
@@ -49,13 +52,15 @@
 			食の小宇宙へ誘われる
 		</p>
 	</div><!-- #about-content -->
-	<label for="modal-trigger" class="about-link" id="modalopenlabel">ハルビンの物語を読む</label>
+	<div class="about-link-wrapper">
+		<label for="aboutlink-modal" class="about-link modalopenlabel">ハルビンの物語を読む</label>
+	</div><!-- .about-link-wrapper -->
 	<div class="modal">
-		<input id="modal-trigger" class="checkbox" type="checkbox">
+		<input id="aboutlink-modal" class="checkbox" type="checkbox">
 		<div class="modal-overlay">
-		<label for="modal-trigger" class="o-close"></label>
+		<label for="aboutlink-modal" class="o-close"></label>
 			<div class="modal-wrap full">
-				<label for="modal-trigger" class="close"><img src="images/batu.png" width="50" height="50"></label>
+				<label for="aboutlink-modal" class="close"><img src="images/batu.png" width="50" height="50"></label>
 				<div id="aboutimage">
 					<div class="slide" id="aboutimage1">
 						<p>かつて中国北部一漁村に、時代の風が吹き始める<br>
@@ -141,7 +146,29 @@
 				殊更ながら、この時代に一番大事な事と思う。<br>
 				更に自分達を見失わない為にも…。
 			</p>
-			<p><a href="#">続きを読む&nbsp;&gt;</a></p>
+			<p><label for="mastermore-modal" id="mastermore-modalopenlabel">続きを読む&nbsp;&gt;</label></p>
+			<div class="modal">
+				<input id="mastermore-modal" class="checkbox" type="checkbox">
+				<div class="modal-overlay">
+				<label for="mastermore-modal" class="o-close"></label>
+					<div class="modal-wrap full">
+						<label for="mastermore-modal" class="close"><img src="images/batu.png" width="50" height="50"></label>
+						<div id="masterimage">
+							<div id="masterimage1">
+								<h2>MASTER</h2>
+								<h2 id="mastermodalttl">久保田耕<br><span class="ttlnotes">Ko Kubota</span></h2>
+								<p>
+									AI、ネットやブロックチェーン等により既存の情報・流通・金融などが<br>
+									創造的破壊を繰り返しながら霧消して行く。<br>
+									どうしたら愛され存続可能な店になれるか…凡事徹底<br>
+									殊更ながら、この時代に一番大事な事と思う。<br>
+									更に自分達を見失わない為にも…。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div><!-- #mastercontent -->
 		<h2 id="masterttl">MASTER<br><span class="ttlnotes">マスター</span></h2>
 	</div><!-- #master -->
@@ -155,7 +182,29 @@
 				私の料理は〝 人 〟で出来ています。<br>
 				その〝 仕事 〟を感じて頂ければ幸いです。
 			</p>
-			<p><a href="#">続きを読む&nbsp;&gt;</a></p>
+			<p><label for="cheffmore-modal" id="cheffmore-modalopenlabel">続きを読む&nbsp;&gt;</label></p>
+			<div class="modal">
+				<input id="cheffmore-modal" class="checkbox" type="checkbox">
+				<div class="modal-overlay">
+				<label for="cheffmore-modal" class="o-close"></label>
+					<div class="modal-wrap full">
+						<label for="cheffmore-modal" class="close"><img src="images/batu.png" width="50" height="50"></label>
+						<div id="cheffimage">
+							<div id="cheffimage1">
+								<h2 id="cheffmodalttl">CHEFF</h2>
+								<h2>久保田太一<br><span class="ttlnotes">Taichi Kubota</span></h2>
+								<p>
+									〝 仕事 〟=〝 人 〟<br>
+									「人となり」が「仕事」に映り、「仕事」が「モノ、コト」に宿る。<br>
+									今まで出逢ってきた生産者、料理人、表現者が全てを物語っていました。<br>
+									私の料理は〝 人 〟で出来ています。<br>
+									その〝 仕事 〟を感じて頂ければ幸いです。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div><!-- #cheffcontent -->
 		<h2 id="cheffttl">CHEFF<br><span class="ttlnotes">シェフ</span></h2>
 	</div><!-- #cheff -->
@@ -215,12 +264,12 @@
 	<nav>
 		<ul>
 			<li><a href="#">TOP</a></li>
-			<li><a href="#">ABOUT</a></li>
-			<li><a href="#">CUISINE</a></li>
-			<li><a href="#">MASTER&nbsp;×&nbsp;CHEFF</a></li>
-			<li><a href="#">CRYSTAL</a></li>
-			<li><a href="#">INFORMATION</a></li>
-			<li><a href="#">JOURNAL</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#cuisine">CUISINE</a></li>
+			<li><a href="#mastercheff">MASTER&nbsp;×&nbsp;CHEFF</a></li>
+			<li><a href="#element">ELEMENT</a></li>
+			<li><a href="#information">INFORMATION</a></li>
+			<li><a href="#journal">JOURNAL</a></li>
 		</ul>
 	</nav>
 	<h2>HARBIN<br><span class="ttlnotes">Cafe&#39;et&nbsp;Restaurant</span></h2>
@@ -269,6 +318,37 @@
 		</div>
 	</div>
 </div><!-- #test02 -->
+<div id="about02">
+	<div class="about-link-wrapper">
+		<label for="cheffmore-modal" id="cheffmore-modalopenlabel">ハルビンの物語を読む</label>
+	</div><!-- .about-link-wrapper -->
+	<div class="modal">
+		<input id="cheffmore-modal" class="checkbox" type="checkbox">
+		<div class="modal-overlay">
+		<label for="cheffmore-modal" class="o-close"></label>
+			<div class="modal-wrap full">
+				<label for="cheffmore-modal" class="close"><img src="images/batu.png" width="50" height="50"></label>
+				<div id="cheffimage">
+					<div class="slide" id="cheffimage1">
+						<p>cheffのモーダル
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div><!-- #about02 -->
+<div class="chocolat-parent" data-chocolat-title="set title">
+    <a class="chocolat-image" href="series/1.jpg" title="caption image 1">
+        <img width="100" src="series/mini/1.jpg" />
+    </a>
+    <a class="chocolat-image" href="series/2.jpg" title="caption image 2">
+        <img width="100" src="series/mini/2.jpg" />
+    </a>
+    <a class="chocolat-image" href="series/3.jpg" title="caption image 3">
+        <img width="100" src="series/mini/3.jpg"/>
+    </a>
+</div>
 </div><!-- #wrapper -->
 </body>
 </html>
