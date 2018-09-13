@@ -5,7 +5,7 @@ $(function(){
 		var $slides = $(this).find('.slide'),
 			slideCount = $slides.length,
 			currentIndex = 0;
-		$('#modalopenlabel').on('click', function() {
+		$('.modalopenlabel').on('click', function() {
 			currentIndex = 0;
 			$slides.eq(currentIndex).fadeIn();
 			idmodal = setInterval(showNextSlide, 7000);
@@ -116,8 +116,7 @@ $(function(){
 	});
 });
 
-//ハルビンの物語のとこはもじだけがリンク範囲
-//ホバー時にフッターみたいに線が出てもいい
+
 //料理のとこも動き（周り囲まれる的な線）
 //料理の左と下・右と上でそれぞれボーダーがひかれるもの
 //

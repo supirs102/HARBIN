@@ -425,6 +425,118 @@ header nav#navya span {
   width: 33vw;
   text-align: right;
 }
+/* #master modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #master .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #master .wrap h1{
+    font-size: 70px;
+  }
+  #master .wrap h1 span{
+    color: #F42A54;
+  }
+  #master .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #master .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #master .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #master .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #master .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #master .wrap {
+      width: 100%;
+    }
+  }
+
+#master .modal {
+  color: #fff;
+}
+#master p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#master #masterimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#master #masterimage1 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#master #masterimage1 {
+  background-image: url("../images/master.png");
+  display: block;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 50vh;
+}
+#master #masterimage h2 {
+  display: inline-block;
+  margin-top: 12px;
+}
+#master #masterimage h2#mastermodalttl {
+  position: absolute;
+  left: 200px;
+  margin-top: 0;
+}
+#master #masterimage p {
+  font-size: 13px;
+  line-height: 29px;
+}
+
 #cheff h2#cheffttl {
   float: right;
   /* width: 10vw; */
@@ -436,6 +548,116 @@ header nav#navya span {
   /* width: 40vw; */
   width: 33vw;
   text-align: left;
+}
+/* #cheff modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #cheff .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #cheff .wrap h1{
+    font-size: 70px;
+  }
+  #cheff .wrap h1 span{
+    color: #F42A54;
+  }
+  #cheff .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #cheff .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #cheff .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #cheff .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #cheff .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #cheff .wrap {
+      width: 100%;
+    }
+  }
+
+#cheff .modal {
+  color: #fff;
+}
+#cheff p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#cheff #cheffimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cheff #cheffimage1 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#cheff #cheffimage1 {
+  background-image: url("../images/cheff.png");
+  display: block;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 50vh;
+}
+#cheff #cheffimage h2 {
+  display: inline-block;
+}
+#cheff #cheffimage h2#cheffmodalttl {
+  position: absolute;
+  right: 200px;
+  margin-top: 12px;
+}
+#cheff #cheffimage p {
+  font-size: 13px;
+  line-height: 29px;
 }
 
 /* #element */
