@@ -92,6 +92,7 @@ $(function(){
 
     $('.chocolat-parent').Chocolat();
 
+    // headernavhover
     var nav = $('#navya');
     nav.append('<span></span>');
     //原点の位置
@@ -103,6 +104,16 @@ $(function(){
             top : thisOffset +'px'
         },200);
     });
+
+    // ページ内リンク
+    $('a[href^="#"]').click(function(){
+		var speed = 1000;
+		var href= $(this).attr("href");
+		var target = $(href == "#" || href == "" ? 'html' : href);
+		var position = target.offset().top;
+		$("html, body").animate({scrollTop:position}, speed, "swing");
+		return false;
+	});
 });
 
 //ハルビンの物語のとこはもじだけがリンク範囲
