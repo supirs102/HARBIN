@@ -89,4 +89,36 @@ $(function(){
 	// 		height : h + 24
 	// 	});
 	// });
+
+    $('.chocolat-parent').Chocolat();
+
+    var nav = $('#navya');
+    nav.append('<span></span>');
+    //原点の位置
+    var contY = nav.offset().top;
+    $('li a', nav).mouseover(function(){  
+        //移動先の位置を取得
+        var thisOffset = $(this).offset().top - contY - 12;
+        $('span', nav).stop().animate({
+            top : thisOffset +'px'
+        },200);
+    });
 });
+
+//ハルビンの物語のとこはもじだけがリンク範囲
+//ホバー時にフッターみたいに線が出てもいい
+//料理のとこも動き（周り囲まれる的な線）
+//料理の左と下・右と上でそれぞれボーダーがひかれるもの
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//

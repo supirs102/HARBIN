@@ -6,14 +6,17 @@
 	<meta http-equiv=”Cache-Control” content=”no-cache”>
 	<meta name="description" content="ロシア料理の名店「ハルビン」は、長崎の地で長く愛されている名店です。">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/modal.css">
 	<script
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+
 	<script type="text/javascript" src="js/main.js"></script>
 	<title>HARBIN</title>
+  	<script type="text/javascript" src="js/jquery.chocolat.js"></script>
+	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
 </head>
 <body>
 <div id="wrapper">
@@ -22,7 +25,7 @@
 <div id="bottom-svg"></div><!-- #bottom-svg -->
 <header class="page">
 	<h1><img src="images/logo01.png"></h1>
-	<nav>
+	<nav id="navya">
 		<ul>
 			<li><a href="#">TOP</a></li>
 			<li><a href="#about">ABOUT</a></li>
@@ -49,7 +52,9 @@
 			食の小宇宙へ誘われる
 		</p>
 	</div><!-- #about-content -->
-	<label for="modal-trigger" class="about-link" id="modalopenlabel">ハルビンの物語を読む</label>
+	<div class="about-link-wrapper">
+		<label for="modal-trigger" class="about-link" id="modalopenlabel">ハルビンの物語を読む</label>
+	</div><!-- .about-link-wrapper -->
 	<div class="modal">
 		<input id="modal-trigger" class="checkbox" type="checkbox">
 		<div class="modal-overlay">
@@ -269,6 +274,17 @@
 		</div>
 	</div>
 </div><!-- #test02 -->
+<div class="chocolat-parent" data-chocolat-title="set title">
+    <a class="chocolat-image" href="series/1.jpg" title="caption image 1">
+        <img width="100" src="series/mini/1.jpg" />
+    </a>
+    <a class="chocolat-image" href="series/2.jpg" title="caption image 2">
+        <img width="100" src="series/mini/2.jpg" />
+    </a>
+    <a class="chocolat-image" href="series/3.jpg" title="caption image 3">
+        <img width="100" src="series/mini/3.jpg"/>
+    </a>
+</div>
 </div><!-- #wrapper -->
 </body>
 </html>
