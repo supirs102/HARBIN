@@ -9,7 +9,72 @@ $(function(){
 			currentIndex = 0;
 			$slides.eq(currentIndex).fadeIn();
 			idmodal = setInterval(showNextSlide, 7000);
+		});
+		$('label.close').on('click', function() {
+			clearInterval(idmodal);
+			$slides.fadeOut();
+		});
+		function showNextSlide(){
+			var nextIndex = (currentIndex + 1) % slideCount;
+			$slides.eq(currentIndex).fadeOut(3000);
+			$slides.eq(nextIndex).fadeIn(3000);
+			currentIndex = nextIndex;
+		}
+	});
 
+	// element001imageslide
+	$('#element001image').each(function(){
+		var $slides = $(this).find('.slide'),
+			slideCount = $slides.length,
+			currentIndex = 0;
+		$('#element001-modalopenlabel').on('click', function() {
+			currentIndex = 0;
+			$slides.eq(currentIndex).fadeIn();
+			idmodal = setInterval(showNextSlide, 7000);
+		});
+		$('label.close').on('click', function() {
+			clearInterval(idmodal);
+			$slides.fadeOut();
+		});
+		function showNextSlide(){
+			var nextIndex = (currentIndex + 1) % slideCount;
+			$slides.eq(currentIndex).fadeOut(3000);
+			$slides.eq(nextIndex).fadeIn(3000);
+			currentIndex = nextIndex;
+		}
+	});
+
+	// element002imageslide
+	$('#element002image').each(function(){
+		var $slides = $(this).find('.slide'),
+			slideCount = $slides.length,
+			currentIndex = 0;
+		$('#element002-modalopenlabel').on('click', function() {
+			currentIndex = 0;
+			$slides.eq(currentIndex).fadeIn();
+			idmodal = setInterval(showNextSlide, 7000);
+		});
+		$('label.close').on('click', function() {
+			clearInterval(idmodal);
+			$slides.fadeOut();
+		});
+		function showNextSlide(){
+			var nextIndex = (currentIndex + 1) % slideCount;
+			$slides.eq(currentIndex).fadeOut(3000);
+			$slides.eq(nextIndex).fadeIn(3000);
+			currentIndex = nextIndex;
+		}
+	});
+
+	// element003imageslide
+	$('#element003image').each(function(){
+		var $slides = $(this).find('.slide'),
+			slideCount = $slides.length,
+			currentIndex = 0;
+		$('#element003-modalopenlabel').on('click', function() {
+			currentIndex = 0;
+			$slides.eq(currentIndex).fadeIn();
+			idmodal = setInterval(showNextSlide, 7000);
 		});
 		$('label.close').on('click', function() {
 			clearInterval(idmodal);
