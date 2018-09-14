@@ -696,15 +696,403 @@ header nav#navya span {
   position: relative;
   border: 1px solid #fff;
 }
-#element a{
+#element li > label {
   display: block;
   width: 100%;
   height: 100%;
+  cursor: pointer;
 }
-#element a.elementdown span {
+#element label.elementdown span {
   position: relative;
   /* bottom: -222px; */
   bottom: -191px;
+}
+/* #element001 modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #element001 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #element001 .wrap h1{
+    font-size: 70px;
+  }
+  #element001 .wrap h1 span{
+    color: #F42A54;
+  }
+  #element001 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #element001 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #element001 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #element001 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #element001 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #element001 .wrap {
+      width: 100%;
+    }
+  }
+#element001 .modal {
+  color: #fff;
+}
+#element001 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#element001 h2 {
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  padding: 200px 30px 30px 30px;
+  position: absolute;
+  right: 308px;
+  font-size: 15px;
+}
+#element001 p {
+  font-size: 13px;
+  line-height: 29px;
+  position: absolute;
+  top: 300px;
+  right: 100px;
+}
+#element001 #element001image {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#element001 #element001image1,
+#element001 #element001image2,
+#element001 #element001image3,
+#element001 #element001image4 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+#element001 #element001image1 {
+  background-image: url("../images/story01.png");
+  display: block;
+}
+#element001 #element001image2 {
+  background-image: url("../images/story02.png");
+  display: none;
+}
+#element001 #element001image3 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+#element001 #element001image4 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+/* #element002 modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #element002 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #element002 .wrap h1{
+    font-size: 70px;
+  }
+  #element002 .wrap h1 span{
+    color: #F42A54;
+  }
+  #element002 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #element002 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #element002 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #element002 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #element002 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #element002 .wrap {
+      width: 100%;
+    }
+  }
+#element002 .modal {
+  color: #fff;
+}
+#element002 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#element002 h2 {
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  width: 222px;
+  height: 300px;
+  padding: 200px 30px 30px 30px;
+  position: absolute;
+  left: 100px;
+  font-size: 15px;
+}
+#element002 p {
+  font-size: 13px;
+  line-height: 29px;
+  position: absolute;
+  top: 300px;
+  left: 131px;
+}
+#element002 #element002image {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#element002 #element002image1,
+#element002 #element002image2,
+#element002 #element002image3,
+#element002 #element002image4 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+#element002 #element002image1 {
+  background-image: url("../images/story01.png");
+  display: block;
+}
+#element002 #element002image2 {
+  background-image: url("../images/story02.png");
+  display: none;
+}
+#element002 #element002image3 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+#element002 #element002image4 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+/* #element003 modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #element003 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #element003 .wrap h1{
+    font-size: 70px;
+  }
+  #element003 .wrap h1 span{
+    color: #F42A54;
+  }
+  #element003 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #element003 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #element003 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #element003 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #element003 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #element003 .wrap {
+      width: 100%;
+    }
+  }
+#element003 .modal {
+  color: #fff;
+}
+#element003 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#element003 h2 {
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  padding: 200px 30px 30px 30px;
+  position: absolute;
+  right: 308px;
+  font-size: 15px;
+}
+#element003 p {
+  font-size: 13px;
+  line-height: 29px;
+  position: absolute;
+  top: 300px;
+  right: 138px;
+}
+#element003 #element003image {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#element003 #element003image1,
+#element003 #element003image2,
+#element003 #element003image3,
+#element003 #element003image4 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+#element003 #element003image1 {
+  background-image: url("../images/story01.png");
+  display: block;
+}
+#element003 #element003image2 {
+  background-image: url("../images/story02.png");
+  display: none;
+}
+#element003 #element003image3 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+#element003 #element003image4 {
+  background-image: url("../images/story03.png");
+  display: none;
 }
 
 /* #information */
