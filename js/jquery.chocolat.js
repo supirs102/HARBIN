@@ -700,9 +700,9 @@
         container         : window, // window or jquery object or jquery selector, or element
         imageSelector     : '.chocolat-image',
         className         : '',
-        imageSize         : 'default', // 'default', 'contain', 'cover' or 'native'
+        imageSize         : 'cover', // 'default', 'contain', 'cover' or 'native'
         initialZoomState  : null,
-        fullScreen        : false,
+        fullScreen        : false, // escで消える
         loop              : false,
         linkImages        : true,
         duration          : 300,
@@ -716,7 +716,7 @@
         timer             : false,
         timerDebounce     : false,
         images            : [],
-        enableZoom        : true,
+        enableZoom        : false,
         imageSource       : "href",
         afterInitialize   : function () {},
         afterMarkup       : function () {},
