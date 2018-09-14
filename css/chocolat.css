@@ -188,3 +188,23 @@ body.chocolat-open>.chocolat-content{
     opacity: 0;
 }
 */
+
+/* myself */
+.chocolat-overlay {
+  background-color: #3c3c3c;
+}
+.chocolat-wrapper .chocolat-left {
+  background-image: url('../images/left.svg');
+}
+.chocolat-wrapper .chocolat-right {
+  background-image: url('../images/right.svg');
+}
+.chocolat-wrapper .chocolat-bottom {
+  display: none;
+}
+.chocolat-zoomable .chocolat-img {
+    cursor: default;
+}
+.chocolat-wrapper .chocolat-close {
+    background-image: url('../images/batu.png');
+}
