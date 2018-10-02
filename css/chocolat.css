@@ -190,6 +190,9 @@ body.chocolat-open>.chocolat-content{
 */
 
 /* myself */
+.chocolat-parent li {
+    display: inline-block;
+}
 .chocolat-overlay {
   background-color: #3c3c3c;
 }

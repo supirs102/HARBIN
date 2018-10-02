@@ -724,6 +724,9 @@ header nav#navya span {
   position: relative;
   border: 1px solid #fff;
 }
+#element li:hover {
+  border: 1px solid transparent;
+}
 #element li > label {
   display: block;
   width: 100%;
@@ -1346,8 +1349,8 @@ footer .ttlnotes {
   position: relative;
   display: inline-block;
   padding: .9em 3.6em;
-  border: 2px solid #000417;
-  color: #000417;
+  border: 1px solid transparent;
+  color: transparent;
   text-align: center;
   text-decoration: none;
   outline: none;
@@ -1360,15 +1363,15 @@ footer .ttlnotes {
   content: '';
   width: 0;
   height: 0;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
 .button1::before {
-  top: -2px;
-  left: -2px;
+  top: -1px;
+  left: -1px;
 }
 .button1::after {
-  bottom: -2px;
-  right: -2px;
+  bottom: -1px;
+  right: -1px;
 }
 .button1:hover {
   color: #fff;
