@@ -179,6 +179,19 @@ $(function(){
 		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
 	});
+
+	// cuisinehover途中
+	$('#cuisine001').find('a').mouseenter(function() {
+		$('#filter').find('.bgheader').stop().fadeOut(); //蜿ｳ蛛ｴ
+		$('#filter').find('.bg01').stop().fadeIn(); //蜿ｳ蛛ｴ
+		$('.bg11').stop().fadeIn(); //蟾ｦ蛛ｴ
+	}).mouseleave(function() {
+		$('header').find('.bgheader').stop().fadeOut();
+		$('header').find('.bg06').stop().fadeIn();
+		$('.bg11').stop().fadeOut();
+	});
+
+
 });
 
 
@@ -189,10 +202,12 @@ $(function(){
 //
 //
 //
-//
-//
-//
-//
+//一番左で統一
+//おかしかったら左と真ん中
+//右はない
+//作品はフェード
+//fontはあとで
+//border1px
 //
 //
 //

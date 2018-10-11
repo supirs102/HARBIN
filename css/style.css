@@ -63,6 +63,7 @@ body {
 	font-size: 14px;
 	line-height: 20px;
   text-align: center;
+  letter-spacing: 0.1em;
 }
 a {
 	text-decoration: none;
@@ -545,7 +546,7 @@ header nav#navya span {
   left: 0;
 }
 #master #masterimage1 {
-  background-image: url("../images/master.png");
+  background-image: url("../images/master.jpg");
   display: block;
   text-align: left;
   padding-left: 30px;
@@ -708,8 +709,9 @@ header nav#navya span {
   font-size: 0;
   /* width: 80%; */
   width: 958px;
+  letter-spacing: 0;
   margin: 0 auto;
-  background-image: url('../images/recommend01.jpg'), url('../images/recommend01.jpg'), url('../images/recommend01.jpg');
+  background-image: url('../images/recommend01.jpg'), url('../images/yasai.png'), url('../images/niku.png');
   background-position: left bottom, center top, right bottom;
   background-size: calc(33%);
   background-repeat: no-repeat;
@@ -723,6 +725,9 @@ header nav#navya span {
   font-size: 14px;
   position: relative;
   border: 1px solid #fff;
+}
+#element li:hover {
+  border: 1px solid transparent;
 }
 #element li > label {
   display: block;
@@ -1211,6 +1216,39 @@ footer .ttlnotes {
   margin-bottom: 40px;
 }
 
+/* #filter */
+#filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: 100;
+  width: 100%;
+  height: 819%;
+  pointer-events: none;
+}
+#overcuisine {
+  /* width: 50%; */
+  width: 604px;
+  margin: 0 auto;
+}
+#overcuisine ul {
+  font-size: 0;
+  margin-top: calc(400% + 254px);
+}
+#overcuisine ul li {
+  display: inline-block;
+  /* width: 25%; */
+  width: 133px;
+  height: 133px;
+  margin: 4.5px;
+  background-color: red;
+  opacity: 0.3;
+  z-index: 200;
+  pointer-events: none;
+}
+
 /* #test02 */
   /*
   Author: Jorge Chavez
@@ -1346,8 +1384,8 @@ footer .ttlnotes {
   position: relative;
   display: inline-block;
   padding: .9em 3.6em;
-  border: 2px solid #000417;
-  color: #000417;
+  /* border: 1px solid transparent; */
+  /* color: transparent; */
   text-align: center;
   text-decoration: none;
   outline: none;
@@ -1360,15 +1398,15 @@ footer .ttlnotes {
   content: '';
   width: 0;
   height: 0;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
 .button1::before {
-  top: -2px;
-  left: -2px;
+  top: -1px;
+  left: -1px;
 }
 .button1::after {
-  bottom: -2px;
-  right: -2px;
+  bottom: -1px;
+  right: -1px;
 }
 .button1:hover {
   color: #fff;
