@@ -705,8 +705,8 @@ header nav#navya span {
 #element p {
   font-size: 14px;
   line-height: 30px;
-  margin-top: 50px;
-  margin-bottom: 172px;
+  margin-top: 67px;
+  margin-bottom: 122px;
 }
 #element ul {
   font-size: 0;
@@ -1221,6 +1221,7 @@ footer .ttlnotes {
 }
 #footershopinfo {
   margin-bottom: 250px;
+  line-height: 28px;
 }
 #footerlogo {
   margin-bottom: 321px;
