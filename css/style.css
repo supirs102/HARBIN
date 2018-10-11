@@ -63,6 +63,7 @@ body {
 	font-size: 14px;
 	line-height: 20px;
   text-align: center;
+  letter-spacing: 0.1em;
 }
 a {
 	text-decoration: none;
@@ -708,8 +709,9 @@ header nav#navya span {
   font-size: 0;
   /* width: 80%; */
   width: 958px;
+  letter-spacing: 0;
   margin: 0 auto;
-  background-image: url('../images/recommend01.jpg'), url('../images/recommend01.jpg'), url('../images/recommend01.jpg');
+  background-image: url('../images/recommend01.jpg'), url('../images/yasai.png'), url('../images/niku.png');
   background-position: left bottom, center top, right bottom;
   background-size: calc(33%);
   background-repeat: no-repeat;
@@ -1214,6 +1216,39 @@ footer .ttlnotes {
   margin-bottom: 40px;
 }
 
+/* #filter */
+#filter {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: 100;
+  width: 100%;
+  height: 819%;
+  pointer-events: none;
+}
+#overcuisine {
+  /* width: 50%; */
+  width: 604px;
+  margin: 0 auto;
+}
+#overcuisine ul {
+  font-size: 0;
+  margin-top: calc(400% + 254px);
+}
+#overcuisine ul li {
+  display: inline-block;
+  /* width: 25%; */
+  width: 133px;
+  height: 133px;
+  margin: 4.5px;
+  background-color: red;
+  opacity: 0.3;
+  z-index: 200;
+  pointer-events: none;
+}
+
 /* #test02 */
   /*
   Author: Jorge Chavez
@@ -1349,8 +1384,8 @@ footer .ttlnotes {
   position: relative;
   display: inline-block;
   padding: .9em 3.6em;
-  border: 1px solid transparent;
-  color: transparent;
+  /* border: 1px solid transparent; */
+  /* color: transparent; */
   text-align: center;
   text-decoration: none;
   outline: none;
