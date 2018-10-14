@@ -1377,7 +1377,7 @@ footer .ttlnotes {
   text-align: center;
   text-decoration: none;
   outline: none;
-  transition: all .2s;
+  transition: all .6s;
 }
 .button1::before,
 .button1::after {
