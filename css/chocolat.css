@@ -88,14 +88,14 @@
 }
 .chocolat-wrapper .chocolat-top{
     position:absolute;
-    top:0px;
+    top: 0;
+    bottom: 0;
     right: 0;
     left: 0;
-    line-height:50px;
-    height:50px;
+    line-height: 100px;
+    height: 100px;
     overflow: hidden;
     z-index: 17;
-    margin-bottom: 10px;
 }
 .chocolat-wrapper .chocolat-close{
     width:50px;
@@ -210,4 +210,8 @@ body.chocolat-open>.chocolat-content{
 }
 .chocolat-wrapper .chocolat-close {
     background-image: url('../images/batu.png');
+    background-size: contain;
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
