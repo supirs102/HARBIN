@@ -714,7 +714,7 @@ header nav#navya span {
   width: 1176px;
   letter-spacing: 0;
   margin: 0 auto;
-  background-image: url('../images/recommend01.jpg'), url('../images/yasai.png'), url('../images/niku.png');
+  background-image: url('../images/recommend01.jpg'), url('../images/recommend02.jpg'), url('../images/recommend03.jpg');
   background-position: left bottom, center top, right bottom;
   background-size: calc(33%);
   background-repeat: no-repeat;
