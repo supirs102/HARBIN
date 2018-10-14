@@ -86,14 +86,14 @@ a {
   position: relative;
   height: auto;
   min-height: 100%;
-  border-bottom: 1px solid red;
+  /* border-bottom: 1px solid red; */
   box-sizing: border-box;
 }
 
 /* #top-svg */
 #top-svg {
   position: absolute;
-  top: 85%;
+  top: 97%;
   width: 100%;
   height: 200%;
   background-image: url('../images/topline.svg');
@@ -118,7 +118,7 @@ a {
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 680%;
+  top: 710%;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
@@ -705,8 +705,8 @@ header nav#navya span {
 #element p {
   font-size: 14px;
   line-height: 30px;
-  margin-top: 50px;
-  margin-bottom: 172px;
+  margin-top: 67px;
+  margin-bottom: 122px;
 }
 #element ul {
   font-size: 0;
@@ -722,9 +722,9 @@ header nav#navya span {
 #element li {
   display: inline-block;
   /* width: calc(33% - 30px * 2); */
-  width: 261px;
-  height: 235px;
-  margin: 65px;
+  width: 212px;
+  height: 282px;
+  margin: 41px 90px;
   font-size: 14px;
   position: relative;
   border: 1px solid #fff;
@@ -737,11 +737,18 @@ header nav#navya span {
   width: 100%;
   height: 100%;
   cursor: pointer;
+  padding: 0;
+}
+#element label span.elementkana {
+  letter-spacing: 0.2em;
+}
+#element label.elementup span {
+  position: relative;
+  top: 34px;
 }
 #element label.elementdown span {
   position: relative;
-  /* bottom: -222px; */
-  bottom: -170px;
+  bottom: -208px;
 }
 /* #element001 modal */
   /*
@@ -1134,6 +1141,7 @@ header nav#navya span {
 /* #information */
 #information {
   padding-top: 200px;
+  margin-bottom: 240px;
 }
 #infoleft {
   float: left;
@@ -1213,6 +1221,10 @@ footer .ttlnotes {
 }
 #footershopinfo {
   margin-bottom: 250px;
+  line-height: 28px;
+}
+#footerlogo {
+  margin-bottom: 321px;
 }
 #footerlogo img {
   width: 73px;
