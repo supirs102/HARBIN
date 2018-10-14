@@ -106,7 +106,7 @@ a {
 /* #center-svg */
 #center-svg {
   position: absolute;
-  top: 350%;
+  top: calc(400% - 48vh);
   width: 100%;
   height: 200%;
   background-image: url('../images/centerline.svg');
@@ -401,7 +401,12 @@ header nav#navya span {
   width: 100%;
 }
 #cuisine ul:hover li a:not(:hover) img {
+  -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
+  -moz-filter: grayscale(100%);      // for Firefox
+  -o-filter: grayscale(100%);        // for Oper
+  -ms-filter: grayscale(100%);       // for Internet Explorer
   filter: grayscale(100%);
+  /* transition: .3s ease; */
 }
 
 /* #mastercheff */
@@ -712,11 +717,12 @@ header nav#navya span {
   font-size: 0;
   /* width: 80%; */
   width: 1176px;
+  height: 363px;
   letter-spacing: 0;
   margin: 0 auto;
   background-image: url('../images/recommend01.jpg'), url('../images/recommend02.jpg'), url('../images/recommend03.jpg');
   background-position: left bottom, center top, right bottom;
-  background-size: calc(33%);
+  background-size: calc(100% / 3);
   background-repeat: no-repeat;
 }
 #element li {
