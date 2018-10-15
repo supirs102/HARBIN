@@ -370,7 +370,7 @@ header nav#navya span {
 }
 #about #aboutimage p {
   padding-top: 23vh;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 29px;
 }
 
@@ -1147,7 +1147,7 @@ header nav#navya span {
 /* #information */
 #information {
   padding-top: 200px;
-  margin-bottom: 240px;
+  margin-bottom: 340px;
 }
 #infoleft {
   float: left;
