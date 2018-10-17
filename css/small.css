@@ -1,0 +1,1505 @@
+@charset "utf-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* layout */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: YuMincho, 'Yu Mincho', serif;
+  background-color: #000417;
+  color: red;
+  width: 100vw;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.clear {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  font-size: 0;
+  visibility: hidden;
+}
+.fs14 {
+  font-size: 14px;
+}
+
+/* .page */
+.page {
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  /* border-bottom: 1px solid red; */
+  box-sizing: border-box;
+}
+
+/* #top-svg */
+#top-svg {
+  position: absolute;
+  top: 97%;
+  width: 100%;
+  height: 200%;
+  background-image: url('../images/topline.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 2;
+  background-position: center;
+}
+
+/* #center-svg */
+#center-svg {
+  position: absolute;
+  top: calc(400% - 48vh);
+  width: 100%;
+  height: 200%;
+  background-image: url('../images/centerline.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* #bottom-svg */
+#bottom-svg {
+  position: absolute;
+  top: 710%;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/footerline.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* #wrapper */
+#wrapper {
+  position: relative;
+  height: 100%;
+}
+
+/* header */
+header {
+  width: 100vw;
+  min-width: 320px;
+  max-width: 425px;
+}
+header h1 {
+  float: left;
+  width: 40vw;
+  min-width: 128px;
+  max-width: 170px;
+  text-align: right;
+}
+header h1 img {
+  margin-top: 43vh;
+  /* margin-top: 400px; */
+  margin-left: 80px;
+  width: 50px;
+}
+header nav {
+  float: right;
+  width: 60vw;
+  min-width: 192px;
+  max-width: 255px;
+  text-align: left;
+  margin-top: calc(43vh - 77px);
+  /* margin-top: 330px; */
+}
+header nav ul {
+  margin-left: 100px;
+  font-size: 13px;
+  line-height: 26px;
+}
+header nav#navya {
+  position: relative;
+  height: 100px;
+  text-align: left;
+}
+header nav#navya ul {
+  margin-left: 37px;
+  font-size: 100%;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  z-index: 2;
+  list-style: none;
+}
+header nav#navya ul li {
+  margin-bottom: 0.8em;
+  height: 1em;
+}
+header nav#navya ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+header nav#navya span {
+  width: 25px;
+  height: 176px;
+  display: block;
+  background-image: url('../images/triangle.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 14px;
+}
+
+/* #main */
+#main {
+  position: relative;
+}
+#main #main-content {
+  width: 100%;
+  z-index: 2;
+  padding: 20vh 0;
+}
+#main #main-content img {
+  width: 65%;
+}
+
+/* #about */
+#about {
+  padding-top: 170px;
+}
+#about #about-content p {
+  font-size: 15px;
+  line-height: 44px;
+  margin-bottom: 172px;
+}
+#about .about-link-wrapper {
+  width: 80%;
+  height: 158px;
+  display: block;
+  margin: 0 auto;
+  padding: 70px 0;
+  background-image: url('../images/monogatari.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 5;
+  position: relative;
+  font-size: 12px;
+  line-height: 28px;
+}
+#about .about-link-wrapper .about-link {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+  cursor: pointer;
+}
+#about .about-link-wrapper .about-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#about .about-link-wrapper .about-link:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+/* #about modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #about .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #about .wrap h1{
+    font-size: 70px;
+  }
+  #about .wrap h1 span{
+    color: #F42A54;
+  }
+  #about .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #about .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #about .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #about .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #about .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #about .wrap {
+      width: 100%;
+    }
+  }
+
+#about .modal {
+  color: #fff;
+}
+#about p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#about #aboutimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#about #aboutimage1,
+#about #aboutimage2,
+#about #aboutimage3 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#about #aboutimage1 {
+  background-image: url("../images/story01.png");
+  display: block;
+}
+#about #aboutimage2 {
+  background-image: url("../images/story02.png");
+  display: none;
+}
+#about #aboutimage3 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+#about #aboutimage p {
+  padding-top: 23vh;
+  font-size: 13px;
+  line-height: 29px;
+}
+
+/* #cuisine */
+#cuisine {
+  padding-top: 170px;
+  /* width: 50%; */
+  width: 604px;
+  margin: 0 auto;
+}
+#cuisine h2 {
+  font-size: 17px;
+}
+#cuisine .ttlnotes {
+  font-size: 12px;
+}
+#cuisine ul {
+  font-size: 0;
+  margin-top: 50px;
+}
+#cuisine ul li {
+  display: inline-block;
+  /* width: 25%; */
+  width: 142px;
+  padding: 4.5px;
+}
+#cuisine ul li img {
+  width: 100%;
+}
+#cuisine ul:hover li a:not(:hover) img {
+  -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
+  -moz-filter: grayscale(100%);      // for Firefox
+  -o-filter: grayscale(100%);        // for Oper
+  -ms-filter: grayscale(100%);       // for Internet Explorer
+  filter: grayscale(100%);
+  /* transition: .3s ease; */
+}
+
+/* #mastercheff */
+#mastercheff {
+  padding-top: 37vh;
+}
+#mastercheff h2 {
+  font-size: 16px;
+}
+#mastercheff .ttlnotes {
+  font-size: 12px;
+}
+#mastercheff p {
+  margin-top: 36px;
+}
+#mastercheff #mastermore-modalopenlabel,
+#mastercheff #cheffmore-modalopenlabel {
+  cursor: pointer;
+  position: relative;
+  padding: .4em;
+  text-decoration: none;
+}
+#mastercheff #mastermore-modalopenlabel::after,
+#mastercheff #cheffmore-modalopenlabel::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#mastercheff #mastermore-modalopenlabel:hover::after,
+#mastercheff #cheffmore-modalopenlabel:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#master h2#masterttl {
+  float: left;
+  /* width: 10vw; */
+  width: 14vw;
+  margin-top: 102px;
+}
+#mastercontent {
+  float: left;
+  /* width: 40vw; */
+  width: 33vw;
+  text-align: right;
+}
+/* #master modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #master .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #master .wrap h1{
+    font-size: 70px;
+  }
+  #master .wrap h1 span{
+    color: #F42A54;
+  }
+  #master .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #master .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #master .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #master .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #master .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #master .wrap {
+      width: 100%;
+    }
+  }
+
+#master .modal {
+  color: #fff;
+}
+#master p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#master #masterimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#master #masterimage1 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#master #masterimage1 {
+  background-image: url("../images/master.jpg");
+  display: block;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 50vh;
+}
+#master #masterimage h2 {
+  display: inline-block;
+  margin-top: 12px;
+}
+#master #masterimage h2#mastermodalttl {
+  position: absolute;
+  left: 200px;
+  margin-top: 0;
+}
+#master #masterimage p {
+  font-size: 13px;
+  line-height: 29px;
+}
+
+#cheff h2#cheffttl {
+  float: right;
+  /* width: 10vw; */
+  width: 14vw;
+  margin-top: 102px;
+}
+#cheffcontent {
+  float: right;
+  /* width: 40vw; */
+  width: 33vw;
+  text-align: left;
+}
+/* #cheff modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #cheff .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #cheff .wrap h1{
+    font-size: 70px;
+  }
+  #cheff .wrap h1 span{
+    color: #F42A54;
+  }
+  #cheff .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #cheff .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #cheff .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #cheff .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #cheff .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #cheff .wrap {
+      width: 100%;
+    }
+  }
+
+#cheff .modal {
+  color: #fff;
+}
+#cheff p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#cheff #cheffimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cheff #cheffimage1 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#cheff #cheffimage1 {
+  background-image: url("../images/cheff.png");
+  display: block;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 50vh;
+}
+#cheff #cheffimage h2 {
+  display: inline-block;
+}
+#cheff #cheffimage h2#cheffmodalttl {
+  position: absolute;
+  right: 200px;
+  margin-top: 12px;
+}
+#cheff #cheffimage p {
+  font-size: 13px;
+  line-height: 29px;
+}
+
+/* #element */
+#element {
+  padding-top: 120px;
+}
+#element h2 {
+  font-size: 18px;
+}
+#element .ttlnotes {
+  font-size: 11px;
+}
+#element p {
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 67px;
+  margin-bottom: 122px;
+}
+#element ul {
+  font-size: 0;
+  /* width: 80%; */
+  width: 1176px;
+  height: 363px;
+  letter-spacing: 0;
+  margin: 0 auto;
+  background-image: url('../images/recommend01.jpg'), url('../images/yasai.png'), url('../images/niku.png');
+  background-position: left bottom, center top, right bottom;
+  background-size: calc(100% / 3);
+  background-repeat: no-repeat;
+}
+#element li {
+  display: inline-block;
+  /* width: calc(33% - 30px * 2); */
+  width: 212px;
+  height: 282px;
+  margin: 41px 90px;
+  font-size: 14px;
+  position: relative;
+  border: 1px solid #fff;
+}
+#element li:hover {
+  border: 1px solid transparent;
+}
+#element li > label {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  padding: 0;
+}
+#element label span.elementkana {
+  letter-spacing: 0.2em;
+}
+#element label.elementup span {
+  position: relative;
+  top: 34px;
+}
+#element label.elementdown span {
+  position: relative;
+  bottom: -208px;
+}
+/* #element001 modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #element001 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #element001 .wrap h1{
+    font-size: 70px;
+  }
+  #element001 .wrap h1 span{
+    color: #F42A54;
+  }
+  #element001 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #element001 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #element001 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #element001 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #element001 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #element001 .wrap {
+      width: 100%;
+    }
+  }
+#element001 .modal {
+  color: #fff;
+}
+#element001 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#element001 h2 {
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  padding: 200px 30px 30px 30px;
+  position: absolute;
+  right: 308px;
+  font-size: 15px;
+}
+#element001 p {
+  font-size: 13px;
+  line-height: 29px;
+  position: absolute;
+  top: 300px;
+  right: 100px;
+}
+#element001 #element001image {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#element001 #element001image1,
+#element001 #element001image2,
+#element001 #element001image3,
+#element001 #element001image4 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+#element001 #element001image1 {
+  background-image: url("../images/story01.png");
+  display: block;
+}
+#element001 #element001image2 {
+  background-image: url("../images/story02.png");
+  display: none;
+}
+#element001 #element001image3 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+#element001 #element001image4 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+/* #element002 modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #element002 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #element002 .wrap h1{
+    font-size: 70px;
+  }
+  #element002 .wrap h1 span{
+    color: #F42A54;
+  }
+  #element002 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #element002 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #element002 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #element002 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #element002 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #element002 .wrap {
+      width: 100%;
+    }
+  }
+#element002 .modal {
+  color: #fff;
+}
+#element002 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#element002 h2 {
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  width: 222px;
+  height: 300px;
+  padding: 200px 30px 30px 30px;
+  position: absolute;
+  left: 100px;
+  font-size: 15px;
+}
+#element002 p {
+  font-size: 13px;
+  line-height: 29px;
+  position: absolute;
+  top: 300px;
+  left: 131px;
+}
+#element002 #element002image {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#element002 #element002image1,
+#element002 #element002image2,
+#element002 #element002image3,
+#element002 #element002image4 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+#element002 #element002image1 {
+  background-image: url("../images/story01.png");
+  display: block;
+}
+#element002 #element002image2 {
+  background-image: url("../images/story02.png");
+  display: none;
+}
+#element002 #element002image3 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+#element002 #element002image4 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+/* #element003 modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #element003 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #element003 .wrap h1{
+    font-size: 70px;
+  }
+  #element003 .wrap h1 span{
+    color: #F42A54;
+  }
+  #element003 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #element003 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #element003 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #element003 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #element003 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #element003 .wrap {
+      width: 100%;
+    }
+  }
+#element003 .modal {
+  color: #fff;
+}
+#element003 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#element003 h2 {
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  padding: 200px 30px 30px 30px;
+  position: absolute;
+  right: 308px;
+  font-size: 15px;
+}
+#element003 p {
+  font-size: 13px;
+  line-height: 29px;
+  position: absolute;
+  top: 300px;
+  right: 138px;
+}
+#element003 #element003image {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#element003 #element003image1,
+#element003 #element003image2,
+#element003 #element003image3,
+#element003 #element003image4 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: left;
+}
+#element003 #element003image1 {
+  background-image: url("../images/story01.png");
+  display: block;
+}
+#element003 #element003image2 {
+  background-image: url("../images/story02.png");
+  display: none;
+}
+#element003 #element003image3 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+#element003 #element003image4 {
+  background-image: url("../images/story03.png");
+  display: none;
+}
+
+/* #information */
+#information {
+  padding-top: 200px;
+  margin-bottom: 240px;
+}
+#infoleft {
+  float: left;
+  width: 50vw;
+  text-align: right;
+  padding-right: 60px;
+}
+#infoleft img {
+  width: 267px;
+}
+.slideshow {
+  position: relative;
+}
+.slideshow img {
+  width: 100%;
+  height: auto;
+  display: none;
+  position: absolute;
+  right: 0;
+}
+#inforight {
+  float: right;
+  width: 50vw;
+  text-align: left;
+  padding-left: 60px;
+}
+#inforight h2 {
+  font-size: 17px;
+  margin-bottom: 70px;
+}
+#inforight .ttlnotes {
+  font-size: 12px;
+}
+#inforight p {
+  font-size: 12px;
+  margin-bottom: 23px;
+}
+
+/* footer */
+footer {}
+footer ul li {
+  font-size: 12px;
+  line-height: 28px;
+}
+footer ul li a {
+  position: relative;
+  display: inline-block;
+  padding: .4em;
+  text-decoration: none;
+}
+footer ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+footer ul li a:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+footer h2 {
+  font-size: 17px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+footer .ttlnotes {
+  font-size: 11px;
+}
+#footershopinfo {
+  margin-bottom: 250px;
+  line-height: 28px;
+}
+#footerlogo {
+  margin-bottom: 321px;
+}
+#footerlogo img {
+  width: 73px;
+  margin-bottom: 40px;
+}
+
+/* #test02 */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #test02 .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #test02 .wrap h1{
+    font-size: 70px;
+  }
+  #test02 .wrap h1 span{
+    color: #F42A54;
+  }
+  #test02 .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #test02 .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #test02 .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+
+  #test02 .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+
+  #test02 .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+
+  @media (max-width: 500px){
+    #test02 .wrap {
+      width: 100%;
+    }
+  }
+
+
+#test02 .modal {
+  color: #fff;
+}
+#test02 p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#test02 #mainimage {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#test02 #mainimage1,
+#test02 #mainimage2,
+#test02 #mainimage3,
+#test02 #mainimage4,
+#test02 #mainimage5,
+#test02 #mainimage6,
+#test02 #mainimage7 {
+  background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+    height: calc(100%*1380/2230);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#test02 #mainimage1 {
+  background-image: url("../images/asset6.jpeg");
+  display: block;
+}
+#test02 #mainimage2 {
+  background-image: url("../images/asset7.jpeg");
+  display: none;
+}
+#test02 #mainimage3 {
+  background-image: url("../images/asset8.jpeg");
+  display: none;
+}
+#test02 #mainimage4 {
+  background-image: url("../images/asset9.jpeg");
+  display: none;
+}
+#test02 #mainimage5 {
+  background-image: url("../images/asset6.jpeg");
+  display: none;
+}
+#test02 #mainimage6 {
+  background-image: url("../images/asset7.jpeg");
+  display: none;
+}
+#test02 #mainimage7 {
+  background-image: url("../images/asset8.jpeg");
+  display: none;
+}
+
+/* .button1 */
+.button1 {
+  position: relative;
+  display: inline-block;
+  padding: .9em 3.6em;
+  /* border: 1px solid transparent; */
+  /* color: transparent; */
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  transition: all .2s;
+}
+.button1::before,
+.button1::after {
+  position: absolute;
+  z-index: 2;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 1px solid transparent;
+}
+.button1::before {
+  top: -1px;
+  left: -1px;
+}
+.button1::after {
+  bottom: -1px;
+  right: -1px;
+}
+.button1:hover {
+  color: #fff;
+}
+.button1:hover::before,
+.button1:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.button1:hover::before {
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+  transition: height .3s, width .3s .3s;
+}
+.button1:hover::after {
+  border-top-color: #fff;
+  border-right-color: #fff;
+  transition: height .3s, width .3s .3s;
+}
+
+/* .button2 */
+.button2 {
+  position: relative;
+  display: inline-block;
+  padding: .9em 3.6em;
+  border: 2px solid #000417;
+  color: #000417;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  transition: all .2s;
+}
+.button2::before,
+.button2::after {
+  position: absolute;
+  z-index: 2;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 2px solid transparent;
+}
+.button2::before {
+  top: -2px;
+  left: -2px;
+}
+.button2::after {
+  bottom: -2px;
+  right: -2px;
+}
+.button2:hover {
+  color: #fff;
+}
+.button2:hover::before,
+.button2:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.button2:hover::before {
+  border-bottom-color: #fff;
+  border-left-color: #fff;
+  transition: height .2s, width .2s .2s;
+}
+.button2:hover::after {
+  border-top-color: #fff;
+  border-right-color: #fff;
+  transition: height .2s .4s, width .2s .6s;
+}
+
+/* .button3 */
+.button3 {
+  position: relative;
+  display: inline-block;
+  padding: .9em 3.6em;
+  border: 2px solid #000417;
+  color: #000417;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  transition: all .3s;
+}
+.button3::before,
+.button3::after {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  z-index: 2;
+  content: '';
+  transition: all .3s;
+}
+.button3::before {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: scale(0, 1);
+}
+.button3::after {
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  transform: scale(1, 0);
+}
+.button3:hover {
+  color: #fff;
+}
+.button3:hover::after,
+.button3:hover::before {
+  transform: scale(1);
+}
