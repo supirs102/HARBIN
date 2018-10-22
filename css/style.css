@@ -104,7 +104,7 @@ a {
 }
 
 /* #center-svg */
-#center-svg {
+/* #center-svg {
   position: absolute;
   top: calc(400% - 48vh);
   width: 100%;
@@ -113,12 +113,19 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+} */
+#center-svg {
+  position: relative;
+  background-image: url('../images/centerline.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -3vh;
 }
 
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 710%;
+  top: 685%;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
@@ -239,7 +246,7 @@ header nav#navya span {
 #about .about-link-wrapper .about-link {
   position: relative;
   display: inline-block;
-  padding: .4em;
+  padding: 0;
   text-decoration: none;
   cursor: pointer;
 }
@@ -399,6 +406,7 @@ header nav#navya span {
 }
 #cuisine ul li img {
   width: 100%;
+  vertical-align: bottom;
 }
 #cuisine ul:hover li a:not(:hover) img {
   -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
@@ -409,9 +417,14 @@ header nav#navya span {
   /* transition: .3s ease; */
 }
 
+/* #mastercheff-sp */
+#mastercheff-sp {
+  display: none; 
+}
+
 /* #mastercheff */
 #mastercheff {
-  padding-top: 37vh;
+  padding-top: 290px;
 }
 #mastercheff h2 {
   font-size: 16px;
@@ -421,6 +434,7 @@ header nav#navya span {
 }
 #mastercheff p {
   margin-top: 36px;
+  font-size: 12px;
 }
 #mastercheff #mastermore-modalopenlabel,
 #mastercheff #cheffmore-modalopenlabel {
@@ -699,7 +713,7 @@ header nav#navya span {
 
 /* #element */
 #element {
-  padding-top: 120px;
+  padding-top: 320px;
 }
 #element h2 {
   font-size: 18px;
@@ -1195,7 +1209,7 @@ footer ul li {
 footer ul li a {
   position: relative;
   display: inline-block;
-  padding: .4em;
+  padding: .8em 0 1px 0;
   text-decoration: none;
 }
 footer ul li a::after {

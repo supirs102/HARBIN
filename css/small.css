@@ -93,10 +93,10 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  top: 97%;
+  top: 34%;
   width: 100%;
   height: 200%;
-  background-image: url('../images/topline.svg');
+  background-image: url('../images/topline_mobile.svg');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
@@ -104,7 +104,7 @@ a {
 }
 
 /* #center-svg */
-#center-svg {
+/* #center-svg {
   position: absolute;
   top: calc(400% - 48vh);
   width: 100%;
@@ -113,12 +113,19 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+} */
+#center-svg {
+  position: relative;
+  background-image: url('../images/centerline.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center -3vh;
 }
 
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 710%;
+  top: 685%;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
@@ -202,31 +209,33 @@ header nav#navya span {
 /* #main */
 #main {
   position: relative;
+  min-height: 0;
 }
 #main #main-content {
   width: 100%;
   z-index: 2;
-  padding: 20vh 0;
+  padding: 15vh 0 10vh 0;
 }
 #main #main-content img {
-  width: 65%;
+  width: 100%;
 }
 
 /* #about */
 #about {
-  padding-top: 170px;
+  padding-top: 100px;
+  min-height: 0;
 }
 #about #about-content p {
-  font-size: 15px;
-  line-height: 44px;
+  font-size: 12px;
+  line-height: 30px;
   margin-bottom: 172px;
 }
 #about .about-link-wrapper {
-  width: 80%;
-  height: 158px;
+  width: 100%;
+  height: 117px;
   display: block;
   margin: 0 auto;
-  padding: 70px 0;
+  padding: 43px 0;
   background-image: url('../images/monogatari.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,7 +248,7 @@ header nav#navya span {
 #about .about-link-wrapper .about-link {
   position: relative;
   display: inline-block;
-  padding: .4em;
+  padding: 0;
   text-decoration: none;
   cursor: pointer;
 }
@@ -377,8 +386,7 @@ header nav#navya span {
 /* #cuisine */
 #cuisine {
   padding-top: 170px;
-  /* width: 50%; */
-  width: 604px;
+  width: 100%;
   margin: 0 auto;
 }
 #cuisine h2 {
@@ -393,12 +401,13 @@ header nav#navya span {
 }
 #cuisine ul li {
   display: inline-block;
-  /* width: 25%; */
-  width: 142px;
-  padding: 4.5px;
+  width: 22%;
+  /* width: 90px; */
+  padding: 2px;
 }
 #cuisine ul li img {
   width: 100%;
+  vertical-align: bottom;
 }
 #cuisine ul:hover li a:not(:hover) img {
   -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
@@ -409,9 +418,90 @@ header nav#navya span {
   /* transition: .3s ease; */
 }
 
+/* #mastercheff-sp */
+#mastercheff-sp {
+  display: block;
+}
+/* #mastercheff-sp .clip-path-polygon li.active a::after,
+#mastercheff-sp .clip-path-polygon li.active .a::after {
+  background: #ddd;
+}
+#mastercheff-sp .clip-path-polygon li:nth-of-type(1) {
+  z-index: 4;
+}
+#mastercheff-sp .clip-path-polygon li:nth-of-type(2) {
+  z-index: 3;
+}
+#mastercheff-sp .clip-path-polygon li:nth-of-type(3) {
+  z-index: 2;
+}
+#mastercheff-sp .clip-path-polygon li:nth-of-type(4) {
+  z-index: 1;
+}
+#mastercheff-sp .clip-path-polygon a:hover::after {
+  background: #ddd;
+}
+#mastercheff-sp .clip-path-polygon a::before,
+#mastercheff-sp .clip-path-polygon a::after,
+#mastercheff-sp .clip-path-polygon .a::before,
+#mastercheff-sp .clip-path-polygon .a::after {
+  content: '';
+  display: block;
+  height: calc(100% + 2px);
+  width: 120px;
+  position: absolute;
+  top: -1px;
+  right: -120px;
+  -webkit-clip-path: polygon(0 0, 0% 100%, 30px 50%);
+          clip-path: polygon(0 0, 0% 100%, 30px 50%);
+}
+#mastercheff-sp .clip-path-polygon a::before,
+#mastercheff-sp .clip-path-polygon .a::before {
+  right: -119px;
+  background: inherit;
+  z-index: 1;
+}
+#mastercheff-sp .clip-path-polygon a::after,
+#mastercheff-sp .clip-path-polygon .a::after {
+  right: -120px;
+  background: #336;
+} */
+#mastercheff-sp .after-as-rhombus li {
+  position: relative;
+  display: inline-block;
+}
+#mastercheff-sp .after-as-rhombus li a {
+  line-height: 100px;
+}
+#mastercheff-sp .after-as-rhombus li:nth-of-type(1) {
+  z-index: 2;
+}
+#mastercheff-sp .after-as-rhombus li:nth-of-type(2) {
+  z-index: 1;
+}
+#mastercheff-sp .after-as-rhombus a:hover::after {
+  border-color: #ddd;
+}
+#mastercheff-sp .after-as-rhombus a::after,
+#mastercheff-sp .after-as-rhombus .a::after {
+  content: '';
+  display: block;
+  height: 95px;
+  width: 95px;
+  -webkit-transform: rotate(45deg) skew(3deg, 3deg);
+          transform: rotate(45deg) skew(3deg, 3deg);
+  position: absolute;
+  top: 0;
+  right: -21px;
+  z-index: -1;
+  background: inherit;
+  border: 1px #336 solid;
+}
+
 /* #mastercheff */
 #mastercheff {
-  padding-top: 37vh;
+  padding-top: 0;
+  display: none;
 }
 #mastercheff h2 {
   font-size: 16px;
@@ -421,6 +511,7 @@ header nav#navya span {
 }
 #mastercheff p {
   margin-top: 36px;
+  display: none;
 }
 #mastercheff #mastermore-modalopenlabel,
 #mastercheff #cheffmore-modalopenlabel {
@@ -454,7 +545,7 @@ header nav#navya span {
   float: left;
   /* width: 10vw; */
   width: 14vw;
-  margin-top: 102px;
+  margin-top: 0;
 }
 #mastercontent {
   float: left;
@@ -578,7 +669,7 @@ header nav#navya span {
   float: right;
   /* width: 10vw; */
   width: 14vw;
-  margin-top: 102px;
+  margin-top: 0;
 }
 #cheffcontent {
   float: right;
@@ -699,7 +790,7 @@ header nav#navya span {
 
 /* #element */
 #element {
-  padding-top: 120px;
+  padding-top: 320px;
 }
 #element h2 {
   font-size: 18px;
@@ -1195,7 +1286,7 @@ footer ul li {
 footer ul li a {
   position: relative;
   display: inline-block;
-  padding: .4em;
+  padding: .8em 0 1px 0;
   text-decoration: none;
 }
 footer ul li a::after {
@@ -1220,7 +1311,7 @@ footer ul li a:hover::after {
 footer h2 {
   font-size: 17px;
   margin-top: 120px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 footer .ttlnotes {
   font-size: 11px;
@@ -1233,7 +1324,7 @@ footer .ttlnotes {
   margin-bottom: 321px;
 }
 #footerlogo img {
-  width: 73px;
+  width: 55px;
   margin-bottom: 40px;
 }
 
