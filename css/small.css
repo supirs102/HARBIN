@@ -93,7 +93,7 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  top: 34%;
+  top: -68%;
   width: 100%;
   height: 200%;
   background-image: url('../images/topline_mobile.svg');
@@ -116,10 +116,7 @@ a {
 } */
 #center-svg {
   position: relative;
-  background-image: url('../images/centerline.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center -3vh;
+  background: transparent;
 }
 
 /* #bottom-svg */
@@ -466,12 +463,12 @@ header nav#navya span {
   right: -120px;
   background: #336;
 } */
+#mastercheff-sp .after-as-rhombus {
+  position: relative;
+}
 #mastercheff-sp .after-as-rhombus li {
   position: relative;
   display: inline-block;
-}
-#mastercheff-sp .after-as-rhombus li a {
-  line-height: 100px;
 }
 #mastercheff-sp .after-as-rhombus li:nth-of-type(1) {
   z-index: 2;
@@ -482,20 +479,62 @@ header nav#navya span {
 #mastercheff-sp .after-as-rhombus a:hover::after {
   border-color: #ddd;
 }
-#mastercheff-sp .after-as-rhombus a::after,
-#mastercheff-sp .after-as-rhombus .a::after {
+#mastercheff-sp .after-as-rhombus a::after {
   content: '';
   display: block;
-  height: 95px;
-  width: 95px;
-  -webkit-transform: rotate(45deg) skew(3deg, 3deg);
-          transform: rotate(45deg) skew(3deg, 3deg);
+  height: 300px;
+  width: 300px;
+  -webkit-transform: rotate(45deg) skew(0deg, 0deg);
+          transform: rotate(45deg) skew(0deg, 0deg);
   position: absolute;
-  top: 0;
-  right: -21px;
+  top: 60px;
   z-index: -1;
-  background: inherit;
-  border: 1px #336 solid;
+  background-size: contain;
+  border: 1px #fff solid;
+}
+.after-as-rhombus1 span {
+  position: absolute;
+  top: 190px;
+  left: -185px;
+}
+.after-as-rhombus1 span:nth-of-type(2) {
+  top: 200px;
+  left: -85px;
+}
+.after-as-rhombus2 span {
+  position: absolute;
+  top: 190px;
+  right: -185px;
+}
+.after-as-rhombus2 span:nth-of-type(2) {
+  top: 200px;
+  right: -85px;
+}
+#mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
+  right: 13.7vw;
+  background-image: url('../images/master-mobile.png');
+}
+#mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
+  left: 14.3vw;
+  background-image: url('../images/cheff-mobile.png');
+}
+/* スマホ中 */
+@media screen and (min-width:375px) and (max-width:424px) { 
+  #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
+    right: 15vw;
+  }
+  #mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
+    left: 16.9vw;
+  }
+}
+/* スマホ小 */
+@media screen and (max-width:374px) { 
+  #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
+    right: 17vw;
+  }
+  #mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
+    left: 20vw;
+  }
 }
 
 /* #mastercheff */
@@ -790,7 +829,7 @@ header nav#navya span {
 
 /* #element */
 #element {
-  padding-top: 320px;
+  padding-top: 520px;
 }
 #element h2 {
   font-size: 18px;
@@ -802,7 +841,7 @@ header nav#navya span {
   font-size: 14px;
   line-height: 30px;
   margin-top: 67px;
-  margin-bottom: 122px;
+  margin-bottom: 72px;
 }
 #element ul {
   font-size: 0;
@@ -1241,8 +1280,8 @@ header nav#navya span {
   margin-bottom: 240px;
 }
 #infoleft {
-  float: left;
-  width: 50vw;
+  float: none;
+  width: auto;
   text-align: right;
   padding-right: 60px;
 }
@@ -1260,14 +1299,15 @@ header nav#navya span {
   right: 0;
 }
 #inforight {
-  float: right;
-  width: 50vw;
-  text-align: left;
-  padding-left: 60px;
+  float: none;
+  width: auto;
+  text-align: center;
+  padding-top: 500px;
 }
 #inforight h2 {
   font-size: 17px;
   margin-bottom: 70px;
+  display: none;
 }
 #inforight .ttlnotes {
   font-size: 12px;
@@ -1275,6 +1315,9 @@ header nav#navya span {
 #inforight p {
   font-size: 12px;
   margin-bottom: 23px;
+}
+#inforight p:nth-of-type(1) {
+  display: none;
 }
 
 /* footer */
