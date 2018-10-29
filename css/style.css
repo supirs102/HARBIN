@@ -715,6 +715,9 @@ header nav#navya span {
 #element {
   padding-top: 320px;
 }
+#element-sp {
+  display: none;
+}
 #element h2 {
   font-size: 18px;
 }
