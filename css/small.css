@@ -466,6 +466,8 @@ header nav#navya span {
 } */
 #mastercheff-sp .after-as-rhombus {
   position: relative;
+  height: 500px;
+  overflow: hidden;
 }
 #mastercheff-sp .after-as-rhombus li {
   position: relative;
@@ -835,7 +837,7 @@ header nav#navya span {
 }
 #element-sp {
   display: block;
-  margin-top: 500px;
+  margin-top: 0;
 }
 #element-sp h2 {
   font-size: 18px;
