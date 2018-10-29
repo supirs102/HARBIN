@@ -715,6 +715,9 @@ header nav#navya span {
 #element {
   padding-top: 320px;
 }
+#element-sp {
+  display: none;
+}
 #element h2 {
   font-size: 18px;
 }
@@ -1162,6 +1165,9 @@ header nav#navya span {
 #information {
   padding-top: 200px;
   margin-bottom: 320px;
+}
+#info-sp {
+  display: none;
 }
 #infoleft {
   float: left;

@@ -55,7 +55,7 @@ html,
 body {
   font-family: YuMincho, 'Yu Mincho', serif;
   background-color: #000417;
-  color: red;
+  color: #fff;
   width: 100vw;
   height: 100%;
   margin: 0;
@@ -122,7 +122,7 @@ a {
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 685%;
+  top: 650%;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
@@ -418,6 +418,7 @@ header nav#navya span {
 /* #mastercheff-sp */
 #mastercheff-sp {
   display: block;
+  padding-top: 100px;
 }
 /* #mastercheff-sp .clip-path-polygon li.active a::after,
 #mastercheff-sp .clip-path-polygon li.active .a::after {
@@ -519,7 +520,7 @@ header nav#navya span {
   background-image: url('../images/cheff-mobile.png');
 }
 /* スマホ中 */
-@media screen and (min-width:375px) and (max-width:424px) { 
+@media screen and (min-width:375px) and (max-width:424px) {
   #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
     right: 15vw;
   }
@@ -528,7 +529,7 @@ header nav#navya span {
   }
 }
 /* スマホ小 */
-@media screen and (max-width:374px) { 
+@media screen and (max-width:374px) {
   #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
     right: 17vw;
   }
@@ -829,60 +830,65 @@ header nav#navya span {
 
 /* #element */
 #element {
+  display: none;
   padding-top: 520px;
 }
-#element h2 {
+#element-sp {
+  display: block;
+  margin-top: 500px;
+}
+#element-sp h2 {
   font-size: 18px;
 }
-#element .ttlnotes {
+#element-sp .ttlnotes {
   font-size: 11px;
 }
-#element p {
+#element-sp p {
   font-size: 14px;
   line-height: 30px;
   margin-top: 67px;
   margin-bottom: 72px;
 }
-#element ul {
+#element-sp ul {
   font-size: 0;
-  /* width: 80%; */
-  width: 1176px;
+  width: 300%;
+  /* width: 1176px; */
   height: 363px;
   letter-spacing: 0;
   margin: 0 auto;
-  background-image: url('../images/recommend01.jpg'), url('../images/yasai.png'), url('../images/niku.png');
+  background-image: url('../images/recommend01.jpg'), url('../images/recommend02.jpg'), url('../images/niku.png');
   background-position: left bottom, center top, right bottom;
   background-size: calc(100% / 3);
   background-repeat: no-repeat;
 }
-#element li {
+#element-sp li {
   display: inline-block;
   /* width: calc(33% - 30px * 2); */
-  width: 212px;
+  width: 212px !important;
   height: 282px;
-  margin: 41px 90px;
+  margin: 41px auto;
   font-size: 14px;
   position: relative;
   border: 1px solid #fff;
 }
-#element li:hover {
+#element-sp li:hover {
   border: 1px solid transparent;
 }
-#element li > label {
+#element-sp li > label {
   display: block;
   width: 100%;
   height: 100%;
   cursor: pointer;
   padding: 0;
 }
-#element label span.elementkana {
+#element-sp label span.elementkana {
   letter-spacing: 0.2em;
 }
-#element label.elementup span {
+#element-sp label.elementup span {
   position: relative;
   top: 34px;
 }
-#element label.elementdown span {
+#element-sp label.elementdown span {
   position: relative;
   bottom: -208px;
 }
@@ -1279,14 +1285,43 @@ header nav#navya span {
   padding-top: 200px;
   margin-bottom: 240px;
 }
+#info-sp {
+  display: block;
+}
+#info-sp h2 {
+  font-size: 18px;
+}
+#info-sp .ttlnotes {
+  font-size: 11px;
+}
+#info-sp .fs-14 {
+  font-size: 14px;
+}
+#info-sp p {
+  font-size: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 #infoleft {
   float: none;
   width: auto;
-  text-align: right;
-  padding-right: 60px;
+  text-align: center;
+  padding-right: 128.5px;
+}
+/* スマホ中 */
+@media screen and (min-width:375px) and (max-width:424px) {
+  #infoleft{
+    padding-right: 103.5px;
+  }
+}
+/* スマホ小 */
+@media screen and (max-width:374px) {
+  #infoleft {
+    padding-right: 76px;
+  }
 }
 #infoleft img {
-  width: 267px;
+  width: 168px;
 }
 .slideshow {
   position: relative;
@@ -1302,7 +1337,8 @@ header nav#navya span {
   float: none;
   width: auto;
   text-align: center;
-  padding-top: 500px;
+  padding-top: 300px;
+  padding-left: 0;
 }
 #inforight h2 {
   font-size: 17px;
@@ -1314,7 +1350,8 @@ header nav#navya span {
 }
 #inforight p {
   font-size: 12px;
-  margin-bottom: 23px;
+  margin-bottom: 60px;
+  letter-spacing: 0.3em;
 }
 #inforight p:nth-of-type(1) {
   display: none;
@@ -1324,7 +1361,7 @@ header nav#navya span {
 footer {}
 footer ul li {
   font-size: 12px;
-  line-height: 28px;
+  line-height: 21px;
 }
 footer ul li a {
   position: relative;
