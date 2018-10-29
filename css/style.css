@@ -1163,6 +1163,9 @@ header nav#navya span {
   padding-top: 200px;
   margin-bottom: 240px;
 }
+#info-sp {
+  display: none;
+}
 #infoleft {
   float: left;
   width: 50vw;
