@@ -88,6 +88,14 @@ $(function(){
 		}
 	});
 
+	// element-sp
+	var swiper = new Swiper('.swiper-container', {
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		}
+	});
+
 	// informationslide
 	$('#information').each(function(){
 		var $slides = $('.slideshow').find('img'),
