@@ -90,6 +90,9 @@ $(function(){
 
 	// element-sp
 	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 1.2,
+		initialSlide: 1,
+		centeredSlides: true,
 		navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
@@ -218,5 +221,5 @@ $(function(){
 //border1px
 //
 //
-//
+//真ん中スタートのリピート無しelement-sp
 //

@@ -853,12 +853,12 @@ header nav#navya span {
 }
 #element-sp ul {
   font-size: 0;
-  width: 300%;
+  width: 250%;
   /* width: 1176px; */
-  height: 363px;
+  height: 290px;
   letter-spacing: 0;
   margin: 0 auto;
-  background-image: url('../images/recommend01.jpg'), url('../images/recommend02.jpg'), url('../images/niku.png');
+  background-image: url('../images/recommend01.jpg'), url('../images/recommend02.png'), url('../images/recommend03.jpg');
   background-position: left bottom, center top, right bottom;
   background-size: calc(100% / 3);
   background-repeat: no-repeat;
@@ -866,9 +866,9 @@ header nav#navya span {
 #element-sp li {
   display: inline-block;
   /* width: calc(33% - 30px * 2); */
-  width: 212px !important;
-  height: 282px;
-  margin: 41px auto;
+  width: 170px !important;
+  height: 232px;
+  margin: 30px auto;
   font-size: 14px;
   position: relative;
   border: 1px solid #fff;
@@ -892,7 +892,7 @@ header nav#navya span {
 }
 #element-sp label.elementdown span {
   position: relative;
-  bottom: -208px;
+  bottom: -166px;
 }
 /* #element001 modal */
   /*
