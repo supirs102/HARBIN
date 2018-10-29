@@ -10,18 +10,19 @@
   	src="https://code.jquery.com/jquery-2.2.4.js"
   	integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
   	crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css"　media="screen and (min-width:1024px)">
+  	<link rel="stylesheet" type="text/css" href="css/small.css" media="screen and (max-width:425px)">
 	<link rel="stylesheet" type="text/css" href="css/modal.css">
 
 	<script type="text/javascript" src="js/main.js"></script>
 	<title>HARBIN</title>
   	<script type="text/javascript" src="js/jquery.chocolat.js"></script>
 	<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+	<link rel="stylesheet" href="css/swiper.css">
 </head>
 <body>
 <div id="wrapper">
 <div id="top-svg"></div><!-- #top-svg -->
-<div id="center-svg"></div><!-- #center-svg -->
 <div id="bottom-svg"></div><!-- #bottom-svg -->
 <header class="page">
 	<h1><img src="images/logo01.png"></h1>
@@ -118,6 +119,7 @@
 		</div>
 	</div>
 </div><!-- #about -->
+<div id="center-svg">
 <div id="cuisine" class="page">
 	<h2>CUISINE<br><span class="ttlnotes">作品</span></h2>
 	<ul class="chocolat-parent" data-chocolat-title="set title">
@@ -135,6 +137,33 @@
 		<li id="cuisine012"><a class="chocolat-image" href="series/menu012.jpg" title="caption image 12"><img src="series/mini/menu12.jpg"></a></li>
 	</ul>
 </div><!-- #cuisine -->
+<div id="mastercheff-sp">
+	<!-- <ul class="clip-path-polygon">
+		<li>
+			<a href="#1">Link</a>
+		</li>
+		<li>
+			<a href="#2">Link</a>
+		</li>
+		<li class="active">
+			<span class="a">Active</span>
+		</li>
+		<li>
+			<a href="#4">Link</a>
+		</li>
+		<li>
+			<span class="a">No link</span>
+		</li>
+	</ul> -->
+	<ul class="after-as-rhombus">
+		<li class="after-as-rhombus1">
+			<a href="#1"><span>久保田　耕<br>Ko Kubota</span><span>MASTER</span></a>
+		</li>
+		<li class="after-as-rhombus2">
+			<a href="#2"><span>久保田　太一<br>Taichi Kubota</span><span>CHEFF</span></a>
+		</li>
+	</ul>
+</div><!-- #mastercheff-sp -->
 <div id="mastercheff" class="page">
 	<div id="master">
 		<div id="mastercontent">
@@ -426,6 +455,7 @@
 		</li>
 	</ul>
 </div><!-- #element -->
+</div><!-- #center-svg -->
 <div id="information" class="page">
 	<div id="infoleft">
 		<div class="slideshow">
@@ -554,5 +584,6 @@
     </a></li>
 </ul> -->
 </div><!-- #wrapper -->
+<script src="js/swiper.js"></script>
 </body>
 </html>
