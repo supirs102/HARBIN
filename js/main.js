@@ -93,9 +93,76 @@ $(function(){
 		slidesPerView: 1.2,
 		initialSlide: 1,
 		centeredSlides: true,
+		// simulateTouch: false,
 		navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
+		}
+	});
+
+	// elementsp001imageslide
+	$('#elementsp001image').each(function(){
+		var $slides = $(this).find('.slide'),
+			slideCount = $slides.length,
+			currentIndex = 0;
+		$('#elementsp001-modalopenlabel').on('click', function() {
+			currentIndex = 0;
+			$slides.eq(currentIndex).fadeIn();
+			idmodal = setInterval(showNextSlide, 7000);
+		});
+		$('label.close').on('click', function() {
+			clearInterval(idmodal);
+			$slides.fadeOut();
+		});
+		function showNextSlide(){
+			var nextIndex = (currentIndex + 1) % slideCount;
+			$slides.eq(currentIndex).fadeOut(3000);
+			$slides.eq(nextIndex).fadeIn(3000);
+			currentIndex = nextIndex;
+		}
+	});
+
+	// elementsp002imageslide
+	$('#elementsp002image').each(function(){
+		var $slides = $(this).find('.slide'),
+			slideCount = $slides.length,
+			currentIndex = 0;
+		$('#elementsp002-modalopenlabel').on('click', function() {
+			currentIndex = 0;
+			$slides.eq(currentIndex).fadeIn();
+			idmodal = setInterval(showNextSlide, 7000);
+		});
+		$('label.close').on('click', function() {
+			clearInterval(idmodal);
+			$slides.fadeOut();
+		});
+		function showNextSlide(){
+			var nextIndex = (currentIndex + 1) % slideCount;
+			$slides.eq(currentIndex).fadeOut(3000);
+			$slides.eq(nextIndex).fadeIn(3000);
+			currentIndex = nextIndex;
+		}
+	});
+
+	// elementsp003imageslide
+	$('#elementsp003image').each(function(){
+		var $slides = $(this).find('.slide'),
+			slideCount = $slides.length,
+			currentIndex = 0;
+		$('#elementsp003-modalopenlabel').on('click', function() {
+			currentIndex = 0;
+			$slides.eq(currentIndex).fadeIn();
+			idmodal = setInterval(showNextSlide, 7000);
+		});
+		$('label.close').on('click', function() {
+			clearInterval(idmodal);
+			$slides.fadeOut();
+		});
+		function showNextSlide(){
+			var nextIndex = (currentIndex + 1) % slideCount;
+			$slides.eq(currentIndex).fadeOut(3000);
+			$slides.eq(nextIndex).fadeIn(3000);
+			currentIndex = nextIndex;
 		}
 	});
 
