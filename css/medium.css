@@ -787,35 +787,43 @@ header nav#navya span {
 /* #element */
 #element {
   padding-top: 320px;
+  display: none;
 }
 #element-sp {
   display: none;
 }
-#element h2 {
+#element-tb h2 {
   font-size: 18px;
 }
-#element .ttlnotes {
+#element-tb .ttlnotes {
   font-size: 11px;
 }
-#element p {
+#element-tb p {
   font-size: 14px;
   line-height: 30px;
   margin-top: 67px;
   margin-bottom: 122px;
 }
-#element ul {
+#element-tb ul {
   font-size: 0;
-  /* width: 80%; */
-  width: 1024px;
   height: 322px;
   letter-spacing: 0;
   margin: 0 auto;
-  background-image: url('../images/recommend01.jpg'), url('../images/recommend02.png'), url('../images/recommend03.jpg');
-  background-position: left bottom, center top, right bottom;
   background-size: calc(100% / 3);
   background-repeat: no-repeat;
 }
-#element li {
+#element-tb #elementtbul01 {
+  width: 341px;
+  background-image: url('../images/recommend01.jpg');
+  background-size: contain;
+  background-position: top center;
+}
+#element-tb #elementtbul02 {
+  width: 682px;
+  background-image: url('../images/recommend02.png'), url('../images/recommend03.jpg');
+  background-position: left bottom, right bottom;
+}
+#element-tb li {
   display: inline-block;
   /* width: calc(33% - 30px * 2); */
   width: 193px;
@@ -825,44 +833,44 @@ header nav#navya span {
   position: relative;
   border: 1px solid #fff;
 }
-#element li:hover {
+#element-tb li:hover {
   border: 1px solid transparent;
 }
-#element li > label {
+#element-tb li > label {
   display: block;
   width: 100%;
   height: 100%;
   cursor: pointer;
   padding: 0;
 }
-#element label span.elementkana {
+#element-tb label span.elementkana {
   letter-spacing: 0.2em;
 }
-#element label.elementup span {
+#element-tb label.elementup span {
   position: relative;
   top: 34px;
 }
-#element label.elementdown span {
+#element-tb label.elementdown span {
   position: relative;
   bottom: -208px;
 }
-/* #element001 modal */
+/* #elementtb001 modal */
   /*
   Author: Jorge Chavez
   Licence: MIT
   */
-  #element001 .wrap{
+  #elementtb001 .wrap{
     width: 80%;
     margin: 0px auto;
     text-align: center;
   }
-  #element001 .wrap h1{
+  #elementtb001 .wrap h1{
     font-size: 70px;
   }
-  #element001 .wrap h1 span{
+  #elementtb001 .wrap h1 span{
     color: #F42A54;
   }
-  #element001 .contribute {
+  #elementtb001 .contribute {
     position: fixed;
     right: -20px;
     top: 20px;
@@ -871,11 +879,11 @@ header nav#navya span {
     overflow: hidden;
     transform: rotate(45deg);
   }
-  #element001 .contribute p {
+  #elementtb001 .contribute p {
     padding: 3px;
     background-color: #444444;
   }
-  #element001 .contribute p a {
+  #elementtb001 .contribute p a {
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
     display: block;
@@ -883,7 +891,7 @@ header nav#navya span {
     text-decoration: none;
     padding: 2px 0px;
   }
-  #element001 .open-modal {
+  #elementtb001 .open-modal {
     background-color: #3C3C3C;
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
@@ -896,7 +904,7 @@ header nav#navya span {
     border-top: 1px solid transparent;
     min-width: 150px;
   }
-  #element001 .open-modal:hover {
+  #elementtb001 .open-modal:hover {
     cursor: pointer;
     background-color: #E7E7E7;
     color: #3C3C3C;
@@ -904,20 +912,20 @@ header nav#navya span {
     box-shadow: 0.2px 0.2px 2px #F42A54;
   }
   @media (max-width: 500px){
-    #element001 .wrap {
+    #elementtb001 .wrap {
       width: 100%;
     }
   }
-#element001 .modal {
+#elementtb001 .modal {
   color: #fff;
 }
-#element001 p.modalall {
+#elementtb001 p.modalall {
   position: absolute;
   z-index: 1;
   bottom: 50px;
   left: 50px;
 }
-#element001 h2 {
+#elementtb001 h2 {
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -929,23 +937,23 @@ header nav#navya span {
   right: 308px;
   font-size: 15px;
 }
-#element001 p {
+#elementtb001 p {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
   top: 300px;
   right: 100px;
 }
-#element001 #element001image {
+#elementtb001 #elementtb001image {
   height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
 }
-#element001 #element001image1,
-#element001 #element001image2,
-#element001 #element001image3,
-#element001 #element001image4 {
+#elementtb001 #elementtb001image1,
+#elementtb001 #elementtb001image2,
+#elementtb001 #elementtb001image3,
+#elementtb001 #elementtb001image4 {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -959,39 +967,39 @@ header nav#navya span {
   left: 0;
   text-align: left;
 }
-#element001 #element001image1 {
+#elementtb001 #elementtb001image1 {
   background-image: url("../images/story01.png");
   display: block;
 }
-#element001 #element001image2 {
+#elementtb001 #elementtb001image2 {
   background-image: url("../images/story02.png");
   display: none;
 }
-#element001 #element001image3 {
+#elementtb001 #elementtb001image3 {
   background-image: url("../images/story03.png");
   display: none;
 }
-#element001 #element001image4 {
+#elementtb001 #elementtb001image4 {
   background-image: url("../images/story03.png");
   display: none;
 }
-/* #element002 modal */
+/* #elementtb002 modal */
   /*
   Author: Jorge Chavez
   Licence: MIT
   */
-  #element002 .wrap{
+  #elementtb002 .wrap{
     width: 80%;
     margin: 0px auto;
     text-align: center;
   }
-  #element002 .wrap h1{
+  #elementtb002 .wrap h1{
     font-size: 70px;
   }
-  #element002 .wrap h1 span{
+  #elementtb002 .wrap h1 span{
     color: #F42A54;
   }
-  #element002 .contribute {
+  #elementtb002 .contribute {
     position: fixed;
     right: -20px;
     top: 20px;
@@ -1000,11 +1008,11 @@ header nav#navya span {
     overflow: hidden;
     transform: rotate(45deg);
   }
-  #element002 .contribute p {
+  #elementtb002 .contribute p {
     padding: 3px;
     background-color: #444444;
   }
-  #element002 .contribute p a {
+  #elementtb002 .contribute p a {
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
     display: block;
@@ -1012,7 +1020,7 @@ header nav#navya span {
     text-decoration: none;
     padding: 2px 0px;
   }
-  #element002 .open-modal {
+  #elementtb002 .open-modal {
     background-color: #3C3C3C;
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
@@ -1025,7 +1033,7 @@ header nav#navya span {
     border-top: 1px solid transparent;
     min-width: 150px;
   }
-  #element002 .open-modal:hover {
+  #elementtb002 .open-modal:hover {
     cursor: pointer;
     background-color: #E7E7E7;
     color: #3C3C3C;
@@ -1033,20 +1041,20 @@ header nav#navya span {
     box-shadow: 0.2px 0.2px 2px #F42A54;
   }
   @media (max-width: 500px){
-    #element002 .wrap {
+    #elementtb002 .wrap {
       width: 100%;
     }
   }
-#element002 .modal {
+#elementtb002 .modal {
   color: #fff;
 }
-#element002 p.modalall {
+#elementtb002 p.modalall {
   position: absolute;
   z-index: 1;
   bottom: 50px;
   left: 50px;
 }
-#element002 h2 {
+#elementtb002 h2 {
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -1058,23 +1066,23 @@ header nav#navya span {
   left: 100px;
   font-size: 15px;
 }
-#element002 p {
+#elementtb002 p {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
   top: 300px;
   left: 131px;
 }
-#element002 #element002image {
+#elementtb002 #elementtb002image {
   height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
 }
-#element002 #element002image1,
-#element002 #element002image2,
-#element002 #element002image3,
-#element002 #element002image4 {
+#elementtb002 #elementtb002image1,
+#elementtb002 #elementtb002image2,
+#elementtb002 #elementtb002image3,
+#elementtb002 #elementtb002image4 {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1088,39 +1096,39 @@ header nav#navya span {
   left: 0;
   text-align: left;
 }
-#element002 #element002image1 {
+#elementtb002 #elementtb002image1 {
   background-image: url("../images/story01.png");
   display: block;
 }
-#element002 #element002image2 {
+#elementtb002 #elementtb002image2 {
   background-image: url("../images/story02.png");
   display: none;
 }
-#element002 #element002image3 {
+#elementtb002 #elementtb002image3 {
   background-image: url("../images/story03.png");
   display: none;
 }
-#element002 #element002image4 {
+#elementtb002 #elementtb002image4 {
   background-image: url("../images/story03.png");
   display: none;
 }
-/* #element003 modal */
+/* #elementtb003 modal */
   /*
   Author: Jorge Chavez
   Licence: MIT
   */
-  #element003 .wrap{
+  #elementtb003 .wrap{
     width: 80%;
     margin: 0px auto;
     text-align: center;
   }
-  #element003 .wrap h1{
+  #elementtb003 .wrap h1{
     font-size: 70px;
   }
-  #element003 .wrap h1 span{
+  #elementtb003 .wrap h1 span{
     color: #F42A54;
   }
-  #element003 .contribute {
+  #elementtb003 .contribute {
     position: fixed;
     right: -20px;
     top: 20px;
@@ -1129,11 +1137,11 @@ header nav#navya span {
     overflow: hidden;
     transform: rotate(45deg);
   }
-  #element003 .contribute p {
+  #elementtb003 .contribute p {
     padding: 3px;
     background-color: #444444;
   }
-  #element003 .contribute p a {
+  #elementtb003 .contribute p a {
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
     display: block;
@@ -1141,7 +1149,7 @@ header nav#navya span {
     text-decoration: none;
     padding: 2px 0px;
   }
-  #element003 .open-modal {
+  #elementtb003 .open-modal {
     background-color: #3C3C3C;
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
@@ -1154,7 +1162,7 @@ header nav#navya span {
     border-top: 1px solid transparent;
     min-width: 150px;
   }
-  #element003 .open-modal:hover {
+  #elementtb003 .open-modal:hover {
     cursor: pointer;
     background-color: #E7E7E7;
     color: #3C3C3C;
@@ -1162,20 +1170,20 @@ header nav#navya span {
     box-shadow: 0.2px 0.2px 2px #F42A54;
   }
   @media (max-width: 500px){
-    #element003 .wrap {
+    #elementtb003 .wrap {
       width: 100%;
     }
   }
-#element003 .modal {
+#elementtb003 .modal {
   color: #fff;
 }
-#element003 p.modalall {
+#elementtb003 p.modalall {
   position: absolute;
   z-index: 1;
   bottom: 50px;
   left: 50px;
 }
-#element003 h2 {
+#elementtb003 h2 {
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -1187,23 +1195,23 @@ header nav#navya span {
   right: 308px;
   font-size: 15px;
 }
-#element003 p {
+#elementtb003 p {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
   top: 300px;
   right: 138px;
 }
-#element003 #element003image {
+#elementtb003 #elementtb003image {
   height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
 }
-#element003 #element003image1,
-#element003 #element003image2,
-#element003 #element003image3,
-#element003 #element003image4 {
+#elementtb003 #elementtb003image1,
+#elementtb003 #elementtb003image2,
+#elementtb003 #elementtb003image3,
+#elementtb003 #elementtb003image4 {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1217,19 +1225,19 @@ header nav#navya span {
   left: 0;
   text-align: left;
 }
-#element003 #element003image1 {
+#elementtb003 #elementtb003image1 {
   background-image: url("../images/story01.png");
   display: block;
 }
-#element003 #element003image2 {
+#elementtb003 #elementtb003image2 {
   background-image: url("../images/story02.png");
   display: none;
 }
-#element003 #element003image3 {
+#elementtb003 #elementtb003image3 {
   background-image: url("../images/story03.png");
   display: none;
 }
-#element003 #element003image4 {
+#elementtb003 #elementtb003image4 {
   background-image: url("../images/story03.png");
   display: none;
 }

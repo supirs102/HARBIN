@@ -835,6 +835,9 @@ header nav#navya span {
   display: none;
   padding-top: 520px;
 }
+#element-tb {
+  display: none;
+}
 #element-sp {
   display: block;
   margin-top: 0;
