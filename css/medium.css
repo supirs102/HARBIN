@@ -1205,19 +1205,33 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
 /* #information */
 #information {
   padding-top: 200px;
-  margin-bottom: 320px;
+  margin-bottom: 240px;
 }
 #info-sp {
-  display: none;
+  display: block;
+}
+#info-sp h2 {
+  font-size: 18px;
+}
+#info-sp .ttlnotes {
+  font-size: 11px;
+}
+#info-sp .fs-14 {
+  font-size: 14px;
+}
+#info-sp p {
+  font-size: 12px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 #infoleft {
-  float: left;
-  width: 50vw;
-  text-align: right;
-  padding-right: 60px;
+  float: none;
+  width: 168px;
+  text-align: center;
+  margin: 0 auto;
 }
 #infoleft img {
-  width: 267px;
+  width: 168px;
 }
 .slideshow {
   position: relative;
@@ -1230,22 +1244,29 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   right: 0;
 }
 #inforight {
-  float: right;
-  width: 50vw;
-  text-align: left;
-  padding-left: 60px;
+  float: none;
+  width: auto;
+  text-align: center;
+  padding-top: 300px;
+  padding-left: 0;
 }
 #inforight h2 {
   font-size: 17px;
   margin-bottom: 70px;
+  display: none;
 }
 #inforight .ttlnotes {
   font-size: 12px;
 }
 #inforight p {
   font-size: 12px;
-  margin-bottom: 23px;
+  margin-bottom: 60px;
+  letter-spacing: 0.3em;
 }
+#inforight p:nth-of-type(1) {
+  display: none;
+}
+
 
 /* footer */
 footer {}

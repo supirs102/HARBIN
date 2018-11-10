@@ -1035,21 +1035,9 @@ header nav#navya span {
 }
 #infoleft {
   float: none;
-  width: auto;
+  width: 168px;
   text-align: center;
-  padding-right: 128.5px;
-}
-/* スマホ中 */
-@media screen and (min-width:375px) and (max-width:424px) {
-  #infoleft{
-    padding-right: 103.5px;
-  }
-}
-/* スマホ小 */
-@media screen and (max-width:374px) {
-  #infoleft {
-    padding-right: 76px;
-  }
+  margin: 0 auto;
 }
 #infoleft img {
   width: 168px;
