@@ -422,6 +422,11 @@ header nav#navya span {
   display: none;
 }
 
+/* #matercheff-tb */
+#mastercheff-tb {
+  display: none;
+}
+
 /* #mastercheff */
 #mastercheff {
   padding-top: 240px;

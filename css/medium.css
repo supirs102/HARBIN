@@ -416,108 +416,56 @@ header nav#navya span {
 
 /* #mastercheff-sp */
 #mastercheff-sp {
-  display: block;
-}
-#mastercheff-sp .after-as-rhombus {
-  position: relative;
-  height: 500px;
-  overflow: hidden;
-}
-#mastercheff-sp .after-as-rhombus li {
-  position: relative;
-  display: inline-block;
-}
-#mastercheff-sp .after-as-rhombus li:nth-of-type(1) {
-  z-index: 2;
-}
-#mastercheff-sp .after-as-rhombus li:nth-of-type(2) {
-  z-index: 1;
-}
-#mastercheff-sp .after-as-rhombus a:hover::after {
-  border-color: #ddd;
-}
-#mastercheff-sp .after-as-rhombus a::after {
-  content: '';
-  display: block;
-  height: 300px;
-  width: 300px;
-  -webkit-transform: rotate(45deg) skew(0deg, 0deg);
-          transform: rotate(45deg) skew(0deg, 0deg);
-  position: absolute;
-  top: 60px;
-  z-index: -1;
-  background-size: contain;
-  border: 1px #fff solid;
-}
-.after-as-rhombus1 span {
-  position: absolute;
-  top: 190px;
-  left: -185px;
-}
-.after-as-rhombus1 span:nth-of-type(2) {
-  top: 200px;
-  left: -85px;
-}
-.after-as-rhombus2 span {
-  position: absolute;
-  top: 190px;
-  right: -185px;
-}
-.after-as-rhombus2 span:nth-of-type(2) {
-  top: 200px;
-  right: -85px;
-}
-#mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
-  right: 13.7vw;
-  background-image: url('../images/master-mobile.png');
-}
-#mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
-  left: 14.3vw;
-  background-image: url('../images/cheff-mobile.png');
-}
-/* スマホ中 */
-@media screen and (min-width:375px) and (max-width:424px) {
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
-    right: 15vw;
-  }
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
-    left: 16.9vw;
-  }
-}
-/* スマホ小 */
-@media screen and (max-width:374px) {
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
-    right: 17vw;
-  }
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
-    left: 20vw;
-  }
-}
-
-/* #mastercheff */
-#mastercheff {
-  padding-top: 240px;
   display: none;
 }
-#mastercheff h2 {
+
+/* #matercheff-tb */
+#mastercheff-tb {
+  display: block;
+  padding-top: 240px;
+}
+#mastercheff-tb h2 {
   font-size: 16px;
 }
-#mastercheff .ttlnotes {
+#mastercheff-tb .ttlnotes {
   font-size: 12px;
 }
-#mastercheff p {
+#mastercheff-tb p {
   margin-top: 36px;
   font-size: 12px;
 }
-#mastercheff #mastermore-modalopenlabel,
-#mastercheff #cheffmore-modalopenlabel {
+#mastercheff-tb #mastermore-modalopenlabel,
+#mastercheff-tb #cheffmore-modalopenlabel {
   cursor: pointer;
   position: relative;
   padding: .4em;
   text-decoration: none;
+  display: block;
+  width: 30vw;
+  min-width: 168px;
 }
-#mastercheff #mastermore-modalopenlabel::after,
-#mastercheff #cheffmore-modalopenlabel::after {
+label#mastermore-modalopenlabel span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 76px;
+}
+label#mastermore-modalopenlabel span:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    right: -5px;
+}
+label#cheffmore-modalopenlabel span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 76px;
+}
+label#cheffmore-modalopenlabel span:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+}
+#mastercheff-tb #mastermore-modalopenlabel::after,
+#mastercheff-tb #cheffmore-modalopenlabel::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -531,8 +479,8 @@ header nav#navya span {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-#mastercheff #mastermore-modalopenlabel:hover::after,
-#mastercheff #cheffmore-modalopenlabel:hover::after {
+#mastercheff-tb #mastermore-modalopenlabel:hover::after,
+#mastercheff-tb #cheffmore-modalopenlabel:hover::after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -782,6 +730,11 @@ header nav#navya span {
 #cheff #cheffimage p {
   font-size: 13px;
   line-height: 29px;
+}
+
+/* #mastercheff */
+#mastercheff {
+  display: none;
 }
 
 /* #element */
