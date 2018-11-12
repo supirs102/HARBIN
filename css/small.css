@@ -628,18 +628,18 @@ header nav#navya span {
   Author: Jorge Chavez
   Licence: MIT
   */
-  #elementsp001 .wrap{
+  #elementspmodal01 .wrap{
     width: 80%;
     margin: 0px auto;
     text-align: center;
   }
-  #elementsp001 .wrap h1{
+  #elementspmodal01 .wrap h1{
     font-size: 70px;
   }
-  #elementsp001 .wrap h1 span{
+  #elementspmodal01 .wrap h1 span{
     color: #F42A54;
   }
-  #elementsp001 .contribute {
+  #elementspmodal01 .contribute {
     position: fixed;
     right: -20px;
     top: 20px;
@@ -648,11 +648,11 @@ header nav#navya span {
     overflow: hidden;
     transform: rotate(45deg);
   }
-  #elementsp001 .contribute p {
+  #elementspmodal01 .contribute p {
     padding: 3px;
     background-color: #444444;
   }
-  #elementsp001 .contribute p a {
+  #elementspmodal01 .contribute p a {
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
     display: block;
@@ -660,7 +660,7 @@ header nav#navya span {
     text-decoration: none;
     padding: 2px 0px;
   }
-  #elementsp001 .open-modal {
+  #elementspmodal01 .open-modal {
     background-color: #3C3C3C;
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
@@ -673,7 +673,7 @@ header nav#navya span {
     border-top: 1px solid transparent;
     min-width: 150px;
   }
-  #elementsp001 .open-modal:hover {
+  #elementspmodal01 .open-modal:hover {
     cursor: pointer;
     background-color: #E7E7E7;
     color: #3C3C3C;
@@ -681,20 +681,20 @@ header nav#navya span {
     box-shadow: 0.2px 0.2px 2px #F42A54;
   }
   @media (max-width: 500px){
-    #elementsp001 .wrap {
+    #elementspmodal01 .wrap {
       width: 100%;
     }
   }
-#elementsp001 .modal {
+#elementspmodal01 .modal {
   color: #fff;
 }
-#elementsp001 p.modalall {
+#elementspmodal01 p.modalall {
   position: absolute;
   z-index: 1;
   bottom: 50px;
   left: 50px;
 }
-#elementsp001 h2 {
+#elementspmodal01 h2 {
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -706,23 +706,23 @@ header nav#navya span {
   right: 308px;
   font-size: 15px;
 }
-#elementsp001 p {
+#elementspmodal01 p {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
   top: 300px;
   right: 100px;
 }
-#elementsp001 #elementsp001image {
+#elementspmodal01 #elementsp001image {
   height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
 }
-#elementsp001 #elementsp001image1,
-#elementsp001 #elementsp001image2,
-#elementsp001 #elementsp001image3,
-#elementsp001 #elementsp001image4 {
+#elementspmodal01 #elementsp001image1,
+#elementspmodal01 #elementsp001image2,
+#elementspmodal01 #elementsp001image3,
+#elementspmodal01 #elementsp001image4 {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -736,19 +736,19 @@ header nav#navya span {
   left: 0;
   text-align: left;
 }
-#elementsp001 #elementsp001image1 {
+#elementspmodal01 #elementsp001image1 {
   background-image: url("../images/story01.png");
   display: block;
 }
-#elementsp001 #elementsp001image2 {
+#elementspmodal01 #elementsp001image2 {
   background-image: url("../images/story02.png");
   display: none;
 }
-#elementsp001 #elementsp001image3 {
+#elementspmodal01 #elementsp001image3 {
   background-image: url("../images/story03.png");
   display: none;
 }
-#elementsp001 #elementsp001image4 {
+#elementspmodal01 #elementsp001image4 {
   background-image: url("../images/story03.png");
   display: none;
 }
@@ -757,18 +757,18 @@ header nav#navya span {
   Author: Jorge Chavez
   Licence: MIT
   */
-  #elementsp002 .wrap{
+  #elementspmodal02 .wrap{
     width: 80%;
     margin: 0px auto;
     text-align: center;
   }
-  #elementsp002 .wrap h1{
+  #elementspmodal02 .wrap h1{
     font-size: 70px;
   }
-  #elementsp002 .wrap h1 span{
+  #elementspmodal02 .wrap h1 span{
     color: #F42A54;
   }
-  #elementsp002 .contribute {
+  #elementspmodal02 .contribute {
     position: fixed;
     right: -20px;
     top: 20px;
@@ -777,11 +777,11 @@ header nav#navya span {
     overflow: hidden;
     transform: rotate(45deg);
   }
-  #elementsp002 .contribute p {
+  #elementspmodal02 .contribute p {
     padding: 3px;
     background-color: #444444;
   }
-  #elementsp002 .contribute p a {
+  #elementspmodal02 .contribute p a {
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
     display: block;
@@ -789,7 +789,7 @@ header nav#navya span {
     text-decoration: none;
     padding: 2px 0px;
   }
-  #elementsp002 .open-modal {
+  #elementspmodal02 .open-modal {
     background-color: #3C3C3C;
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
@@ -802,7 +802,7 @@ header nav#navya span {
     border-top: 1px solid transparent;
     min-width: 150px;
   }
-  #elementsp002 .open-modal:hover {
+  #elementspmodal02 .open-modal:hover {
     cursor: pointer;
     background-color: #E7E7E7;
     color: #3C3C3C;
@@ -810,20 +810,20 @@ header nav#navya span {
     box-shadow: 0.2px 0.2px 2px #F42A54;
   }
   @media (max-width: 500px){
-    #elementsp002 .wrap {
+    #elementspmodal02 .wrap {
       width: 100%;
     }
   }
-#elementsp002 .modal {
+#elementspmodal02 .modal {
   color: #fff;
 }
-#elementsp002 p.modalall {
+#elementspmodal02 p.modalall {
   position: absolute;
   z-index: 1;
   bottom: 50px;
   left: 50px;
 }
-#elementsp002 h2 {
+#elementspmodal02 h2 {
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -835,23 +835,23 @@ header nav#navya span {
   left: 100px;
   font-size: 15px;
 }
-#elementsp002 p {
+#elementspmodal02 p {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
   top: 300px;
   left: 131px;
 }
-#elementsp002 #elementsp002image {
+#elementspmodal02 #elementsp002image {
   height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
 }
-#elementsp002 #elementsp002image1,
-#elementsp002 #elementsp002image2,
-#elementsp002 #elementsp002image3,
-#elementsp002 #elementsp002image4 {
+#elementspmodal02 #elementsp002image1,
+#elementspmodal02 #elementsp002image2,
+#elementspmodal02 #elementsp002image3,
+#elementspmodal02 #elementsp002image4 {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -865,19 +865,19 @@ header nav#navya span {
   left: 0;
   text-align: left;
 }
-#elementsp002 #elementsp002image1 {
+#elementspmodal02 #elementsp002image1 {
   background-image: url("../images/story01.png");
   display: block;
 }
-#elementsp002 #elementsp002image2 {
+#elementspmodal02 #elementsp002image2 {
   background-image: url("../images/story02.png");
   display: none;
 }
-#elementsp002 #elementsp002image3 {
+#elementspmodal02 #elementsp002image3 {
   background-image: url("../images/story03.png");
   display: none;
 }
-#elementsp002 #elementsp002image4 {
+#elementspmodal02 #elementsp002image4 {
   background-image: url("../images/story03.png");
   display: none;
 }
@@ -886,18 +886,18 @@ header nav#navya span {
   Author: Jorge Chavez
   Licence: MIT
   */
-  #elementsp003 .wrap{
+  #elementspmodal03 .wrap{
     width: 80%;
     margin: 0px auto;
     text-align: center;
   }
-  #elementsp003 .wrap h1{
+  #elementspmodal03 .wrap h1{
     font-size: 70px;
   }
-  #elementsp003 .wrap h1 span{
+  #elementspmodal03 .wrap h1 span{
     color: #F42A54;
   }
-  #elementsp003 .contribute {
+  #elementspmodal03 .contribute {
     position: fixed;
     right: -20px;
     top: 20px;
@@ -906,11 +906,11 @@ header nav#navya span {
     overflow: hidden;
     transform: rotate(45deg);
   }
-  #elementsp003 .contribute p {
+  #elementspmodal03 .contribute p {
     padding: 3px;
     background-color: #444444;
   }
-  #elementsp003 .contribute p a {
+  #elementspmodal03 .contribute p a {
     border-top: 1px dashed white;
     border-bottom: 1px dashed white;
     display: block;
@@ -918,7 +918,7 @@ header nav#navya span {
     text-decoration: none;
     padding: 2px 0px;
   }
-  #elementsp003 .open-modal {
+  #elementspmodal03 .open-modal {
     background-color: #3C3C3C;
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
@@ -931,7 +931,7 @@ header nav#navya span {
     border-top: 1px solid transparent;
     min-width: 150px;
   }
-  #elementsp003 .open-modal:hover {
+  #elementspmodal03 .open-modal:hover {
     cursor: pointer;
     background-color: #E7E7E7;
     color: #3C3C3C;
@@ -939,20 +939,20 @@ header nav#navya span {
     box-shadow: 0.2px 0.2px 2px #F42A54;
   }
   @media (max-width: 500px){
-    #elementsp003 .wrap {
+    #elementspmodal03 .wrap {
       width: 100%;
     }
   }
-#elementsp003 .modal {
+#elementspmodal03 .modal {
   color: #fff;
 }
-#elementsp003 p.modalall {
+#elementspmodal03 p.modalall {
   position: absolute;
   z-index: 1;
   bottom: 50px;
   left: 50px;
 }
-#elementsp003 h2 {
+#elementspmodal03 h2 {
   border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
@@ -964,23 +964,23 @@ header nav#navya span {
   right: 308px;
   font-size: 15px;
 }
-#elementsp003 p {
+#elementspmodal03 p {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
   top: 300px;
   right: 138px;
 }
-#elementsp003 #elementsp003image {
+#elementspmodal03 #elementsp003image {
   height: 100%;
   position: relative;
   margin: 0;
   padding: 0;
 }
-#elementsp003 #elementsp003image1,
-#elementsp003 #elementsp003image2,
-#elementsp003 #elementsp003image3,
-#elementsp003 #elementsp003image4 {
+#elementspmodal03 #elementsp003image1,
+#elementspmodal03 #elementsp003image2,
+#elementspmodal03 #elementsp003image3,
+#elementspmodal03 #elementsp003image4 {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -994,19 +994,19 @@ header nav#navya span {
   left: 0;
   text-align: left;
 }
-#elementsp003 #elementsp003image1 {
+#elementspmodal03 #elementsp003image1 {
   background-image: url("../images/story01.png");
   display: block;
 }
-#elementsp003 #elementsp003image2 {
+#elementspmodal03 #elementsp003image2 {
   background-image: url("../images/story02.png");
   display: none;
 }
-#elementsp003 #elementsp003image3 {
+#elementspmodal03 #elementsp003image3 {
   background-image: url("../images/story03.png");
   display: none;
 }
-#elementsp003 #elementsp003image4 {
+#elementspmodal03 #elementsp003image4 {
   background-image: url("../images/story03.png");
   display: none;
 }
