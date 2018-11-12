@@ -414,8 +414,8 @@ header nav#navya span {
   /* transition: .3s ease; */
 }
 
-/* #mastercheff-sp */
-#mastercheff-sp {
+/* #mastercheff-spkari */
+#mastercheff-spkari {
   display: none;
 }
 
@@ -428,6 +428,13 @@ header nav#navya span {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+}
+/* mastercheff-tb タブレットからPC小 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #mastercheff-tb {
+    padding-top: 460px;
+    padding-bottom: 570px;
+  }
 }
 #mastercheff-tb h2 {
   font-size: 16px;
@@ -448,6 +455,7 @@ header nav#navya span {
   display: block;
   width: 30vw;
   min-width: 168px;
+  height: 40px;
 }
 label#mastermore-modalopenlabel span:nth-child(1) {
     position: absolute;

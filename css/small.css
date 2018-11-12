@@ -415,9 +415,9 @@ header nav#navya span {
   /* transition: .3s ease; */
 }
 
-/* #mastercheff-sp */
-#mastercheff-sp {
-  display: block;
+/* #mastercheff-spkari */
+#mastercheff-spkari {
+  display: none;
   padding-top: 100px;
 }
 /* #mastercheff-sp .clip-path-polygon li.active a::after,
@@ -464,25 +464,25 @@ header nav#navya span {
   right: -120px;
   background: #336;
 } */
-#mastercheff-sp .after-as-rhombus {
+#mastercheff-spkari .after-as-rhombus {
   position: relative;
   height: 500px;
   overflow: hidden;
 }
-#mastercheff-sp .after-as-rhombus li {
+#mastercheff-spkari .after-as-rhombus li {
   position: relative;
   display: inline-block;
 }
-#mastercheff-sp .after-as-rhombus li:nth-of-type(1) {
+#mastercheff-spkari .after-as-rhombus li:nth-of-type(1) {
   z-index: 2;
 }
-#mastercheff-sp .after-as-rhombus li:nth-of-type(2) {
+#mastercheff-spkari .after-as-rhombus li:nth-of-type(2) {
   z-index: 1;
 }
-#mastercheff-sp .after-as-rhombus a:hover::after {
+#mastercheff-spkari .after-as-rhombus a:hover::after {
   border-color: #ddd;
 }
-#mastercheff-sp .after-as-rhombus a::after {
+#mastercheff-spkari .after-as-rhombus a::after {
   content: '';
   display: block;
   height: 302px;
@@ -513,34 +513,34 @@ header nav#navya span {
   top: 200px;
   right: -85px;
 }
-#mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
+#mastercheff-spkari .after-as-rhombus .after-as-rhombus1 a::after {
   right: 13.7vw;
   background-image: url('../images/master-mobile.png');
   background-position: center;
 }
-#mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
+#mastercheff-spkari .after-as-rhombus .after-as-rhombus2 a::after {
   left: 14.3vw;
   background-image: url('../images/cheff-mobile.png');
   background-position: center;
 }
 /* スマホ中 */
 @media screen and (min-width:375px) and (max-width:424px) {
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
+  #mastercheff-spkari .after-as-rhombus .after-as-rhombus1 a::after {
     right: 15vw;
     background-position: 19px -2px;
   }
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
+  #mastercheff-spkari .after-as-rhombus .after-as-rhombus2 a::after {
     left: 16.9vw;
     background-position: 0 25px;
   }
 }
 /* スマホ小 */
 @media screen and (max-width:374px) {
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus1 a::after {
+  #mastercheff-spkari .after-as-rhombus .after-as-rhombus1 a::after {
     right: 17vw;
     background-position: 26px -9px;
   }
-  #mastercheff-sp .after-as-rhombus .after-as-rhombus2 a::after {
+  #mastercheff-spkari .after-as-rhombus .after-as-rhombus2 a::after {
     left: 20vw;
     background-position: -6px 48px;
   }
@@ -548,7 +548,328 @@ header nav#navya span {
 
 /* #matercheff-tb */
 #mastercheff-tb {
-  display: none;
+  display: block;
+  padding-top: 190px;
+  padding-bottom: 300px;
+  background-image: url(../images/ipad-master-chef.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* mastercheff-tb タブレットからPC小 */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #mastercheff-tb {
+    padding-top: 460px;
+    padding-bottom: 570px;
+  }
+}
+#mastercheff-tb h2 {
+  font-size: 16px;
+}
+#mastercheff-tb .ttlnotes {
+  font-size: 12px;
+}
+#mastercheff-tb p {
+  margin-top: 36px;
+  font-size: 12px;
+}
+#mastercheff-tb #mastermore-modalopenlabel,
+#mastercheff-tb #cheffmore-modalopenlabel {
+  cursor: pointer;
+  position: relative;
+  padding: .4em;
+  text-decoration: none;
+  display: block;
+  width: 30vw;
+  min-width: 168px;
+  height: 40px;
+}
+label#mastermore-modalopenlabel span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 76px;
+}
+label#mastermore-modalopenlabel span:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    right: -5px;
+}
+label#cheffmore-modalopenlabel span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 76px;
+}
+label#cheffmore-modalopenlabel span:nth-child(2) {
+    position: absolute;
+    top: 10px;
+    left: -5px;
+}
+#mastercheff-tb #mastermore-modalopenlabel::after,
+#mastercheff-tb #cheffmore-modalopenlabel::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  -webkit-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: #fff;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+#mastercheff-tb #mastermore-modalopenlabel:hover::after,
+#mastercheff-tb #cheffmore-modalopenlabel:hover::after {
+  -webkit-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  transform: scaleX(1);
+}
+#master h2#masterttl {
+  float: left;
+  /* width: 10vw; */
+  width: 14vw;
+  margin-top: 102px;
+}
+#mastercontent {
+  float: left;
+  /* width: 40vw; */
+  width: 35vw;
+  text-align: right;
+}
+/* #master modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #master .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #master .wrap h1{
+    font-size: 70px;
+  }
+  #master .wrap h1 span{
+    color: #F42A54;
+  }
+  #master .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #master .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #master .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #master .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #master .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #master .wrap {
+      width: 100%;
+    }
+  }
+
+#master .modal {
+  color: #fff;
+}
+#master p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#master #masterimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#master #masterimage1 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#master #masterimage1 {
+  background-image: url("../images/master.jpg");
+  display: block;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 50vh;
+}
+#master #masterimage h2 {
+  display: inline-block;
+  margin-top: 12px;
+}
+#master #masterimage h2#mastermodalttl {
+  position: absolute;
+  left: 200px;
+  margin-top: 0;
+}
+#master #masterimage p {
+  font-size: 13px;
+  line-height: 29px;
+}
+
+#cheff h2#cheffttl {
+  float: right;
+  /* width: 10vw; */
+  width: 14vw;
+  margin-top: 102px;
+}
+#cheffcontent {
+  float: right;
+  /* width: 40vw; */
+  width: 35vw;
+  text-align: left;
+}
+/* #cheff modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #cheff .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #cheff .wrap h1{
+    font-size: 70px;
+  }
+  #cheff .wrap h1 span{
+    color: #F42A54;
+  }
+  #cheff .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #cheff .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #cheff .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #cheff .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #cheff .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #cheff .wrap {
+      width: 100%;
+    }
+  }
+
+#cheff .modal {
+  color: #fff;
+}
+#cheff p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#cheff #cheffimage {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cheff #cheffimage1 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#cheff #cheffimage1 {
+  background-image: url("../images/cheff.png");
+  display: block;
+  text-align: right;
+  padding-right: 30px;
+  padding-top: 50vh;
+}
+#cheff #cheffimage h2 {
+  display: inline-block;
+}
+#cheff #cheffimage h2#cheffmodalttl {
+  position: absolute;
+  right: 200px;
+  margin-top: 12px;
+}
+#cheff #cheffimage p {
+  font-size: 13px;
+  line-height: 29px;
 }
 
 /* #mastercheff */
