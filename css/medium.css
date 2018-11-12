@@ -422,7 +422,12 @@ header nav#navya span {
 /* #matercheff-tb */
 #mastercheff-tb {
   display: block;
-  padding-top: 240px;
+  padding-top: 340px;
+  padding-bottom: 450px;
+  background-image: url(../images/ipad-master-chef.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 #mastercheff-tb h2 {
   font-size: 16px;
@@ -745,10 +750,11 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   display: none;
 }
 #element-tb {
-  padding-top: 160px;
+  padding-top: 0;
 }
 #element-tb h2 {
   font-size: 18px;
+  margin-top: -130px;
 }
 #element-tb .ttlnotes {
   font-size: 11px;
@@ -794,7 +800,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   margin-left: 112px;
 }
 #element-tb li:hover {
-  border: 1px solid transparent;
+  border: 1px solid #fff;
 }
 #element-tb li > label {
   display: block;
