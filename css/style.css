@@ -249,6 +249,7 @@ header nav#navya span {
   padding: 0;
   text-decoration: none;
   cursor: pointer;
+  font-size: 14px;
 }
 #about .about-link-wrapper .about-link::after {
   content: '';
@@ -392,7 +393,7 @@ header nav#navya span {
   font-size: 17px;
 }
 #cuisine .ttlnotes {
-  font-size: 12px;
+  font-size: 13px;
 }
 #cuisine ul {
   font-size: 0;
@@ -438,7 +439,7 @@ header nav#navya span {
   font-size: 12px;
 }
 #mastercheff p {
-  margin-top: 36px;
+  margin-top: 28px;
   font-size: 12px;
 }
 #mastercheff #mastermore-modalopenlabel,
@@ -473,7 +474,8 @@ header nav#navya span {
   float: left;
   /* width: 10vw; */
   width: 14vw;
-  margin-top: 102px;
+  margin-top: 100px;
+  line-height: 14px;
 }
 #mastercontent {
   float: left;
@@ -597,7 +599,8 @@ header nav#navya span {
   float: right;
   /* width: 10vw; */
   width: 14vw;
-  margin-top: 102px;
+  margin-top: 100px;
+  line-height: 14px;
 }
 #cheffcontent {
   float: right;
@@ -730,7 +733,7 @@ header nav#navya span {
   font-size: 18px;
 }
 #element .ttlnotes {
-  font-size: 11px;
+  font-size: 13px;
 }
 #element p {
   font-size: 14px;
@@ -773,13 +776,16 @@ header nav#navya span {
 #element label span.elementkana {
   letter-spacing: 0.2em;
 }
+#element label span.elementalpha {
+  font-size: 13px;
+}
 #element label.elementup span {
   position: relative;
   top: 34px;
 }
 #element label.elementdown span {
   position: relative;
-  bottom: -208px;
+  bottom: -182px;
 }
 /* #element001 modal */
   /*
