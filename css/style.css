@@ -1224,7 +1224,7 @@ header nav#navya span {
 footer {}
 footer ul li {
   font-size: 12px;
-  line-height: 28px;
+  line-height: 21px;
 }
 footer ul li a {
   position: relative;
@@ -1254,7 +1254,7 @@ footer ul li a:hover::after {
 footer h2 {
   font-size: 17px;
   margin-top: 120px;
-  margin-bottom: 100px;
+  margin-bottom: 120px;
 }
 footer .ttlnotes {
   font-size: 11px;
@@ -1269,6 +1269,9 @@ footer .ttlnotes {
 #footerlogo img {
   width: 73px;
   margin-bottom: 40px;
+}
+#footerlogo span {
+  font-size: 10px;
 }
 
 /* #test02 */
