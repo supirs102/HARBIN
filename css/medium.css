@@ -446,8 +446,8 @@ header nav#navya span {
   margin-top: 36px;
   font-size: 12px;
 }
-#mastercheff-tb #mastermore-modalopenlabel,
-#mastercheff-tb #cheffmore-modalopenlabel {
+#mastercheff-tb #mastertbmore-modalopenlabel,
+#mastercheff-tb #chefftbmore-modalopenlabel {
   cursor: pointer;
   position: relative;
   padding: .4em;
@@ -457,28 +457,28 @@ header nav#navya span {
   min-width: 168px;
   height: 40px;
 }
-label#mastermore-modalopenlabel span:nth-child(1) {
+label#mastertbmore-modalopenlabel span:nth-child(1) {
     position: absolute;
     top: 0;
     right: 76px;
 }
-label#mastermore-modalopenlabel span:nth-child(2) {
+label#mastertbmore-modalopenlabel span:nth-child(2) {
     position: absolute;
     top: 10px;
     right: -5px;
 }
-label#cheffmore-modalopenlabel span:nth-child(1) {
+label#chefftbmore-modalopenlabel span:nth-child(1) {
     position: absolute;
     top: 0;
     left: 76px;
 }
-label#cheffmore-modalopenlabel span:nth-child(2) {
+label#chefftbmore-modalopenlabel span:nth-child(2) {
     position: absolute;
     top: 10px;
     left: -5px;
 }
-#mastercheff-tb #mastermore-modalopenlabel::after,
-#mastercheff-tb #cheffmore-modalopenlabel::after {
+#mastercheff-tb #mastertbmore-modalopenlabel::after,
+#mastercheff-tb #chefftbmore-modalopenlabel::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -492,8 +492,8 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-#mastercheff-tb #mastermore-modalopenlabel:hover::after,
-#mastercheff-tb #cheffmore-modalopenlabel:hover::after {
+#mastercheff-tb #mastertbmore-modalopenlabel:hover::after,
+#mastercheff-tb #chefftbmore-modalopenlabel:hover::after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -942,19 +942,19 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   text-align: left;
 }
 #elementtb001 #elementtb001image1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/wagyu01.png");
   display: block;
 }
 #elementtb001 #elementtb001image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/wagyu02.png");
   display: none;
 }
 #elementtb001 #elementtb001image3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/wagyu03.png");
   display: none;
 }
 #elementtb001 #elementtb001image4 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/wagyu04.png");
   display: none;
 }
 /* #elementtb002 modal */
@@ -1075,7 +1075,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   display: block;
 }
 #elementtb002 #elementtb002image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/story02.jpg");
   display: none;
 }
 #elementtb002 #elementtb002image3 {
@@ -1204,7 +1204,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   display: block;
 }
 #elementtb003 #elementtb003image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/story02.jpg");
   display: none;
 }
 #elementtb003 #elementtb003image3 {

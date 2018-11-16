@@ -901,19 +901,19 @@ header nav#navya span {
   text-align: left;
 }
 #element001 #element001image1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/wagyu01.png");
   display: block;
 }
 #element001 #element001image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/wagyu02.png");
   display: none;
 }
 #element001 #element001image3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/wagyu03.png");
   display: none;
 }
 #element001 #element001image4 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/wagyu04.png");
   display: none;
 }
 /* #element002 modal */
@@ -1034,7 +1034,7 @@ header nav#navya span {
   display: block;
 }
 #element002 #element002image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/story02.jpg");
   display: none;
 }
 #element002 #element002image3 {
@@ -1163,7 +1163,7 @@ header nav#navya span {
   display: block;
 }
 #element003 #element003image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/story02.jpg");
   display: none;
 }
 #element003 #element003image3 {

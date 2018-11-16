@@ -367,7 +367,7 @@ header nav#navya span {
   display: block;
 }
 #about #aboutimage2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/story02.jpg");
   display: none;
 }
 #about #aboutimage3 {
@@ -1058,19 +1058,19 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   text-align: left;
 }
 #elementspmodal01 #elementsp001image1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/wagyu01.png");
   display: block;
 }
 #elementspmodal01 #elementsp001image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/wagyu02.png");
   display: none;
 }
 #elementspmodal01 #elementsp001image3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/wagyu03.png");
   display: none;
 }
 #elementspmodal01 #elementsp001image4 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/wagyu04.png");
   display: none;
 }
 /* #element002 modal */
@@ -1191,7 +1191,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   display: block;
 }
 #elementspmodal02 #elementsp002image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/story02.jpg");
   display: none;
 }
 #elementspmodal02 #elementsp002image3 {
@@ -1320,7 +1320,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   display: block;
 }
 #elementspmodal03 #elementsp003image2 {
-  background-image: url("../images/story02.png");
+  background-image: url("../images/story02.jpg");
   display: none;
 }
 #elementspmodal03 #elementsp003image3 {
