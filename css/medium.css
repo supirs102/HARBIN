@@ -93,7 +93,7 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  top: 41%;
+  top: 73%;
   width: 100%;
   height: 200%;
   background-image: url('../images/topline.svg');
@@ -482,8 +482,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  width: 70%;
   height: 1px;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -491,6 +490,12 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   background-color: #fff;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
+}
+#mastercheff-tb #mastertbmore-modalopenlabel::after {
+  right: 0;
+}
+#mastercheff-tb #chefftbmore-modalopenlabel::after {
+  left: 0;
 }
 #mastercheff-tb #mastertbmore-modalopenlabel:hover::after,
 #mastercheff-tb #chefftbmore-modalopenlabel:hover::after {
@@ -1071,19 +1076,19 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   text-align: left;
 }
 #elementtb002 #elementtb002image1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/yasai01.png");
   display: block;
 }
 #elementtb002 #elementtb002image2 {
-  background-image: url("../images/story02.jpg");
+  background-image: url("../images/yasai02.png");
   display: none;
 }
 #elementtb002 #elementtb002image3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/yasai03.png");
   display: none;
 }
 #elementtb002 #elementtb002image4 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/yasai04.png");
   display: none;
 }
 /* #elementtb003 modal */
@@ -1200,19 +1205,19 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   text-align: left;
 }
 #elementtb003 #elementtb003image1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/niku01.png");
   display: block;
 }
 #elementtb003 #elementtb003image2 {
-  background-image: url("../images/story02.jpg");
+  background-image: url("../images/niku02.png");
   display: none;
 }
 #elementtb003 #elementtb003image3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/niku03.png");
   display: none;
 }
 #elementtb003 #elementtb003image4 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/niku04.png");
   display: none;
 }
 

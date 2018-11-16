@@ -283,23 +283,16 @@ $(function(){
 		}
 	});
 
-	// headerサイズ調整
-	// var w = window.outerWidth;
-	// var h = window.outerHeight;
-	// $('header').css({
-	// 	width : w,
-	// 	height : h + 24
-	// });
-	// $(window).resize(function(){
-	// 	var w = window.outerWidth;
-	// 	var h = window.outerHeight;
-	// 	$('header').css({
-	// 		width : w,
-	// 		height : h + 24
-	// 	});
-	// });
-
+	// chocolat
     $('.chocolat-parent').Chocolat();
+
+    // chocolat画像切替
+	$('.chocolat-right').click(function() {
+		$('.chocolat-img').hide().fadeIn(1500);
+	});
+	$('.chocolat-left').click(function() {
+		$('.chocolat-img').hide().fadeIn(1500);
+	});
 
     // headernavhover
     var nav = $('#navya');
@@ -322,17 +315,6 @@ $(function(){
 		var position = target.offset().top;
 		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
-	});
-
-	// cuisinehover途中
-	$('#cuisine001').find('a').mouseenter(function() {
-		$('#filter').find('.bgheader').stop().fadeOut(); //蜿ｳ蛛ｴ
-		$('#filter').find('.bg01').stop().fadeIn(); //蜿ｳ蛛ｴ
-		$('.bg11').stop().fadeIn(); //蟾ｦ蛛ｴ
-	}).mouseleave(function() {
-		$('header').find('.bgheader').stop().fadeOut();
-		$('header').find('.bg06').stop().fadeIn();
-		$('.bg11').stop().fadeOut();
 	});
 
 

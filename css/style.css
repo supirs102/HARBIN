@@ -93,7 +93,7 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  top: 97%;
+  top: 73%;
   width: 100%;
   height: 200%;
   background-image: url('../images/topline.svg');
@@ -221,7 +221,7 @@ header nav#navya span {
 
 /* #about */
 #about {
-  padding-top: 170px;
+  padding-top: 70px;
 }
 #about #about-content p {
   font-size: 15px;
@@ -430,16 +430,16 @@ header nav#navya span {
 
 /* #mastercheff */
 #mastercheff {
-  padding-top: 240px;
+  padding-top: 340px;
 }
 #mastercheff h2 {
-  font-size: 16px;
+  font-size: 18px;
 }
 #mastercheff .ttlnotes {
   font-size: 12px;
 }
 #mastercheff p {
-  margin-top: 28px;
+  margin-top: 40px;
   font-size: 12px;
 }
 #mastercheff #mastermore-modalopenlabel,
@@ -578,8 +578,8 @@ header nav#navya span {
   background-image: url("../images/master.jpg");
   display: block;
   text-align: left;
-  padding-left: 30px;
-  padding-top: 50vh;
+  padding-left: 70px;
+  padding-top: 67vh;
 }
 #master #masterimage h2 {
   display: inline-block;
@@ -591,8 +591,9 @@ header nav#navya span {
   margin-top: 0;
 }
 #master #masterimage p {
-  font-size: 13px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: 0;
 }
 
 #cheff h2#cheffttl {
@@ -703,25 +704,26 @@ header nav#navya span {
   background-image: url("../images/cheff.png");
   display: block;
   text-align: right;
-  padding-right: 30px;
-  padding-top: 50vh;
+  padding-right: 70px;
+  padding-top: 65vh;
 }
 #cheff #cheffimage h2 {
   display: inline-block;
 }
 #cheff #cheffimage h2#cheffmodalttl {
   position: absolute;
-  right: 200px;
+  right: 220px;
   margin-top: 12px;
 }
 #cheff #cheffimage p {
-  font-size: 13px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: 0;
 }
 
 /* #element */
 #element {
-  padding-top: 320px;
+  padding-top: 420px;
 }
 #element-tb {
   display: none;
@@ -864,7 +866,7 @@ header nav#navya span {
   border-right: 2px solid #fff;
   display: inline-block;
   width: 200px;
-  height: 300px;
+  height: 270px;
   padding: 200px 30px 30px 30px;
   position: absolute;
   right: 308px;
@@ -874,8 +876,15 @@ header nav#navya span {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
-  top: 300px;
+  top: 230px;
   right: 100px;
+}
+#element001 .elementmodal001kana {
+  letter-spacing: 0.2em;
+  font-size: 15px;
+}
+#element001 .elementmodal001alpha {
+  font-size: 14px;
 }
 #element001 #element001image {
   height: 100%;
@@ -993,7 +1002,7 @@ header nav#navya span {
   border-right: 2px solid #fff;
   display: inline-block;
   width: 222px;
-  height: 300px;
+  height: 270px;
   padding: 200px 30px 30px 30px;
   position: absolute;
   left: 100px;
@@ -1003,8 +1012,15 @@ header nav#navya span {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
-  top: 300px;
+  top: 230px;
   left: 131px;
+}
+#element002 .elementmodal002kana {
+  letter-spacing: 0.2em;
+  font-size: 15px;
+}
+#element002 .elementmodal002alpha {
+  font-size: 14px;
 }
 #element002 #element002image {
   height: 100%;
@@ -1030,19 +1046,19 @@ header nav#navya span {
   text-align: left;
 }
 #element002 #element002image1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/yasai01.png");
   display: block;
 }
 #element002 #element002image2 {
-  background-image: url("../images/story02.jpg");
+  background-image: url("../images/yasai02.png");
   display: none;
 }
 #element002 #element002image3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/yasai03.png");
   display: none;
 }
 #element002 #element002image4 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/yasai04.png");
   display: none;
 }
 /* #element003 modal */
@@ -1122,7 +1138,7 @@ header nav#navya span {
   border-right: 2px solid #fff;
   display: inline-block;
   width: 200px;
-  height: 300px;
+  height: 270px;
   padding: 200px 30px 30px 30px;
   position: absolute;
   right: 308px;
@@ -1132,8 +1148,15 @@ header nav#navya span {
   font-size: 13px;
   line-height: 29px;
   position: absolute;
-  top: 300px;
+  top: 230px;
   right: 138px;
+}
+#element003 .elementmodal003kana {
+  letter-spacing: 0.2em;
+  font-size: 15px;
+}
+#element003 .elementmodal003alpha {
+  font-size: 14px;
 }
 #element003 #element003image {
   height: 100%;
@@ -1159,26 +1182,26 @@ header nav#navya span {
   text-align: left;
 }
 #element003 #element003image1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/niku01.png");
   display: block;
 }
 #element003 #element003image2 {
-  background-image: url("../images/story02.jpg");
+  background-image: url("../images/niku02.png");
   display: none;
 }
 #element003 #element003image3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/niku03.png");
   display: none;
 }
 #element003 #element003image4 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/niku04.png");
   display: none;
 }
 
 /* #information */
 #information {
   padding-top: 270px;
-  margin-bottom: 320px;
+  margin-bottom: 820px;
 }
 #info-sp {
   display: none;

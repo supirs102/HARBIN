@@ -1,1 +1,12 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 27 44'><path d='M27,22L27,22L5,44l-2.1-2.1L22.8,22L2.9,2.1L5,0L27,22L27,22z' fill='#ffffff'/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43.098 83.368">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path id="パス_80" data-name="パス 80" class="cls-1" d="M3083.126,303.455l-40.977,40.977,40.977,40.977" transform="translate(3083.833 386.116) rotate(180)"/>
+</svg>
