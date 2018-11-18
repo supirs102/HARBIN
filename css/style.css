@@ -80,6 +80,9 @@ a {
 .fs14 {
   font-size: 14px;
 }
+.brsp {
+  display: none;
+}
 
 /* .page */
 .page {
@@ -442,6 +445,12 @@ header nav#navya span {
   margin-top: 40px;
   font-size: 12px;
 }
+#mastercheff > #master > #mastercontent > p {
+  padding-left: 40px;
+}
+#mastercheff > #cheff > #cheffcontent > p {
+  padding-right: 40px;
+}
 #mastercheff #mastermore-modalopenlabel,
 #mastercheff #cheffmore-modalopenlabel {
   cursor: pointer;
@@ -584,6 +593,7 @@ header nav#navya span {
 #master #masterimage h2 {
   display: inline-block;
   margin-top: 12px;
+  text-align: center;
 }
 #master #masterimage h2#mastermodalttl {
   position: absolute;
@@ -709,6 +719,7 @@ header nav#navya span {
 }
 #cheff #cheffimage h2 {
   display: inline-block;
+  text-align: center;
 }
 #cheff #cheffimage h2#cheffmodalttl {
   position: absolute;

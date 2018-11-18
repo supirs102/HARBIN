@@ -80,6 +80,9 @@ a {
 .fs14 {
   font-size: 14px;
 }
+.brsp {
+  display: block;
+}
 
 /* .page */
 .page {
@@ -375,9 +378,9 @@ header nav#navya span {
   display: none;
 }
 #about #aboutimage p {
-  padding-top: 23vh;
-  font-size: 13px;
-  line-height: 29px;
+  padding-top: 45px;
+  font-size: 12px;
+  line-height: 25px;
 }
 
 /* #cuisine */
@@ -549,9 +552,9 @@ header nav#navya span {
 /* #matercheff-tb */
 #mastercheff-tb {
   display: block;
-  padding-top: 190px;
-  padding-bottom: 300px;
-  background-image: url(../images/masterchefsp.png);
+  padding-top: 340px;
+  padding-bottom: 450px;
+  background-image: url(../images/mastercheftb.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
@@ -573,8 +576,8 @@ header nav#navya span {
   margin-top: 36px;
   font-size: 12px;
 }
-#mastercheff-tb #mastermore-modalopenlabel,
-#mastercheff-tb #cheffmore-modalopenlabel {
+#mastercheff-tb #mastertbmore-modalopenlabel,
+#mastercheff-tb #chefftbmore-modalopenlabel {
   cursor: pointer;
   position: relative;
   padding: .4em;
@@ -584,33 +587,32 @@ header nav#navya span {
   min-width: 168px;
   height: 40px;
 }
-label#mastermore-modalopenlabel span:nth-child(1) {
+label#mastertbmore-modalopenlabel span:nth-child(1) {
     position: absolute;
     top: 0;
     right: 76px;
 }
-label#mastermore-modalopenlabel span:nth-child(2) {
+label#mastertbmore-modalopenlabel span:nth-child(2) {
     position: absolute;
     top: 10px;
     right: -5px;
 }
-label#cheffmore-modalopenlabel span:nth-child(1) {
+label#chefftbmore-modalopenlabel span:nth-child(1) {
     position: absolute;
     top: 0;
     left: 76px;
 }
-label#cheffmore-modalopenlabel span:nth-child(2) {
+label#chefftbmore-modalopenlabel span:nth-child(2) {
     position: absolute;
     top: 10px;
     left: -5px;
 }
-#mastercheff-tb #mastermore-modalopenlabel::after,
-#mastercheff-tb #cheffmore-modalopenlabel::after {
+#mastercheff-tb #mastertbmore-modalopenlabel::after,
+#mastercheff-tb #chefftbmore-modalopenlabel::after {
   content: '';
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  width: 70%;
   height: 1px;
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -619,8 +621,14 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
-#mastercheff-tb #mastermore-modalopenlabel:hover::after,
-#mastercheff-tb #cheffmore-modalopenlabel:hover::after {
+#mastercheff-tb #mastertbmore-modalopenlabel::after {
+  right: 0;
+}
+#mastercheff-tb #chefftbmore-modalopenlabel::after {
+  left: 0;
+}
+#mastercheff-tb #mastertbmore-modalopenlabel:hover::after,
+#mastercheff-tb #chefftbmore-modalopenlabel:hover::after {
   -webkit-transform: scaleX(1);
   -ms-transform: scaleX(1);
   transform: scaleX(1);
@@ -716,7 +724,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   padding: 0;
 }
 #master #masterimage1 {
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -729,7 +737,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   left: 0;
 }
 #master #masterimage1 {
-  background-image: url("../images/master.jpg");
+  background-image: url("../images/mastertb.png");
   display: block;
   text-align: left;
   padding-left: 30px;
@@ -738,6 +746,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
 #master #masterimage h2 {
   display: inline-block;
   margin-top: 12px;
+  text-align: center;
 }
 #master #masterimage h2#mastermodalttl {
   position: absolute;
@@ -840,7 +849,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   padding: 0;
 }
 #cheff #cheffimage1 {
-  background-position: center center;
+  background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
@@ -853,7 +862,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
   left: 0;
 }
 #cheff #cheffimage1 {
-  background-image: url("../images/cheff.png");
+  background-image: url("../images/chefftb.png");
   display: block;
   text-align: right;
   padding-right: 30px;
@@ -861,6 +870,7 @@ label#cheffmore-modalopenlabel span:nth-child(2) {
 }
 #cheff #cheffimage h2 {
   display: inline-block;
+  text-align: center;
 }
 #cheff #cheffimage h2#cheffmodalttl {
   position: absolute;
@@ -1697,3 +1707,20 @@ footer .ttlnotes {
   border-right-color: #fff;
   transition: height 0, width 0 0;
 }
+
+/* 
+全体のfontsize1pt上げる
+mastercheffのfontsizeあげるかも
+1330からPCに切り替えはなし
+headerのナビの隙間広げる（最悪ホバー時の挙動なし）
+header一画面
+headerナビ日本語追加かホバー時に日本語
+headerなびホバー時の挙動違和感出るならナシで
+topsvgの位置調整
+mainimage画像もっと大きく
+ハルビンの物語を読むの上の文章少しfontsize上げる
+CUISINEとかの見出しの文字２つくらい（１７くらい？）上げて日本語と距離広げる
+ELEMENTの位置を上に上げる
+mainimage75%
+768pxから1023pxのCUISINE全体70%
+*/

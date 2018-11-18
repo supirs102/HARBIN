@@ -80,6 +80,9 @@ a {
 .fs14 {
   font-size: 14px;
 }
+.brsp {
+  display: none;
+}
 
 /* .page */
 .page {
@@ -386,6 +389,11 @@ header nav#navya span {
   width: 90%;
   margin: 0 auto;
 }
+  @media (max-width: 1023px) and (min-width: 769px){
+    #cuisine {
+      width: 80%;
+    }
+  }
 #cuisine h2 {
   font-size: 17px;
 }
@@ -616,6 +624,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 #master #masterimage h2 {
   display: inline-block;
   margin-top: 12px;
+  text-align: center;
 }
 #master #masterimage h2#mastermodalttl {
   position: absolute;
@@ -739,6 +748,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 }
 #cheff #cheffimage h2 {
   display: inline-block;
+  text-align: center;
 }
 #cheff #cheffimage h2#cheffmodalttl {
   position: absolute;
