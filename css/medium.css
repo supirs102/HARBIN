@@ -125,7 +125,7 @@ a {
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 588%;
+  top: -200px;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
@@ -1352,6 +1352,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 /* footer */
 footer {
   height: 1100px;
+  position: relative;
 }
 footer ul li {
   font-size: 12px;

@@ -125,7 +125,7 @@ a {
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 760%;
+  top: -200px;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
@@ -1408,7 +1408,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 }
 
 /* footer */
-footer {}
+footer {
+  position: relative;
+}
 footer ul li {
   font-size: 12px;
   line-height: 21px;
@@ -1456,136 +1458,6 @@ footer .ttlnotes {
 #footerlogo img {
   width: 55px;
   margin-bottom: 40px;
-}
-
-/* #test02 */
-  /*
-  Author: Jorge Chavez
-  Licence: MIT
-  */
-  #test02 .wrap{
-    width: 80%;
-    margin: 0px auto;
-    text-align: center;
-  }
-  #test02 .wrap h1{
-    font-size: 70px;
-  }
-  #test02 .wrap h1 span{
-    color: #F42A54;
-  }
-  #test02 .contribute {
-    position: fixed;
-    right: -20px;
-    top: 20px;
-    width: 16em;
-    height: 10em;
-    overflow: hidden;
-    transform: rotate(45deg);
-  }
-  #test02 .contribute p {
-    padding: 3px;
-    background-color: #444444;
-  }
-  #test02 .contribute p a {
-    border-top: 1px dashed white;
-    border-bottom: 1px dashed white;
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 2px 0px;
-  }
-
-  #test02 .open-modal {
-    background-color: #3C3C3C;
-    border-radius: 2px;
-    box-shadow: 2px 2px 0 #F42A54;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    transition: all 0.2s ease;
-    display: inline-block;
-    margin: 10px;
-    border-top: 1px solid transparent;
-    min-width: 150px;
-  }
-
-  #test02 .open-modal:hover {
-    cursor: pointer;
-    background-color: #E7E7E7;
-    color: #3C3C3C;
-    border-top: 1px solid #eEeeee;
-    box-shadow: 0.2px 0.2px 2px #F42A54;
-  }
-
-  @media (max-width: 500px){
-    #test02 .wrap {
-      width: 100%;
-    }
-  }
-
-
-#test02 .modal {
-  color: #fff;
-}
-#test02 p.modalall {
-  position: absolute;
-  z-index: 1;
-  bottom: 50px;
-  left: 50px;
-}
-#test02 #mainimage {
-    height: 100%;
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-#test02 #mainimage1,
-#test02 #mainimage2,
-#test02 #mainimage3,
-#test02 #mainimage4,
-#test02 #mainimage5,
-#test02 #mainimage6,
-#test02 #mainimage7 {
-  background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100%;
-    height: calc(100%*1380/2230);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#test02 #mainimage1 {
-  background-image: url("../images/asset6.jpeg");
-  display: block;
-}
-#test02 #mainimage2 {
-  background-image: url("../images/asset7.jpeg");
-  display: none;
-}
-#test02 #mainimage3 {
-  background-image: url("../images/asset8.jpeg");
-  display: none;
-}
-#test02 #mainimage4 {
-  background-image: url("../images/asset9.jpeg");
-  display: none;
-}
-#test02 #mainimage5 {
-  background-image: url("../images/asset6.jpeg");
-  display: none;
-}
-#test02 #mainimage6 {
-  background-image: url("../images/asset7.jpeg");
-  display: none;
-}
-#test02 #mainimage7 {
-  background-image: url("../images/asset8.jpeg");
-  display: none;
 }
 
 /* .button1 */
