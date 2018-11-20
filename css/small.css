@@ -77,9 +77,6 @@ a {
   font-size: 0;
   visibility: hidden;
 }
-.fs14 {
-  font-size: 14px;
-}
 .brsp {
   display: block;
 }
@@ -1397,6 +1394,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 }
 #inforight .ttlnotes {
   font-size: 12px;
+}
+.infoname {
+  font-size: 14px;
 }
 #inforight p {
   font-size: 12px;

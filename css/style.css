@@ -77,9 +77,6 @@ a {
   font-size: 0;
   visibility: hidden;
 }
-.fs14 {
-  font-size: 15px;
-}
 .brsp {
   display: none;
 }
@@ -1248,6 +1245,9 @@ header nav#navya span {
 }
 #inforight .ttlnotes {
   font-size: 13px;
+}
+.infoname {
+  font-size: 15px;
 }
 #inforight p {
   font-size: 13px;
