@@ -60,7 +60,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 20px;
   text-align: center;
   letter-spacing: 0.1em;
@@ -78,7 +78,7 @@ a {
   visibility: hidden;
 }
 .fs14 {
-  font-size: 14px;
+  font-size: 15px;
 }
 .brsp {
   display: none;
@@ -96,7 +96,7 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  top: 88%;
+  top: 95vh;
   width: 100%;
   height: 200%;
   background-image: url('../images/topline.svg');
@@ -122,13 +122,13 @@ a {
   background-image: url('../images/centerline.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center -3vh;
+  background-position: center 0vh;
 }
 
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 685%;
+  top: 675%;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
@@ -224,10 +224,10 @@ header nav#navya span {
 
 /* #about */
 #about {
-  padding-top: 70px;
+  padding-top: 120px;
 }
 #about #about-content p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 44px;
   margin-bottom: 172px;
 }
@@ -243,7 +243,7 @@ header nav#navya span {
   background-position: center center;
   z-index: 5;
   position: relative;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 28px;
 }
 #about .about-link-wrapper .about-link {
@@ -252,7 +252,7 @@ header nav#navya span {
   padding: 0;
   text-decoration: none;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 15px;
 }
 #about .about-link-wrapper .about-link::after {
   content: '';
@@ -316,7 +316,7 @@ header nav#navya span {
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     padding: 10px;
     transition: all 0.2s ease;
     display: inline-block;
@@ -381,7 +381,7 @@ header nav#navya span {
 }
 #about #aboutimage p {
   padding-top: 23vh;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 29px;
 }
 
@@ -393,10 +393,10 @@ header nav#navya span {
   margin: 0 auto;
 }
 #cuisine h2 {
-  font-size: 17px;
+  font-size: 18px;
 }
 #cuisine .ttlnotes {
-  font-size: 13px;
+  font-size: 14px;
 }
 #cuisine ul {
   font-size: 0;
@@ -433,13 +433,13 @@ header nav#navya span {
 
 /* #mastercheff */
 #mastercheff {
-  padding-top: 340px;
+  padding-top: 290px;
 }
 #mastercheff h2 {
-  font-size: 18px;
+  font-size: 19px;
 }
 #mastercheff .ttlnotes {
-  font-size: 12px;
+  font-size: 13px;
 }
 #mastercheff p {
   margin-top: 40px;
@@ -483,7 +483,7 @@ header nav#navya span {
   float: left;
   /* width: 10vw; */
   width: 14vw;
-  margin-top: 100px;
+  margin-top: 105px;
   line-height: 14px;
 }
 #mastercontent {
@@ -534,7 +534,7 @@ header nav#navya span {
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     padding: 10px;
     transition: all 0.2s ease;
     display: inline-block;
@@ -610,7 +610,7 @@ header nav#navya span {
   float: right;
   /* width: 10vw; */
   width: 14vw;
-  margin-top: 100px;
+  margin-top: 105px;
   line-height: 14px;
 }
 #cheffcontent {
@@ -661,7 +661,7 @@ header nav#navya span {
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     padding: 10px;
     transition: all 0.2s ease;
     display: inline-block;
@@ -734,7 +734,7 @@ header nav#navya span {
 
 /* #element */
 #element {
-  padding-top: 420px;
+  padding-top: 320px;
 }
 #element-tb {
   display: none;
@@ -743,13 +743,13 @@ header nav#navya span {
   display: none;
 }
 #element h2 {
-  font-size: 18px;
+  font-size: 19px;
 }
 #element .ttlnotes {
-  font-size: 13px;
+  font-size: 14px;
 }
 #element p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 30px;
   margin-top: 67px;
   margin-bottom: 122px;
@@ -772,7 +772,7 @@ header nav#navya span {
   width: 193px;
   height: 256px;
   margin: 34px 74px;
-  font-size: 14px;
+  font-size: 15px;
   position: relative;
   border: 1px solid #fff;
 }
@@ -790,7 +790,7 @@ header nav#navya span {
   letter-spacing: 0.2em;
 }
 #element label span.elementalpha {
-  font-size: 13px;
+  font-size: 14px;
 }
 #element label.elementup span {
   position: relative;
@@ -842,7 +842,7 @@ header nav#navya span {
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     padding: 10px;
     transition: all 0.2s ease;
     display: inline-block;
@@ -978,7 +978,7 @@ header nav#navya span {
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     padding: 10px;
     transition: all 0.2s ease;
     display: inline-block;
@@ -1114,7 +1114,7 @@ header nav#navya span {
     border-radius: 2px;
     box-shadow: 2px 2px 0 #F42A54;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     padding: 10px;
     transition: all 0.2s ease;
     display: inline-block;
@@ -1243,21 +1243,21 @@ header nav#navya span {
   padding-left: 60px;
 }
 #inforight h2 {
-  font-size: 17px;
+  font-size: 18px;
   margin-bottom: 70px;
 }
 #inforight .ttlnotes {
-  font-size: 12px;
+  font-size: 13px;
 }
 #inforight p {
-  font-size: 12px;
+  font-size: 13px;
   margin-bottom: 23px;
 }
 
 /* footer */
 footer {}
 footer ul li {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 21px;
 }
 footer ul li a {
@@ -1286,12 +1286,12 @@ footer ul li a:hover::after {
   transform: scaleX(1);
 }
 footer h2 {
-  font-size: 17px;
+  font-size: 18px;
   margin-top: 120px;
   margin-bottom: 120px;
 }
 footer .ttlnotes {
-  font-size: 11px;
+  font-size: 12px;
 }
 #footershopinfo {
   margin-bottom: 250px;
@@ -1306,136 +1306,6 @@ footer .ttlnotes {
 }
 #footerlogo span {
   font-size: 10px;
-}
-
-/* #test02 */
-  /*
-  Author: Jorge Chavez
-  Licence: MIT
-  */
-  #test02 .wrap{
-    width: 80%;
-    margin: 0px auto;
-    text-align: center;
-  }
-  #test02 .wrap h1{
-    font-size: 70px;
-  }
-  #test02 .wrap h1 span{
-    color: #F42A54;
-  }
-  #test02 .contribute {
-    position: fixed;
-    right: -20px;
-    top: 20px;
-    width: 16em;
-    height: 10em;
-    overflow: hidden;
-    transform: rotate(45deg);
-  }
-  #test02 .contribute p {
-    padding: 3px;
-    background-color: #444444;
-  }
-  #test02 .contribute p a {
-    border-top: 1px dashed white;
-    border-bottom: 1px dashed white;
-    display: block;
-    color: white;
-    text-decoration: none;
-    padding: 2px 0px;
-  }
-
-  #test02 .open-modal {
-    background-color: #3C3C3C;
-    border-radius: 2px;
-    box-shadow: 2px 2px 0 #F42A54;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    transition: all 0.2s ease;
-    display: inline-block;
-    margin: 10px;
-    border-top: 1px solid transparent;
-    min-width: 150px;
-  }
-
-  #test02 .open-modal:hover {
-    cursor: pointer;
-    background-color: #E7E7E7;
-    color: #3C3C3C;
-    border-top: 1px solid #eEeeee;
-    box-shadow: 0.2px 0.2px 2px #F42A54;
-  }
-
-  @media (max-width: 500px){
-    #test02 .wrap {
-      width: 100%;
-    }
-  }
-
-
-#test02 .modal {
-  color: #fff;
-}
-#test02 p.modalall {
-  position: absolute;
-  z-index: 1;
-  bottom: 50px;
-  left: 50px;
-}
-#test02 #mainimage {
-    height: 100%;
-    position: relative;
-    margin: 0;
-    padding: 0;
-}
-#test02 #mainimage1,
-#test02 #mainimage2,
-#test02 #mainimage3,
-#test02 #mainimage4,
-#test02 #mainimage5,
-#test02 #mainimage6,
-#test02 #mainimage7 {
-  background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    min-height: 100%;
-    height: calc(100%*1380/2230);
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-#test02 #mainimage1 {
-  background-image: url("../images/asset6.jpeg");
-  display: block;
-}
-#test02 #mainimage2 {
-  background-image: url("../images/asset7.jpeg");
-  display: none;
-}
-#test02 #mainimage3 {
-  background-image: url("../images/asset8.jpeg");
-  display: none;
-}
-#test02 #mainimage4 {
-  background-image: url("../images/asset9.jpeg");
-  display: none;
-}
-#test02 #mainimage5 {
-  background-image: url("../images/asset6.jpeg");
-  display: none;
-}
-#test02 #mainimage6 {
-  background-image: url("../images/asset7.jpeg");
-  display: none;
-}
-#test02 #mainimage7 {
-  background-image: url("../images/asset8.jpeg");
-  display: none;
 }
 
 /* .button1 */
