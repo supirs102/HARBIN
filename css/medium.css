@@ -125,7 +125,7 @@ a {
 /* #bottom-svg */
 #bottom-svg {
   position: absolute;
-  top: 695%;
+  top: 645%;
   width: 100%;
   height: 100%;
   background-image: url('../images/footerline.svg');
