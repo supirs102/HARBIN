@@ -285,6 +285,10 @@ $(function(){
 
 	// chocolat
     $('.chocolat-parent').Chocolat();
+    // chocolat
+    $('.chocolat-parent-tb').Chocolat();
+    // chocolat
+    $('.chocolat-parent-sp').Chocolat();
 
     // chocolat画像切替
 	$('.chocolat-right').click(function() {

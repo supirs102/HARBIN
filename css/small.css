@@ -399,40 +399,50 @@ header nav#navya span {
   line-height: 25px;
 }
 
-/* #cuisine */
-#cuisine {
+/* #cuisine-sp */
+#cuisine-sp {
   padding-top: 140px;
   width: 100%;
   margin: 0 auto;
 }
-#cuisine h2 {
+#cuisine-sp h2 {
   font-size: 19px;
 }
-#cuisine .ttlnotes {
+#cuisine-sp .ttlnotes {
   font-size: 12px;
   letter-spacing: 5px;
 }
-#cuisine ul {
+#cuisine-sp ul {
   font-size: 0;
   margin-top: 30px;
 }
-#cuisine ul li {
+#cuisine-sp ul li {
   display: inline-block;
   width: 22%;
   /* width: 90px; */
   padding: 2px;
 }
-#cuisine ul li img {
+#cuisine-sp ul li img {
   width: 100%;
   vertical-align: bottom;
 }
-#cuisine ul:hover li a:not(:hover) img {
+#cuisine-sp ul:hover li a:not(:hover) img {
   -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
   -moz-filter: grayscale(100%);      // for Firefox
   -o-filter: grayscale(100%);        // for Oper
   -ms-filter: grayscale(100%);       // for Internet Explorer
   filter: grayscale(100%);
   /* transition: .3s ease; */
+}
+
+/* #cuisine-tb */
+#cuisine-tb {
+  display: none;
+}
+
+/* #cuisine */
+#cuisine {
+  display: none;
 }
 
 /* #mastercheff-spkari */
@@ -1524,6 +1534,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 /* footer */
 footer {
   position: relative;
+  height: 937px;
 }
 footer ul li {
   font-size: 12px;

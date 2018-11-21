@@ -380,44 +380,54 @@ header nav#navya span {
   line-height: 29px;
 }
 
-/* #cuisine */
-#cuisine {
+/* #cuisine-tb */
+#cuisine-tb {
   padding-top: 140px;
   width: 80%;
   margin: 0 auto;
 }
   @media (max-width: 1023px) and (min-width: 769px){
-    #cuisine {
+    #cuisine-tb {
       width: 80%;
     }
   }
-#cuisine h2 {
+#cuisine-tb h2 {
   font-size: 19px;
 }
-#cuisine .ttlnotes {
+#cuisine-tb .ttlnotes {
   font-size: 14px;
   letter-spacing: 5px;
 }
-#cuisine ul {
+#cuisine-tb ul {
   font-size: 0;
   margin-top: 30px;
 }
-#cuisine ul li {
+#cuisine-tb ul li {
   display: inline-block;
   width: 22%;
   padding: 4.5px;
 }
-#cuisine ul li img {
+#cuisine-tb ul li img {
   width: 100%;
   vertical-align: bottom;
 }
-#cuisine ul:hover li a:not(:hover) img {
+#cuisine-tb ul:hover li a:not(:hover) img {
   -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
   -moz-filter: grayscale(100%);      // for Firefox
   -o-filter: grayscale(100%);        // for Oper
   -ms-filter: grayscale(100%);       // for Internet Explorer
   filter: grayscale(100%);
   /* transition: .3s ease; */
+}
+
+/* #cuisine */
+#cuisine {
+  display: none;
+}
+
+/* #cuisine-sp */
+#cuisine-sp {
+  display: none;
 }
 
 /* #mastercheff-spkari */

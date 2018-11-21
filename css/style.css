@@ -418,6 +418,16 @@ header nav#navya span {
   /* transition: .3s ease; */
 }
 
+/* #cuisine-tb */
+#cuisine-tb {
+  display: none;
+}
+
+/* #cuisine-sp */
+#cuisine-sp {
+  display: none;
+}
+
 /* #mastercheff-spkari */
 #mastercheff-spkari {
   display: none;
