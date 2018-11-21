@@ -690,6 +690,12 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   padding-right: 40px;
   padding-top: 60vh;
 }
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #master #masterimage1 {
+    background-position: top center;
+    background-image: url("../images/mastertb.png");
+  }
+}
 #master #masterimage h2 {
   display: inline-block;
   margin-top: 12px;
@@ -813,6 +819,12 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 60vh;
+}
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #cheff #cheffimage1 {
+    background-position: top center;
+    background-image: url("../images/chefftb.png");
+  }
 }
 #cheff #cheffimage h2 {
   display: inline-block;
@@ -1138,7 +1150,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   display: inline-block;
   width: 186px;
   height: 350px;
-  padding: 288px 27px 30px 27px;
+  padding: 288px 25px 30px 25px;
   position: absolute;
   left: 0;
   font-size: 15px;

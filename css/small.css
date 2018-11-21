@@ -805,7 +805,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 0;
 }
 #master #masterimage1 {
-  background-image: url("../images/mastertb.png");
+  background-image: url("../images/mastersp.png");
   display: block;
   text-align: left;
   padding-left: 30px;
@@ -934,7 +934,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 0;
 }
 #cheff #cheffimage1 {
-  background-image: url("../images/chefftb.png");
+  background-image: url("../images/cheffsp.png");
   display: block;
   text-align: right;
   padding-right: 30px;
@@ -1147,23 +1147,26 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 50px;
 }
 #elementspmodal01 h2 {
-  border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   display: inline-block;
-  width: 200px;
-  height: 300px;
-  padding: 200px 30px 30px 30px;
+  width: 172px;
+  height: 200px;
+  padding: 150px 23px 30px 23px;
   position: absolute;
-  right: 308px;
-  font-size: 15px;
+  left: 0;
+  font-size: 14px;
+}
+#elementspmodal01 h2 span.elementmodalalpha {
+  font-size: 10px;
 }
 #elementspmodal01 p {
-  font-size: 13px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 25px;
   position: absolute;
-  top: 300px;
-  right: 100px;
+  top: 50vh;
+  left: 27px;
+  margin-bottom: 0;
 }
 #elementspmodal01 #elementsp001image {
   height: 100%;
@@ -1187,6 +1190,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #elementspmodal01 #elementsp001image1 {
   background-image: url("../images/wagyu01.png");
@@ -1276,23 +1280,26 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 50px;
 }
 #elementspmodal02 h2 {
-  border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   display: inline-block;
-  width: 222px;
-  height: 300px;
-  padding: 200px 30px 30px 30px;
+  width: 172px;
+  height: 200px;
+  padding: 150px 18px 30px 18px;
   position: absolute;
-  left: 100px;
-  font-size: 15px;
+  left: 0;
+  font-size: 14px;
+}
+#elementspmodal02 h2 span.elementmodalalpha {
+  font-size: 10px;
 }
 #elementspmodal02 p {
-  font-size: 13px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 25px;
   position: absolute;
-  top: 300px;
-  left: 131px;
+  top: 50vh;
+  left: 27px;
+  margin-bottom: 0;
 }
 #elementspmodal02 #elementsp002image {
   height: 100%;
@@ -1316,6 +1323,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #elementspmodal02 #elementsp002image1 {
   background-image: url("../images/yasai01.png");
@@ -1405,23 +1413,26 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 50px;
 }
 #elementspmodal03 h2 {
-  border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   display: inline-block;
-  width: 200px;
-  height: 300px;
-  padding: 200px 30px 30px 30px;
+  width: 172px;
+  height: 200px;
+  padding: 150px 23px 30px 23px;
   position: absolute;
-  right: 308px;
-  font-size: 15px;
+  left: 0;
+  font-size: 14px;
+}
+#elementspmodal03 h2 span.elementmodalalpha {
+  font-size: 10px;
 }
 #elementspmodal03 p {
-  font-size: 13px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 25px;
   position: absolute;
-  top: 300px;
-  right: 138px;
+  top: 50vh;
+  left: 27px;
+  margin-bottom: 0;
 }
 #elementspmodal03 #elementsp003image {
   height: 100%;
@@ -1445,6 +1456,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #elementspmodal03 #elementsp003image1 {
   background-image: url("../images/niku01.png");
