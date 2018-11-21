@@ -77,8 +77,11 @@ a {
   font-size: 0;
   visibility: hidden;
 }
-.brsp {
+.brtb {
   display: block;
+}
+.brsp {
+  display: none;
 }
 
 /* .page */
@@ -1001,9 +1004,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   font-size: 13px;
   line-height: 26px;
   position: absolute;
-  top: 335px;
+  top: 54vh;
   left: 55px;
-  margin-bottom: 30px;
 }
 #elementtb001 #elementtb001image {
   height: 100%;
@@ -1148,9 +1150,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   font-size: 13px;
   line-height: 26px;
   position: absolute;
-  top: 335px;
+  top: 54vh;
   left: 55px;
-  margin-bottom: 30px;
 }
 #elementtb002 #elementtb002image {
   height: 100%;
@@ -1295,9 +1296,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   font-size: 13px;
   line-height: 26px;
   position: absolute;
-  top: 335px;
+  top: 54vh;
   left: 55px;
-  margin-bottom: 30px;
 }
 #elementtb003 #elementtb003image {
   height: 100%;

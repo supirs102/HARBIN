@@ -80,6 +80,16 @@
     z-index: 17;
     display: none;
 }
+@media (max-width: 1023px) {
+    .chocolat-wrapper .chocolat-left {
+        width: 20px;
+        left: 20px;
+    }
+    .chocolat-wrapper .chocolat-right {
+        width: 20px;
+        right: 20px;
+    }
+}
 .chocolat-wrapper .chocolat-right.active{
     display: block;
 }
