@@ -78,7 +78,7 @@ a {
   visibility: hidden;
 }
 .brsp {
-  display: none;
+  display: block;
 }
 
 /* .page */
@@ -101,6 +101,7 @@ a {
   background-size: cover;
   z-index: 2;
   background-position: center;
+  pointer-events: none;
 }
 
 /* #center-svg */
@@ -129,6 +130,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  pointer-events: none;
 }
 
 /* #wrapper */
@@ -361,6 +363,7 @@ header nav#navya span {
   position: absolute;
   top: 0;
   left: 0;
+  overflow: scroll;
 }
 #about #aboutimage1 {
   background-image: url("../images/story01.png");
@@ -375,9 +378,9 @@ header nav#navya span {
   display: none;
 }
 #about #aboutimage p {
-  padding-top: 23vh;
-  font-size: 14px;
-  line-height: 29px;
+  padding-top: 80px;
+  font-size: 12px;
+  line-height: 24px;
 }
 
 /* #cuisine-tb */
@@ -386,11 +389,6 @@ header nav#navya span {
   width: 80%;
   margin: 0 auto;
 }
-  @media (max-width: 1023px) and (min-width: 769px){
-    #cuisine-tb {
-      width: 80%;
-    }
-  }
 #cuisine-tb h2 {
   font-size: 19px;
 }
@@ -675,20 +673,19 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
   width: 100%;
   min-height: 100%;
   height: calc(100%*1380/2230);
   position: absolute;
   top: 0;
   left: 0;
-}
-#master #masterimage1 {
+  overflow: scroll;
   background-image: url("../images/master.jpg");
   display: block;
   text-align: left;
-  padding-left: 30px;
-  padding-top: 50vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60vh;
 }
 #master #masterimage h2 {
   display: inline-block;
@@ -701,8 +698,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   margin-top: 0;
 }
 #master #masterimage p {
-  font-size: 13px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 25px;
 }
 
 #cheff h2#cheffttl {
@@ -800,20 +797,19 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
   width: 100%;
   min-height: 100%;
   height: calc(100%*1380/2230);
   position: absolute;
   top: 0;
   left: 0;
-}
-#cheff #cheffimage1 {
+  overflow: scroll;
   background-image: url("../images/cheff.png");
   display: block;
   text-align: right;
-  padding-right: 30px;
-  padding-top: 50vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 60vh;
 }
 #cheff #cheffimage h2 {
   display: inline-block;
@@ -825,8 +821,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   margin-top: 12px;
 }
 #cheff #cheffimage p {
-  font-size: 13px;
-  line-height: 29px;
+  font-size: 12px;
+  line-height: 25px;
 }
 
 /* #mastercheff */
@@ -988,23 +984,26 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 50px;
 }
 #elementtb001 h2 {
-  border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   display: inline-block;
-  width: 200px;
-  height: 300px;
-  padding: 200px 30px 30px 30px;
+  width: 186px;
+  height: 350px;
+  padding: 288px 34px 30px 34px;
   position: absolute;
-  right: 308px;
+  left: 0;
   font-size: 15px;
+}
+#elementtb001 h2 span.elementmodalalpha {
+  font-size: 12px;
 }
 #elementtb001 p {
   font-size: 13px;
-  line-height: 29px;
+  line-height: 26px;
   position: absolute;
-  top: 300px;
-  right: 100px;
+  top: 335px;
+  left: 55px;
+  margin-bottom: 30px;
 }
 #elementtb001 #elementtb001image {
   height: 100%;
@@ -1028,6 +1027,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #elementtb001 #elementtb001image1 {
   background-image: url("../images/wagyu01.png");
@@ -1117,23 +1117,26 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 50px;
 }
 #elementtb002 h2 {
-  border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   display: inline-block;
-  width: 222px;
-  height: 300px;
-  padding: 200px 30px 30px 30px;
+  width: 186px;
+  height: 350px;
+  padding: 288px 27px 30px 27px;
   position: absolute;
-  left: 100px;
+  left: 0;
   font-size: 15px;
+}
+#elementtb002 h2 span.elementmodalalpha {
+  font-size: 12px;
 }
 #elementtb002 p {
   font-size: 13px;
-  line-height: 29px;
+  line-height: 26px;
   position: absolute;
-  top: 300px;
-  left: 131px;
+  top: 335px;
+  left: 55px;
+  margin-bottom: 30px;
 }
 #elementtb002 #elementtb002image {
   height: 100%;
@@ -1157,6 +1160,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #elementtb002 #elementtb002image1 {
   background-image: url("../images/yasai01.png");
@@ -1246,23 +1250,26 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   left: 50px;
 }
 #elementtb003 h2 {
-  border-left: 2px solid #fff;
   border-bottom: 2px solid #fff;
   border-right: 2px solid #fff;
   display: inline-block;
-  width: 200px;
-  height: 300px;
-  padding: 200px 30px 30px 30px;
+  width: 186px;
+  height: 350px;
+  padding: 288px 34px 30px 34px;
   position: absolute;
-  right: 308px;
+  left: 0;
   font-size: 15px;
+}
+#elementtb003 h2 span.elementmodalalpha {
+  font-size: 12px;
 }
 #elementtb003 p {
   font-size: 13px;
-  line-height: 29px;
+  line-height: 26px;
   position: absolute;
-  top: 300px;
-  right: 138px;
+  top: 335px;
+  left: 55px;
+  margin-bottom: 30px;
 }
 #elementtb003 #elementtb003image {
   height: 100%;
@@ -1286,6 +1293,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #elementtb003 #elementtb003image1 {
   background-image: url("../images/niku01.png");

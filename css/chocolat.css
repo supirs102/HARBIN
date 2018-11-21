@@ -106,6 +106,12 @@
     right: 0;
     background:url(../images/close.png) 50% 50% no-repeat;
 }
+@media (max-width: 1023px) {
+  .chocolat-wrapper .chocolat-close {
+    width: 25px;
+    height: 25px;
+  }
+}
 .chocolat-wrapper .chocolat-bottom{
     position:absolute;
     bottom:0;

@@ -101,6 +101,7 @@ a {
   background-size: cover;
   z-index: 2;
   background-position: center;
+  pointer-events: none;
 }
 
 /* #center-svg */
@@ -132,6 +133,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  pointer-events: none;
 }
 
 /* #wrapper */
@@ -582,20 +584,19 @@ header nav#navya span {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
   width: 100%;
   min-height: 100%;
   height: calc(100%*1380/2230);
   position: absolute;
   top: 0;
   left: 0;
-}
-#master #masterimage1 {
+  overflow: scroll;
   background-image: url("../images/master.jpg");
   display: block;
   text-align: left;
   padding-left: 70px;
-  padding-top: 67vh;
+  padding-top: 60vh;
+  padding-bottom: 50px;
 }
 #master #masterimage h2 {
   display: inline-block;
@@ -709,20 +710,19 @@ header nav#navya span {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
   width: 100%;
   min-height: 100%;
   height: calc(100%*1380/2230);
   position: absolute;
   top: 0;
   left: 0;
-}
-#cheff #cheffimage1 {
+  overflow: scroll;
   background-image: url("../images/cheff.png");
   display: block;
   text-align: right;
   padding-right: 70px;
-  padding-top: 65vh;
+  padding-top: 60vh;
+  padding-bottom: 50px;
 }
 #cheff #cheffimage h2 {
   display: inline-block;
@@ -926,6 +926,7 @@ header nav#navya span {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #element001 #element001image1 {
   background-image: url("../images/wagyu01.png");
@@ -1062,6 +1063,7 @@ header nav#navya span {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #element002 #element002image1 {
   background-image: url("../images/yasai01.png");
@@ -1198,6 +1200,7 @@ header nav#navya span {
   top: 0;
   left: 0;
   text-align: left;
+  overflow: scroll;
 }
 #element003 #element003image1 {
   background-image: url("../images/niku01.png");

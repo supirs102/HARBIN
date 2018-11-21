@@ -101,6 +101,7 @@ a {
   background-size: cover;
   z-index: 2;
   background-position: center;
+  pointer-events: none;
 }
 
 /* #center-svg */
@@ -129,6 +130,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  pointer-events: none;
 }
 
 /* #wrapper */

@@ -85,7 +85,7 @@ Github: http://github.com/jorgechavz
   width: 50px;
   height: 50px;
 }
-@media (max-width: 425px) {
+@media (max-width: 1023px) {
   .modal .modal-overlay .close img {
     width: 25px;
     height: 25px;
