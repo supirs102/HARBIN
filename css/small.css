@@ -796,20 +796,18 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
   width: 100%;
   min-height: 100%;
   height: calc(100%*1380/2230);
   position: absolute;
   top: 0;
   left: 0;
-}
-#master #masterimage1 {
   background-image: url("../images/mastersp.png");
   display: block;
   text-align: left;
   padding-left: 30px;
   padding-top: 57vh;
+  overflow: scroll;
 }
 #master #masterimage h2 {
   display: inline-block;
@@ -925,20 +923,18 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
-  padding: 0;
   width: 100%;
   min-height: 100%;
   height: calc(100%*1380/2230);
   position: absolute;
   top: 0;
   left: 0;
-}
-#cheff #cheffimage1 {
   background-image: url("../images/cheffsp.png");
   display: block;
   text-align: right;
   padding-right: 30px;
   padding-top: 57vh;
+  overflow: scroll;
 }
 #cheff #cheffimage h2 {
   display: inline-block;
@@ -1193,19 +1189,19 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   overflow: scroll;
 }
 #elementspmodal01 #elementsp001image1 {
-  background-image: url("../images/wagyu01.png");
+  background-image: url("../images/wagyusp01.png");
   display: block;
 }
 #elementspmodal01 #elementsp001image2 {
-  background-image: url("../images/wagyu02.png");
+  background-image: url("../images/wagyusp02.png");
   display: none;
 }
 #elementspmodal01 #elementsp001image3 {
-  background-image: url("../images/wagyu03.png");
+  background-image: url("../images/wagyusp03.png");
   display: none;
 }
 #elementspmodal01 #elementsp001image4 {
-  background-image: url("../images/wagyu04.png");
+  background-image: url("../images/wagyusp04.png");
   display: none;
 }
 /* #element002 modal */
@@ -1285,7 +1281,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   display: inline-block;
   width: 172px;
   height: 200px;
-  padding: 150px 18px 30px 18px;
+  padding: 150px 16px 30px 16px;
   position: absolute;
   left: 0;
   font-size: 14px;
@@ -1326,19 +1322,19 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   overflow: scroll;
 }
 #elementspmodal02 #elementsp002image1 {
-  background-image: url("../images/yasai01.png");
+  background-image: url("../images/yasaisp01.png");
   display: block;
 }
 #elementspmodal02 #elementsp002image2 {
-  background-image: url("../images/yasai02.png");
+  background-image: url("../images/yasaisp02.png");
   display: none;
 }
 #elementspmodal02 #elementsp002image3 {
-  background-image: url("../images/yasai03.png");
+  background-image: url("../images/yasaisp03.png");
   display: none;
 }
 #elementspmodal02 #elementsp002image4 {
-  background-image: url("../images/yasai04.png");
+  background-image: url("../images/yasaisp04.png");
   display: none;
 }
 /* #element003 modal */
@@ -1459,19 +1455,19 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   overflow: scroll;
 }
 #elementspmodal03 #elementsp003image1 {
-  background-image: url("../images/niku01.png");
+  background-image: url("../images/nikusp01.png");
   display: block;
 }
 #elementspmodal03 #elementsp003image2 {
-  background-image: url("../images/niku02.png");
+  background-image: url("../images/nikusp02.png");
   display: none;
 }
 #elementspmodal03 #elementsp003image3 {
-  background-image: url("../images/niku03.png");
+  background-image: url("../images/nikusp03.png");
   display: none;
 }
 #elementspmodal03 #elementsp003image4 {
-  background-image: url("../images/niku04.png");
+  background-image: url("../images/nikusp04.png");
   display: none;
 }
 
