@@ -83,6 +83,15 @@ a {
 .brsp {
   display: none;
 }
+.displaypc {
+  display: none;
+}
+.displaytb {
+  display: block;
+}
+.displaysp {
+  display: none;
+}
 
 /* .page */
 .page {

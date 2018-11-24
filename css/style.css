@@ -83,6 +83,15 @@ a {
 .brsp {
   display: none;
 }
+.displaypc {
+  display: block;
+}
+.displaytb {
+  display: none;
+}
+.displaysp {
+  display: none;
+}
 
 /* .page */
 .page {
@@ -446,6 +455,7 @@ header nav#navya span {
 /* #mastercheff */
 #mastercheff {
   padding-top: 290px;
+  padding-bottom: 510px;
 }
 #mastercheff h2 {
   font-size: 19px;
@@ -744,7 +754,7 @@ header nav#navya span {
 
 /* #element */
 #element {
-  padding-top: 320px;
+  padding-top: 100px;
 }
 #element-tb {
   display: none;

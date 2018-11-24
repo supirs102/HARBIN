@@ -83,6 +83,15 @@ a {
 .brsp {
   display: block;
 }
+.displaypc {
+  display: none;
+}
+.displaytb {
+  display: none;
+}
+.displaysp {
+  display: block;
+}
 
 /* .page */
 .page {
@@ -164,7 +173,7 @@ header h1 {
   }
 }
 header h1 img {
-  margin-top: 43vh;
+  margin-top: 44vh;
   width: 50px;
 }
 header nav {
@@ -197,7 +206,7 @@ header nav#navya ul {
 }
 header nav#navya ul li {
   margin-bottom: 0.8em;
-  height: 1em;
+  height: 1.5em;
 }
 header nav#navya ul li a {
   text-decoration: none;
@@ -641,7 +650,7 @@ label#mastertbmore-modalopenlabel span:nth-child(1) {
 }
 label#mastertbmore-modalopenlabel span:nth-child(2) {
   position: absolute;
-  top: -20px;
+  top: -13px;
   left: 43px;
   font-size: 14px;
 }
@@ -656,7 +665,7 @@ label#chefftbmore-modalopenlabel span:nth-child(1) {
 }
 label#chefftbmore-modalopenlabel span:nth-child(2) {
   position: absolute;
-  top: -20px;
+  top: -13px;
   right: 55px;
   font-size: 14px;
 }
@@ -980,6 +989,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 #element-sp {
   display: block;
   margin-top: 0;
+  padding-top: 10px;
 }
 #element-sp h2 {
   font-size: 19px;
