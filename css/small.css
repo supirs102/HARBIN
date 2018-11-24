@@ -394,6 +394,7 @@ header nav#navya span {
   position: absolute;
   top: 0;
   left: 0;
+  overflow: scroll;
 }
 #about #aboutimage1 {
   background-image: url("../images/story01.png");
