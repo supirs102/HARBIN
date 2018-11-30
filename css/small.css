@@ -192,10 +192,11 @@ header nav ul {
 }
 header nav#navya {
   position: relative;
-  height: 100px;
+  height: 210px;
   text-align: left;
 }
 header nav#navya ul {
+  width: 160px;
   margin-left: 37px;
   font-size: 100%;
   font-weight: bold;
@@ -211,8 +212,12 @@ header nav#navya ul li {
 header nav#navya ul li a {
   text-decoration: none;
   color: #fff;
+  display: block;
+  position: relative;
+  height: 27px;
+  transition: .5s;
 }
-header nav#navya span {
+header nav#navya span.navsankaku {
   width: 25px;
   height: 176px;
   display: block;
@@ -220,8 +225,29 @@ header nav#navya span {
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
-  top: 14px;
+  top: 12px;
   left: 5px;
+}
+header nav#navya ul li a span.naven,
+header nav#navya ul li a span.navja {
+ display: block;
+ width: 100%;
+ position: absolute;
+ transition: opacity .5s;
+}
+header nav#navya ul li a span.naven {
+ opacity: 1;
+ color: #fff;
+}
+header nav#navya ul li a span.navja {
+ opacity: 0;
+ color: #fff;
+}
+header nav#navya ul li a:hover span.naven {
+ opacity: 0;
+}
+header nav#navya ul li a:hover span.navja {
+ opacity: 1;
 }
 
 /* #main */
