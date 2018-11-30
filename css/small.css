@@ -1017,6 +1017,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   display: block;
   margin-top: 0;
   padding-top: 10px;
+  padding-bottom: 50px;
 }
 #element-sp h2 {
   font-size: 19px;
@@ -1524,7 +1525,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 
 /* #information */
 #information {
-  padding-top: 120px;
+  padding-top: 70px;
   margin-bottom: 240px;
 }
 #info-sp {
