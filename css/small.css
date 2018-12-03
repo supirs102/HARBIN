@@ -92,6 +92,24 @@ a {
 .displaysp {
   display: block;
 }
+.nondisplaysp {
+  display: none;
+}
+.nondisplay375 {
+  display: inline-block;
+}
+.display375 {
+  display: none;
+}
+/* スマホ小 */
+@media screen and (max-width:424px) {
+  .nondisplay375 {
+    display: none;
+  }
+  .display375 {
+    display: inline-block;
+  }
+}
 
 /* .page */
 .page {
@@ -1015,8 +1033,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 }
 #element-sp {
   display: block;
-  margin-top: 0;
-  padding-top: 10px;
+  margin-top: -50px;
+  padding-top: 0;
   padding-bottom: 50px;
 }
 #element-sp h2 {
@@ -1088,7 +1106,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   }
 }
 #element-sp li:hover {
-  border: 1px solid transparent;
+  border: 1px solid #fff;
 }
 #element-sp li > label {
   display: block;
@@ -1214,6 +1232,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   position: absolute;
   top: 50vh;
   left: 27px;
+  right: 13px;
   margin-bottom: 0;
 }
 #elementspmodal01 #elementsp001image {
@@ -1347,6 +1366,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   position: absolute;
   top: 50vh;
   left: 27px;
+  right: 13px;
   margin-bottom: 0;
 }
 #elementspmodal02 #elementsp002image {
@@ -1480,6 +1500,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   position: absolute;
   top: 50vh;
   left: 27px;
+  right: 13px;
   margin-bottom: 0;
 }
 #elementspmodal03 #elementsp003image {

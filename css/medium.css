@@ -92,6 +92,15 @@ a {
 .displaysp {
   display: none;
 }
+.nondisplaysp {
+  display: inline-block;
+}
+.nondisplay375 {
+  display: inline-block;
+}
+.display375 {
+  display: none;
+}
 
 /* .page */
 .page {
