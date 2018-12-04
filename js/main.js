@@ -283,9 +283,15 @@ $(function(){
 		}
 	});
 
-	// // SVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
+	// SVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
 	var timestamp = new Date().getTime();
 	$('#top-svg').css({'background-image': 'url(../images/topline_mobile.svg' + '?' + timestamp + ')'});
+
+	// ハルビンの物語の背景
+	$('.bg-slider').bgSwitcher({
+		images: ['images/monogatari.png','images/monogatari.png','images/monogatari.png'], // 切り替える背景画像を指定
+		loop: true // 切り替えを繰り返すか指定 true=繰り返す　false=繰り返さない
+	});
 
 	// chocolat
     $('.chocolat-parent').Chocolat();

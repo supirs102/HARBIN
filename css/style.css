@@ -269,6 +269,15 @@ header nav#navya ul li a:hover span.navja {
 }
 
 /* #about */
+.bg-switcher {
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #about {
   padding-top: 120px;
 }
