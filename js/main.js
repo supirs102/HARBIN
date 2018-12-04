@@ -283,6 +283,10 @@ $(function(){
 		}
 	});
 
+	// // SVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
+	var timestamp = new Date().getTime();
+	$('#top-svg').css({'background-image': 'url(../images/topline_mobile.svg' + '?' + timestamp + ')'});
+
 	// chocolat
     $('.chocolat-parent').Chocolat();
     // chocolat
@@ -350,3 +354,23 @@ $(function(){
 //pcのnavの文字はホバーで変わるようにするかも
 //
 //
+//footernav日本語なるように
+//フッターの住所合間
+//mastercheffシェフを野菜とかと行の高さ合わせる
+//topsvgおろす
+//相対的に下の文章との隙間も縮める（上と下の隙間一緒に）全体的に隙間縮める
+//ハルビンの物語のとこ背景INFORMATION的にするかも（フェード）
+//mainimageの画像もう少し大きく
+//mastercheff（トップページの）文字サイズ１上げる（ふりがなは微妙）
+//cuisinespの画像がぱぱっと切り替わるのが一番気になる
+//それならライトボックスがいい（それなら横の矢印あってもいいかも）
+//mastercheff下からの位置でできたらいいな（いずれって感じ）
+//ハルビンの物語の背景は高兄ちゃんが確認する（後で画像いただける？）
+//
+//
+//
+//全体的に画質の重さの調整
+//pngとjpgのいいとこ取りの形式がある
+//
+//element画像かぶってるの治す
+//XDシミュレーションできるかもなの確認（むー）
