@@ -283,9 +283,15 @@ $(function(){
 		}
 	});
 
-	// // SVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
+	// topSVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
 	var timestamp = new Date().getTime();
 	$('#top-svg').css({'background-image': 'url(images/topline.svg' + '?' + timestamp + ')'});
+	// centerSVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
+	var timestamp = new Date().getTime();
+	$('#center-svg').css({'background-image': 'url(images/centerline.svg' + '?' + timestamp + ')'});
+	// bottomSVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
+	var timestamp = new Date().getTime();
+	$('#bottom-svg').css({'background-image': 'url(images/footerline.svg' + '?' + timestamp + ')'});
 
 
 	    // var timestamp = new Date().getTime();
