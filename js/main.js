@@ -283,11 +283,7 @@ $(function(){
 		}
 	});
 
-<<<<<<< HEAD
 	// topSVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
-=======
-	// SVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
->>>>>>> develop
 	var timestamp = new Date().getTime();
 	$('#top-svg').css({'background-image': 'url(images/topline.svg' + '?' + timestamp + ')'});
 	// centerSVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
