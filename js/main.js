@@ -284,12 +284,12 @@ $(function(){
 	});
 
 	// // SVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
-	// var timestamp = new Date().getTime();
-	// $('#top-svg').css({'background-image': 'url(../images/topline_mobile.svg' + '?' + timestamp + ')'});
+	var timestamp = new Date().getTime();
+	$('#top-svg').css({'background-image': 'url(images/topline.svg' + '?' + timestamp + ')'});
 
 
-	    var timestamp = new Date().getTime();
-	    $('#top-svg').attr('src', 'images/topline.svg' + '?' + timestamp);
+	    // var timestamp = new Date().getTime();
+	    // $('#top-svg').attr('src', 'images/topline.svg' + '?' + timestamp);
 
 
 	// chocolat
