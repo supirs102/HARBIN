@@ -284,8 +284,13 @@ $(function(){
 	});
 
 	// // SVGのキャッシュ消すつまり画像にタイムスタンプして別画像として認識させる
-	var timestamp = new Date().getTime();
-	$('#top-svg').css({'background-image': 'url(../images/topline_mobile.svg' + '?' + timestamp + ')'});
+	// var timestamp = new Date().getTime();
+	// $('#top-svg').css({'background-image': 'url(../images/topline_mobile.svg' + '?' + timestamp + ')'});
+
+
+	    var timestamp = new Date().getTime();
+	    $('#top-svg').attr('src', 'images/topline.svg' + '?' + timestamp);
+
 
 	// chocolat
     $('.chocolat-parent').Chocolat();
@@ -307,7 +312,7 @@ $(function(){
     nav.append('<span class="navsankaku"></span>');
     //原点の位置
     var contY = nav.offset().top;
-    $('li a', nav).mouseover(function(){  
+    $('li a', nav).mouseover(function(){
         //移動先の位置を取得
         var thisOffset = $(this).offset().top - contY - 8;
         $('span.navsankaku', nav).stop().animate({
