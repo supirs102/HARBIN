@@ -138,7 +138,8 @@ a {
 } */
 #center-svg {
   position: relative;
-  background: transparent;
+  background: transparent !important;
+  display: block !important;
 }
 
 /* #bottom-svg */
@@ -267,6 +268,15 @@ header nav#navya ul li a:hover span.navja {
 }
 
 /* #about */
+.bg-switcher {
+  width: 100vw;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #about {
   padding-top: 0;
   min-height: 54%;
