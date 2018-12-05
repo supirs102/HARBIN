@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 572.195 314.766">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 571.9 314.335">
   <defs>
     <style>
       .cls-1 {
         fill: none;
         stroke: #fff;
-        stroke-width: 0.5px;
+        stroke-width: 0.1px;
       }
     </style>
   </defs>
-  <path id="パス_81" data-name="パス 81" class="cls-1" d="M-2258.136-1254.171l285.913,314.227,285.913-314.227" transform="translate(2258.321 1254.339)"/>
+  <path id="パス_81" data-name="パス 81" class="cls-1" d="M-2258.136-1254.171l285.913,314.227,285.913-314.227" transform="translate(2258.173 1254.205)"/>
 </svg>
