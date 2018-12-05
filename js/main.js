@@ -308,6 +308,17 @@ $(function(){
 		$('.chocolat-img').hide().fadeIn(1500);
 	});
 
+	//cuisine-sp
+	$(".cuisinesp-image").colorbox({
+		rel: 'slideshow',
+		transition: 'fade',
+		slideshow: false,
+		slideshowSpeed: 5000,
+		maxWidth: "100%",
+		maxHeight: "100%",
+		opacity: 1
+	});
+
     // headernavhover
     var nav = $('#navya');
     nav.append('<span class="navsankaku"></span>');
@@ -360,14 +371,14 @@ $(function(){
 //pcのnavの文字はホバーで変わるようにするかも
 //
 //
-//footernav日本語なるように
-//フッターの住所合間
+//footernav日本語なるように→ホバーのときの線どっちに合わせるの？
+///フッターの住所合間
 //mastercheffシェフを野菜とかと行の高さ合わせる
-//topsvgおろす
+///topsvgおろす
 //相対的に下の文章との隙間も縮める（上と下の隙間一緒に）全体的に隙間縮める
-//ハルビンの物語のとこ背景INFORMATION的にするかも（フェード）
-//mainimageの画像もう少し大きく
-//mastercheff（トップページの）文字サイズ１上げる（ふりがなは微妙）
+///ハルビンの物語のとこ背景INFORMATION的にするかも（フェード）
+///mainimageの画像もう少し大きく
+///mastercheff（トップページの）文字サイズ１上げる（ふりがなは微妙）
 //cuisinespの画像がぱぱっと切り替わるのが一番気になる
 //それならライトボックスがいい（それなら横の矢印あってもいいかも）
 //mastercheff下からの位置でできたらいいな（いずれって感じ）
@@ -378,5 +389,5 @@ $(function(){
 //全体的に画質の重さの調整
 //pngとjpgのいいとこ取りの形式がある
 //
-//element画像かぶってるの治す
+///element画像かぶってるの治す
 //XDシミュレーションできるかもなの確認（むー）

@@ -148,6 +148,7 @@ a {
 #center-svg {
   position: relative;
   background: transparent;
+  display: block !important;
 }
 
 /* #bottom-svg */
@@ -1082,7 +1083,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 /* スマホ中 */
 @media screen and (min-width:375px) and (max-width:424px) {
   #element-sp ul {
-    height: 290px;
+    height: 293px;
   }
 }
 /* スマホ小 */
