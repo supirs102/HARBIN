@@ -319,9 +319,29 @@ $(function(){
 		$('.chocolat-img').hide().fadeIn(1500);
 	});
 
+	//cuisine
+	$(".cuisine-image").colorbox({
+		rel: 'slideshow',
+		transition: 'fade',
+		slideshow: false,
+		slideshowSpeed: 5000,
+		maxWidth: "100%",
+		maxHeight: "100%",
+		opacity: 1
+	});
+	//cuisine-tb
+	$(".cuisinetb-image").colorbox({
+		rel: 'slideshowtb',
+		transition: 'fade',
+		slideshow: false,
+		slideshowSpeed: 5000,
+		maxWidth: "100%",
+		maxHeight: "100%",
+		opacity: 1
+	});
 	//cuisine-sp
 	$(".cuisinesp-image").colorbox({
-		rel: 'slideshow',
+		rel: 'slideshowsp',
 		transition: 'fade',
 		slideshow: false,
 		slideshowSpeed: 5000,
@@ -382,8 +402,8 @@ $(function(){
 //pcのnavの文字はホバーで変わるようにするかも
 //
 //
-//footernav日本語なるように→ホバーのときの線どっちに合わせるの？
-///フッターの住所合間
+//footernav日本語なるように→ホバーのときの線どっちに合わせるの？→なし
+///フッターの住所合間→均一がいいかも
 //mastercheffシェフを野菜とかと行の高さ合わせる
 ///topsvgおろす
 //相対的に下の文章との隙間も縮める（上と下の隙間一緒に）全体的に隙間縮める
@@ -402,3 +422,12 @@ $(function(){
 //
 ///element画像かぶってるの治す
 //XDシミュレーションできるかもなの確認（むー）
+
+
+
+//　うえのheaderの塊を中央にできるように（header navとかのmargin-topをvhに変更）
+//　cuisineタブレット版パソコン版
+//
+//
+//
+//
