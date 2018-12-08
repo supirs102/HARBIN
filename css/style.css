@@ -177,8 +177,8 @@ header h1 {
 	text-align: right;
 }
 header h1 img {
-	/* margin-top: 43vh; */
-  margin-top: 400px;
+	margin-top: calc(43vh + 32px);
+  /* margin-top: 400px; */
 	margin-right: 150px;
   width: 73px;
 }
@@ -188,8 +188,8 @@ header nav {
 	min-width: 512px;
 	max-width: 1000px;
 	text-align: left;
-	/* margin-top: calc(43vh - 42px); */
-  margin-top: 330px;
+	margin-top: calc(43vh - 42px);
+  /* margin-top: 330px; */
 }
 header nav ul {
 	margin-left: 100px;
