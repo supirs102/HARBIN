@@ -294,10 +294,6 @@ $(function(){
 	$('#bottom-svg').css({'background-image': 'url(images/footerline.svg' + '?' + timestamp + ')'});
 
 
-	    // var timestamp = new Date().getTime();
-	    // $('#top-svg').attr('src', 'images/topline.svg' + '?' + timestamp);
-
-
 	// ハルビンの物語の背景
 	$('.bg-slider').bgSwitcher({
 		images: ['images/monogatari.png','images/monogatari.png','images/monogatari.png'], // 切り替える背景画像を指定
@@ -319,7 +315,7 @@ $(function(){
 		$('.chocolat-img').hide().fadeIn(1500);
 	});
 
-	//cuisine
+	// cuisine
 	$(".cuisine-image").colorbox({
 		rel: 'slideshow',
 		transition: 'fade',
@@ -329,7 +325,7 @@ $(function(){
 		maxHeight: "100%",
 		opacity: 1
 	});
-	//cuisine-tb
+	// cuisine-tb
 	$(".cuisinetb-image").colorbox({
 		rel: 'slideshowtb',
 		transition: 'fade',
@@ -339,7 +335,7 @@ $(function(){
 		maxHeight: "100%",
 		opacity: 1
 	});
-	//cuisine-sp
+	// cuisine-sp
 	$(".cuisinesp-image").colorbox({
 		rel: 'slideshowsp',
 		transition: 'fade',
@@ -353,10 +349,10 @@ $(function(){
     // headernavhover
     var nav = $('#navya');
     nav.append('<span class="navsankaku"></span>');
-    //原点の位置
+    // 原点の位置
     var contY = nav.offset().top;
     $('li a', nav).mouseover(function(){
-        //移動先の位置を取得
+        // 移動先の位置を取得
         var thisOffset = $(this).offset().top - contY - 8;
         $('span.navsankaku', nav).stop().animate({
             top : thisOffset +'px'
@@ -372,6 +368,22 @@ $(function(){
 		$("html, body").animate({scrollTop:position}, speed, "swing");
 		return false;
 	});
+
+    // パソコン版centerSVG内のコンテンツへのリンク(cuisine)を押された際、centerSVGを表示
+	$('#navcuisinepc').one("click", function () {
+        $('#center-svg').show();
+        $('a[href^="#cuisine"]').triggerHandler('click');
+    });
+    // パソコン版centerSVG内のコンテンツへのリンク(mastercheff)を押された際、centerSVGを表示
+	$('#navmastercheffpc').one("click", function () {
+        $('#center-svg').show();
+        $('a[href^="#mastercheff"]').triggerHandler('click');
+    });
+    // パソコン版centerSVG内のコンテンツへのリンク(element)を押された際、centerSVGを表示
+	$('#navelementpc').one("click", function () {
+        $('#center-svg').show();
+        $('a[href^="#element"]').triggerHandler('click');
+    });
 
 
 });
