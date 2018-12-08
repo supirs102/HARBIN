@@ -114,7 +114,7 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  top: 95vh;
+  bottom: calc(-120vh - 380 / 768 * 100vw);
   width: 100%;
   height: 200%;
   background-image: url('../images/topline.svg');
@@ -513,10 +513,10 @@ header nav#navya ul li a:hover span.navja {
   font-size: 12px;
 }
 #mastercheff > #master > #mastercontent > p {
-  padding-left: 40px;
+  padding-left: 30px;
 }
 #mastercheff > #cheff > #cheffcontent > p {
-  padding-right: 40px;
+  padding-right: 30px;
 }
 #mastercheff #mastermore-modalopenlabel,
 #mastercheff #cheffmore-modalopenlabel {
