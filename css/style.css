@@ -443,6 +443,7 @@ header nav#navya ul li a:hover span.navja {
 
 /* #cuisine */
 #cuisine {
+  display: none;
   padding-top: 170px;
   /* width: 50%; */
   width: 604px;
@@ -475,6 +476,205 @@ header nav#navya ul li a:hover span.navja {
   -ms-filter: grayscale(100%);       // for Internet Explorer
   filter: grayscale(100%);
   /* transition: .3s ease; */
+}
+/* #cuisinemo */
+#cuisinemo {
+  display: block;
+  padding-top: 170px;
+  /* width: 50%; */
+  width: 604px;
+  margin: 0 auto;
+}
+#cuisinemo h2 {
+  font-size: 18px;
+}
+#cuisinemo .ttlnotes {
+  font-size: 14px;
+}
+#cuisinemo ul {
+  font-size: 0;
+  margin-top: 50px;
+}
+#cuisinemo ul li {
+  display: inline-block;
+  /* width: 25%; */
+  width: 142px;
+  padding: 4.5px;
+  cursor: pointer;
+}
+#cuisinemo ul li img {
+  width: 100%;
+  vertical-align: bottom;
+}
+#cuisinemo ul:hover li a:not(:hover) img {
+  -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
+  -moz-filter: grayscale(100%);      // for Firefox
+  -o-filter: grayscale(100%);        // for Oper
+  -ms-filter: grayscale(100%);       // for Internet Explorer
+  filter: grayscale(100%);
+  /* transition: .3s ease; */
+}
+/* #cuisinemo modal */
+  /*
+  Author: Jorge Chavez
+  Licence: MIT
+  */
+  #cuisinemo .wrap{
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+  }
+  #cuisinemo .wrap h1{
+    font-size: 70px;
+  }
+  #cuisinemo .wrap h1 span{
+    color: #F42A54;
+  }
+  #cuisinemo .contribute {
+    position: fixed;
+    right: -20px;
+    top: 20px;
+    width: 16em;
+    height: 10em;
+    overflow: hidden;
+    transform: rotate(45deg);
+  }
+  #cuisinemo .contribute p {
+    padding: 3px;
+    background-color: #444444;
+  }
+  #cuisinemo .contribute p a {
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 0px;
+  }
+  #cuisinemo .open-modal {
+    background-color: #3C3C3C;
+    border-radius: 2px;
+    box-shadow: 2px 2px 0 #F42A54;
+    color: white;
+    font-size: 21px;
+    padding: 10px;
+    transition: all 0.2s ease;
+    display: inline-block;
+    margin: 10px;
+    border-top: 1px solid transparent;
+    min-width: 150px;
+  }
+  #cuisinemo .open-modal:hover {
+    cursor: pointer;
+    background-color: #E7E7E7;
+    color: #3C3C3C;
+    border-top: 1px solid #eEeeee;
+    box-shadow: 0.2px 0.2px 2px #F42A54;
+  }
+  @media (max-width: 500px){
+    #cuisinemo .wrap {
+      width: 100%;
+    }
+  }
+
+#cuisinemo .modal {
+  color: #fff;
+}
+#cuisinemo p.modalall {
+  position: absolute;
+  z-index: 1;
+  bottom: 50px;
+  left: 50px;
+}
+#cuisinemo #cuisinemoimage001,
+#cuisinemo #cuisinemoimage002,
+#cuisinemo #cuisinemoimage003,
+#cuisinemo #cuisinemoimage004,
+#cuisinemo #cuisinemoimage005,
+#cuisinemo #cuisinemoimage006,
+#cuisinemo #cuisinemoimage007,
+#cuisinemo #cuisinemoimage008,
+#cuisinemo #cuisinemoimage009,
+#cuisinemo #cuisinemoimage010,
+#cuisinemo #cuisinemoimage011,
+#cuisinemo #cuisinemoimage012 {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cuisinemo #cuisinemoimage1,
+#cuisinemo #cuisinemoimage2,
+#cuisinemo #cuisinemoimage3,
+#cuisinemo #cuisinemoimage4,
+#cuisinemo #cuisinemoimage5,
+#cuisinemo #cuisinemoimage6,
+#cuisinemo #cuisinemoimage7,
+#cuisinemo #cuisinemoimage8,
+#cuisinemo #cuisinemoimage9,
+#cuisinemo #cuisinemoimage10,
+#cuisinemo #cuisinemoimage11,
+#cuisinemo #cuisinemoimage12 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+}
+#cuisinemo #cuisinemoimage1 {
+  background-image: url("../series/menu001.jpg");
+  display: block;
+}
+#cuisinemo #cuisinemoimage2 {
+  background-image: url("../series/menu002.jpg");
+  display: block;
+}
+#cuisinemo #cuisinemoimage3 {
+  background-image: url("../series/menu003.jpg");
+  display: block;
+}
+#cuisinemo #cuisinemoimage4 {
+  background-image: url("../series/menu004.jpg");
+  display: block;
+}
+#cuisinemo #cuisinemoimage5 {
+  background-image: url("../series/menu005.jpg");
+  display: block;
+}
+#cuisinemo #cuisinemoimage6 {
+  background-image: url("../series/menu006.jpg");
+  display: block;
+}
+#cuisinemo #cuisinemoimage7 {
+  background-image: url("../series/menu007.jpg");
+  display: block;
+}
+#cuisinemo #cuisinemoimage8 {
+  background-image: url("../series/menu008.png");
+  display: block;
+}
+#cuisinemo #cuisinemoimage9 {
+  background-image: url("../series/menu009.png");
+  display: block;
+}
+#cuisinemo #cuisinemoimage10 {
+  background-image: url("../series/menu010.png");
+  display: block;
+}
+#cuisinemo #cuisinemoimage11 {
+  background-image: url("../series/menu011.png");
+  display: block;
+}
+#cuisinemo #cuisinemoimage12 {
+  background-image: url("../series/menu012.png");
+  display: block;
 }
 
 /* #cuisine-tb */
