@@ -1313,35 +1313,22 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   overflow: scroll;
 }
 #elementtb001 #elementtb001image1 {
-  background-image: url("../images/wagyu01.png");
+  background-image: url("../images/wagyutb01.png");
   display: block;
 }
 #elementtb001 #elementtb001image2 {
-  background-image: url("../images/wagyu02.png");
+  background-image: url("../images/wagyutb02.png");
   display: none;
 }
 #elementtb001 #elementtb001image3 {
-  background-image: url("../images/wagyu03.png");
+  background-image: url("../images/wagyutb03.png");
   display: none;
 }
 #elementtb001 #elementtb001image4 {
-  background-image: url("../images/wagyu04.png");
+  background-image: url("../images/wagyutb04.png");
   display: none;
 }
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  #elementtb001 #elementtb001image1 {
-    background-image: url("../images/wagyutb01.png");
-  }
-  #elementtb001 #elementtb001image2 {
-    background-image: url("../images/wagyutb02.png");
-  }
-  #elementtb001 #elementtb001image3 {
-    background-image: url("../images/wagyutb03.png");
-  }
-  #elementtb001 #elementtb001image4 {
-    background-image: url("../images/wagyutb04.png");
-  }
-}
+
 /* #elementtb002 modal */
   /*
   Author: Jorge Chavez
@@ -1459,34 +1446,20 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   overflow: scroll;
 }
 #elementtb002 #elementtb002image1 {
-  background-image: url("../images/yasai01.png");
+  background-image: url("../images/yasaitb01.png");
   display: block;
 }
 #elementtb002 #elementtb002image2 {
-  background-image: url("../images/yasai02.png");
+  background-image: url("../images/yasaitb02.png");
   display: none;
 }
 #elementtb002 #elementtb002image3 {
-  background-image: url("../images/yasai03.png");
+  background-image: url("../images/yasaitb03.png");
   display: none;
 }
 #elementtb002 #elementtb002image4 {
-  background-image: url("../images/yasai04.png");
+  background-image: url("../images/yasaitb04.png");
   display: none;
-}
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  #elementtb002 #elementtb002image1 {
-    background-image: url("../images/yasaitb01.png");
-  }
-  #elementtb002 #elementtb002image2 {
-    background-image: url("../images/yasaitb02.png");
-  }
-  #elementtb002 #elementtb002image3 {
-    background-image: url("../images/yasaitb03.png");
-  }
-  #elementtb002 #elementtb002image4 {
-    background-image: url("../images/yasaitb04.png");
-  }
 }
 /* #elementtb003 modal */
   /*
@@ -1605,34 +1578,20 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   overflow: scroll;
 }
 #elementtb003 #elementtb003image1 {
-  background-image: url("../images/niku01.png");
+  background-image: url("../images/nikutb01.png");
   display: block;
 }
 #elementtb003 #elementtb003image2 {
-  background-image: url("../images/niku02.png");
+  background-image: url("../images/nikutb02.png");
   display: none;
 }
 #elementtb003 #elementtb003image3 {
-  background-image: url("../images/niku03.png");
+  background-image: url("../images/nikutb03.png");
   display: none;
 }
 #elementtb003 #elementtb003image4 {
-  background-image: url("../images/niku04.png");
+  background-image: url("../images/nikutb04.png");
   display: none;
-}
-@media screen and (min-width: 426px) and (max-width: 768px) {
-  #elementtb003 #elementtb003image1 {
-    background-image: url("../images/nikutb01.png");
-  }
-  #elementtb003 #elementtb003image2 {
-    background-image: url("../images/nikutb02.png");
-  }
-  #elementtb003 #elementtb003image3 {
-    background-image: url("../images/nikutb03.png");
-  }
-  #elementtb003 #elementtb003image4 {
-    background-image: url("../images/nikutb04.png");
-  }
 }
 
 /* #information */
