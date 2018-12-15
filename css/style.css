@@ -436,7 +436,8 @@ header nav#navya ul li a:hover span.navja {
   display: none;
 }
 #about #aboutimage p {
-  padding-top: 23vh;
+  padding-top: calc(50vh - 200px);
+  padding-bottom: 20px;
   font-size: 15px;
   line-height: 29px;
 }
@@ -500,11 +501,11 @@ header nav#navya ul li a:hover span.navja {
   /* width: 25%; */
   width: 142px;
   padding: 4.5px;
-  cursor: pointer;
 }
 #cuisinemo ul li img {
   width: 100%;
   vertical-align: bottom;
+  cursor: pointer;
 }
 #cuisinemo ul:hover li a:not(:hover) img {
   -webkit-filter: grayscale(100%);   // for Google Chrome and Safari

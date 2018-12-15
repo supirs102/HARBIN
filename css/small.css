@@ -466,7 +466,8 @@ header nav#navya ul li a:hover span.navja {
   display: none;
 }
 #about #aboutimage p {
-  padding-top: 45px;
+  padding-top: calc(20vh - 90px);
+  padding-bottom: 20px;
   font-size: 12px;
   line-height: 25px;
 }

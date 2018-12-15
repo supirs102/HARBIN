@@ -259,17 +259,17 @@ $(function(){
 		}
 	});
 
-	// // centersvg
-	// var centersvg = $('#center-svg');
-	// var centerTop = centersvg.offset().top-500;
-	// centersvg.hide();
-	// // スクロールがSVGに達したらSVG起動
-	// $(window).scroll(function () {
-	// 	var winTop = $(this).scrollTop();
-	// 	if (winTop >= centerTop) {
-	// 		centersvg.fadeIn();
-	// 	}
-	// });
+	// centersvg
+	var centersvg = $('#center-svg');
+	var centerTop = centersvg.offset().top-500;
+	centersvg.hide();
+	// スクロールがSVGに達したらSVG起動
+	$(window).scroll(function () {
+		var winTop = $(this).scrollTop();
+		if (winTop >= centerTop) {
+			centersvg.fadeIn();
+		}
+	});
 
 	// bottomsvg
 	var bottomsvg = $('#bottom-svg');
