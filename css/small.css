@@ -517,6 +517,11 @@ header nav#navya ul li a:hover span.navja {
   display: none;
 }
 
+/* #cuisinemo */
+#cuisinemo {
+  display: none;
+}
+
 /* #mastercheff-spkari */
 #mastercheff-spkari {
   display: none;
