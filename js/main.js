@@ -388,7 +388,7 @@ $(function(){
     // パソコン版centerSVG内のコンテンツへのリンク(cuisine)を押された際、centerSVGを表示
 	$('#navcuisinepc').one("click", function () {
         $('#center-svg').show();
-        $('a[href^="#cuisine"]').triggerHandler('click');
+        $('a[href^="#cuisinemo"]').triggerHandler('click');
     });
     // パソコン版centerSVG内のコンテンツへのリンク(mastercheff)を押された際、centerSVGを表示
 	$('#navmastercheffpc').one("click", function () {
