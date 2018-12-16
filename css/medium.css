@@ -631,7 +631,7 @@ header nav#navya ul li a:hover span.navja {
   left: 0;
   overflow: scroll;
 }
-/* #cuisinemo #cuisinemoimage1 {
+#cuisinemo #cuisinemoimage1 {
   background-image: url("../series/menutb001.png");
   display: block;
 }
@@ -678,7 +678,7 @@ header nav#navya ul li a:hover span.navja {
 #cuisinemo #cuisinemoimage12 {
   background-image: url("../series/menutb012.png");
   display: block;
-} */
+}
 
 /* #cuisine-sp */
 #cuisine-sp {
