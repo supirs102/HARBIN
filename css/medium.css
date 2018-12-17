@@ -832,7 +832,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   -webkit-transform: scaleX(0);
   -ms-transform: scaleX(0);
   transform: scaleX(0);
-  background-color: #fff;
+  background-color: transparent;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
 }
@@ -1285,9 +1285,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   display: inline-block;
-  width: 186px;
-  height: 350px;
-  padding: 288px 34px 30px 34px;
+  width: 230px;
+  height: 380px;
+  padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
   font-size: 15px;
@@ -1299,8 +1299,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   font-size: 13px;
   line-height: 26px;
   position: absolute;
-  top: 54vh;
+  bottom: calc(5vh + (100vh - 600px) / 10);
   left: 55px;
+  margin: 0;
 }
 #elementtb001 #elementtb001image {
   height: 100%;
@@ -1418,9 +1419,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   display: inline-block;
-  width: 186px;
-  height: 350px;
-  padding: 288px 25px 30px 25px;
+  width: 230px;
+  height: 380px;
+  padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
   font-size: 15px;
@@ -1432,8 +1433,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   font-size: 13px;
   line-height: 26px;
   position: absolute;
-  top: 54vh;
+  bottom: calc(5vh + (100vh - 600px) / 10);
   left: 55px;
+  margin: 0;
 }
 #elementtb002 #elementtb002image {
   height: 100%;
@@ -1550,9 +1552,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   display: inline-block;
-  width: 186px;
-  height: 350px;
-  padding: 288px 34px 30px 34px;
+  width: 230px;
+  height: 380px;
+  padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
   font-size: 15px;
@@ -1564,8 +1566,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   font-size: 13px;
   line-height: 26px;
   position: absolute;
-  top: 54vh;
+  bottom: calc(5vh + (100vh - 600px) / 10);
   left: 55px;
+  margin: 0;
 }
 #elementtb003 #elementtb003image {
   height: 100%;
