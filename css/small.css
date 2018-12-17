@@ -170,6 +170,19 @@ a {
   height: 100%;
 }
 
+/* #gotop */
+#gotop {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 20px;
+  cursor: pointer;
+}
+#gotop img {
+  width: 30px;
+  height: 30px;
+}
+
 /* header */
 header {
   width: 100vw;
@@ -1098,7 +1111,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 #element-sp ul {
   font-size: 0;
   width: 250%;
-  height: 334px;
+  height: 333px;
   letter-spacing: 0;
   margin: 0 auto;
   background-image: url('../images/recommend01.jpg'), url('../images/recommend02.png'), url('../images/recommend03.jpg');
@@ -1835,20 +1848,3 @@ footer .ttlnotes {
   border-right-color: #fff;
   transition: height 0, width 0 0;
 }
-
-/* 
-全体のfontsize1pt上げる
-mastercheffのfontsizeあげるかも
-1330からPCに切り替えはなし
-headerのナビの隙間広げる（最悪ホバー時の挙動なし）
-header一画面
-headerナビ日本語追加かホバー時に日本語
-headerなびホバー時の挙動違和感出るならナシで
-topsvgの位置調整
-mainimage画像もっと大きく
-ハルビンの物語を読むの上の文章少しfontsize上げる
-CUISINEとかの見出しの文字２つくらい（１７くらい？）上げて日本語と距離広げる
-ELEMENTの位置を上に上げる
-mainimage75%
-768pxから1023pxのCUISINE全体70%
-*/

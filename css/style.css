@@ -141,7 +141,7 @@ a {
   background-image: url('../images/centerline.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center 0vh;
+  background-position: center center;
 }
 
 /* #bottom-svg */
@@ -163,17 +163,28 @@ a {
   height: 100%;
 }
 
+/* #gotop */
+#gotop {
+  position: fixed;
+  display: none;
+  right: 40px;
+  bottom: 30px;
+  cursor: pointer;
+}
+#gotop img {
+  width: 50px;
+  height: 50px;
+}
+
 /* header */
 header {
 	width: 100vw;
 	min-width: 1024px;
-	max-width: 2000px;
 }
 header h1 {
 	float: left;
 	width: 50vw;
 	min-width: 512px;
-	max-width: 1000px;
 	text-align: right;
 }
 header h1 img {
@@ -186,7 +197,6 @@ header nav {
 	float: right;
 	width: 50vw;
 	min-width: 512px;
-	max-width: 1000px;
 	text-align: left;
 	margin-top: calc(43vh - 42px);
   /* margin-top: 330px; */
@@ -1042,7 +1052,7 @@ header nav#navya ul li a:hover span.navja {
   font-size: 0;
   /* width: 80%; */
   width: 1024px;
-  height: 322px;
+  height: 321px;
   letter-spacing: 0;
   margin: 0 auto;
   background-image: url('../images/recommend01.jpg'), url('../images/recommend02.png'), url('../images/recommend03.jpg');
