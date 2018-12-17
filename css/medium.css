@@ -269,12 +269,12 @@ header nav#navya ul li a:hover span.navja {
 /* #main */
 #main {
   position: relative;
-  min-height: 64%;
+  min-height: 55%;
 }
 #main #main-content {
   width: 100%;
   z-index: 2;
-  padding: 20vh 0;
+  padding: 20vh 0 0 0;
 }
 #main #main-content img {
   width: 80%;
@@ -291,7 +291,7 @@ header nav#navya ul li a:hover span.navja {
   justify-content: center;
 }
 #about {
-  padding-top: 0;
+  padding-top: calc(80px + (100vw - 426px) / 10);
 }
 #about #about-content p {
   font-size: 15px;
