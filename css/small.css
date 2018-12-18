@@ -177,7 +177,7 @@ a {
   right: 15px;
   bottom: 20px;
   cursor: pointer;
-  z-index: 999999;
+  z-index: 999;
 }
 #gotop img {
   width: 40px;

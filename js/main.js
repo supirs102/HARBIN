@@ -254,11 +254,11 @@ $(function(){
 				slideCount = $slides.length,
 				currentIndex = 0;
 		$slides.eq(0).fadeIn();
-		setInterval(showNextSlide,5000);
+		setInterval(showNextSlide,7000);
 		function showNextSlide(){
 			var nextIndex = (currentIndex+1)%slideCount;
-			$slides.eq(currentIndex).fadeOut(2500);
-			$slides.eq(nextIndex).fadeIn(2500);
+			$slides.eq(currentIndex).fadeOut(3000);
+			$slides.eq(nextIndex).fadeIn(3000);
 			currentIndex=nextIndex;
 		}
 	});
