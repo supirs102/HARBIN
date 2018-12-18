@@ -277,7 +277,7 @@ $(function(){
 
 	// centersvg
 	var centersvg = $('#center-svg');
-	var centerTop = centersvg.offset().top-500;
+	var centerTop = centersvg.offset().top-700;
 	centersvg.hide();
 	// スクロールがSVGに達したらSVG起動
 	$(window).scroll(function () {
@@ -316,52 +316,6 @@ $(function(){
 		loop: true // 切り替えを繰り返すか指定 true=繰り返す　false=繰り返さない
 	});
 
-	// chocolat
-    $('.chocolat-parent').Chocolat();
-    // chocolat
-    $('.chocolat-parent-tb').Chocolat();
-    // chocolat
-    $('.chocolat-parent-sp').Chocolat();
-
-    // chocolat画像切替
-	$('.chocolat-right').click(function() {
-		$('.chocolat-img').hide().fadeIn(1500);
-	});
-	$('.chocolat-left').click(function() {
-		$('.chocolat-img').hide().fadeIn(1500);
-	});
-
-	// cuisine
-	$(".cuisine-image").colorbox({
-		rel: 'slideshow',
-		transition: 'fade',
-		slideshow: false,
-		slideshowSpeed: 5000,
-		maxWidth: "100%",
-		maxHeight: "100%",
-		opacity: 1
-	});
-	// cuisine-tb
-	$(".cuisinetb-image").colorbox({
-		rel: 'slideshowtb',
-		transition: 'fade',
-		slideshow: false,
-		slideshowSpeed: 5000,
-		maxWidth: "100%",
-		maxHeight: "100%",
-		opacity: 1
-	});
-	// cuisine-sp
-	$(".cuisinesp-image").colorbox({
-		rel: 'slideshowsp',
-		transition: 'fade',
-		slideshow: false,
-		slideshowSpeed: 5000,
-		maxWidth: "100%",
-		maxHeight: "100%",
-		opacity: 1
-	});
-
     // headernavhover
     var nav = $('#navya');
     nav.append('<span class="navsankaku"></span>');
@@ -389,6 +343,43 @@ $(function(){
 	            top : thisOffset +'px'
 	        },200);
 	    });
+	});
+
+	$(window).on('load resize', function(){
+		var w = $(window).width();
+		var x = 426;
+		if (w < x) {
+
+			    // headernavhover
+			    var nav = $('#navya');
+			    nav.append('<span class="navsankaku"></span>');
+			    // 原点の位置
+			    var contY = nav.offset().top;
+			    $('li a', nav).mouseover(function(){
+			        // 移動先の位置を取得
+			        var thisOffset = $(this).offset().top - contY - 4;
+			        $('span.navsankaku', nav).stop().animate({
+			            top : thisOffset +'px'
+			        },200);
+			    });
+			    // ウィンドウリサイズ時挙動
+				$(window).resize(function(){
+					// headernavhover
+				    var nav = $('#navya');
+				   	$('span.navsankaku').hide();
+				    nav.append('<span class="navsankaku"></span>');
+				    // 原点の位置
+				    var contY = nav.offset().top;
+				    $('li a', nav).mouseover(function(){
+				        // 移動先の位置を取得
+				        var thisOffset = $(this).offset().top - contY - 4;
+				        $('span.navsankaku', nav).stop().animate({
+				            top : thisOffset +'px'
+				        },200);
+				    });
+				});
+
+		}
 	});
 
     // ページ内リンク
