@@ -292,7 +292,7 @@ header nav#navya ul li a:hover span.navja {
   justify-content: center;
 }
 #about {
-  padding-top: calc(80px + (100vw - 426px) / 10);
+  padding-top: calc(140px + (100vw - 426px) / 10);
 }
 #about #about-content p {
   font-size: 15px;
@@ -1241,7 +1241,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-right: 1px solid #fff;
   display: inline-block;
   width: 230px;
-  height: 380px;
+  height: 420px;
   padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
@@ -1375,7 +1375,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-right: 1px solid #fff;
   display: inline-block;
   width: 230px;
-  height: 380px;
+  height: 420px;
   padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
@@ -1508,7 +1508,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-right: 1px solid #fff;
   display: inline-block;
   width: 230px;
-  height: 380px;
+  height: 420px;
   padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
