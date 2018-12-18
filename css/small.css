@@ -513,11 +513,11 @@ header nav#navya ul li a:hover span.navja {
   width: 100%;
   vertical-align: bottom;
 }
-#cuisinemo ul:hover li a:not(:hover) img {
-  -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
-  -moz-filter: grayscale(100%);      // for Firefox
-  -o-filter: grayscale(100%);        // for Oper
-  -ms-filter: grayscale(100%);       // for Internet Explorer
+#cuisinemo ul:hover li label:not(:hover) img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   /* transition: .3s ease; */
 }
@@ -682,21 +682,6 @@ header nav#navya ul li a:hover span.navja {
 #cuisinemo #cuisinemoimage12 {
   background-image: url("../series/menusp012.png");
   display: block;
-}
-
-/* #cuisine-tb */
-#cuisine-tb {
-  display: none;
-}
-
-/* #cuisine */
-#cuisine {
-  display: none;
-}
-
-/* #cuisine-sp */
-#cuisine-sp {
-  display: none;
 }
 
 /* #mastercheff-spkari */

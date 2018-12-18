@@ -454,47 +454,6 @@ header nav#navya ul li a:hover span.navja {
   line-height: 24px;
 }
 
-/* #cuisine-tb */
-#cuisine-tb {
-  display: none;
-  padding-top: 140px;
-  width: 80%;
-  margin: 0 auto;
-}
-#cuisine-tb h2 {
-  font-size: 19px;
-}
-#cuisine-tb .ttlnotes {
-  font-size: 14px;
-  letter-spacing: 5px;
-}
-#cuisine-tb ul {
-  font-size: 0;
-  margin-top: 30px;
-}
-#cuisine-tb ul li {
-  display: inline-block;
-  width: 22%;
-  padding: 4.5px;
-}
-#cuisine-tb ul li img {
-  width: 100%;
-  vertical-align: bottom;
-}
-#cuisine-tb ul:hover li a:not(:hover) img {
-  -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
-  -moz-filter: grayscale(100%);      // for Firefox
-  -o-filter: grayscale(100%);        // for Oper
-  -ms-filter: grayscale(100%);       // for Internet Explorer
-  filter: grayscale(100%);
-  /* transition: .3s ease; */
-}
-
-/* #cuisine */
-#cuisine {
-  display: none;
-}
-
 /* #cuisinemo */
 #cuisinemo {
   padding-top: 140px;
@@ -523,11 +482,11 @@ header nav#navya ul li a:hover span.navja {
   vertical-align: bottom;
   cursor: pointer;
 }
-#cuisinemo ul:hover li a:not(:hover) img {
-  -webkit-filter: grayscale(100%);   // for Google Chrome and Safari
-  -moz-filter: grayscale(100%);      // for Firefox
-  -o-filter: grayscale(100%);        // for Oper
-  -ms-filter: grayscale(100%);       // for Internet Explorer
+#cuisinemo ul:hover li label:not(:hover) img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
   filter: grayscale(100%);
   /* transition: .3s ease; */
 }
@@ -692,11 +651,6 @@ header nav#navya ul li a:hover span.navja {
 #cuisinemo #cuisinemoimage12 {
   background-image: url("../series/menutb012.png");
   display: block;
-}
-
-/* #cuisine-sp */
-#cuisine-sp {
-  display: none;
 }
 
 /* #mastercheff-spkari */
