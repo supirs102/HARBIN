@@ -1877,6 +1877,9 @@ footer .ttlnotes {
   width: 55px;
   margin-bottom: 40px;
 }
+.footeraddresssp {
+  letter-spacing: 0.6px !important;
+}
 
 /* .button1 */
 .button1 {
