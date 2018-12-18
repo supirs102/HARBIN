@@ -436,15 +436,15 @@ header nav#navya ul li a:hover span.navja {
   overflow: scroll;
 }
 #about #aboutimage1 {
-  background-image: url("../images/story01.png");
+  background-image: url("../images/storytb01.png");
   display: block;
 }
 #about #aboutimage2 {
-  background-image: url("../images/story02.jpg");
+  background-image: url("../images/storytb02.png");
   display: none;
 }
 #about #aboutimage3 {
-  background-image: url("../images/story03.png");
+  background-image: url("../images/storytb03.png");
   display: none;
 }
 #about #aboutimage p {
