@@ -466,6 +466,7 @@ header nav#navya ul li a:hover span.navja {
 }
 #cuisinemo .ttlnotes {
   font-size: 14px;
+  letter-spacing: 5px;
 }
 #cuisinemo ul {
   font-size: 0;
@@ -996,6 +997,7 @@ header nav#navya ul li a:hover span.navja {
 }
 #element .ttlnotes {
   font-size: 14px;
+  letter-spacing: 5px;
 }
 #element p {
   font-size: 15px;
@@ -1500,6 +1502,7 @@ header nav#navya ul li a:hover span.navja {
 }
 #inforight .ttlnotes {
   font-size: 13px;
+  letter-spacing: 5px;
 }
 .infoname {
   font-size: 15px;
