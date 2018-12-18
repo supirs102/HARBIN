@@ -1036,7 +1036,7 @@ header nav#navya ul li a:hover span.navja {
   padding: 0;
 }
 #element label span.elementkana {
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
 }
 #element label span.elementalpha {
   font-size: 14px;
@@ -1140,7 +1140,7 @@ header nav#navya ul li a:hover span.navja {
   right: 100px;
 }
 #element001 .elementmodal001kana {
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
   font-size: 15px;
 }
 #element001 .elementmodal001alpha {
@@ -1277,7 +1277,7 @@ header nav#navya ul li a:hover span.navja {
   left: 131px;
 }
 #element002 .elementmodal002kana {
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
   font-size: 15px;
 }
 #element002 .elementmodal002alpha {
@@ -1414,7 +1414,7 @@ header nav#navya ul li a:hover span.navja {
   right: 138px;
 }
 #element003 .elementmodal003kana {
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
   font-size: 15px;
 }
 #element003 .elementmodal003alpha {

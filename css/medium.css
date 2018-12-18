@@ -1152,7 +1152,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   padding: 0;
 }
 #element-tb label span.elementkana {
-  letter-spacing: 0.2em;
+  letter-spacing: 1px;
 }
 #element-tb label span.elementalpha {
   font-size: 12px;
@@ -1164,6 +1164,9 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 #element-tb label.elementdown span {
   position: relative;
   bottom: -190px;
+}
+#element-tb .slide h2 span.elementmodalkana {
+  letter-spacing: 1px;
 }
 /* #elementtb001 modal */
   /*
@@ -1240,8 +1243,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   display: inline-block;
-  width: 230px;
-  height: 420px;
+  width: 240px;
+  height: 400px;
   padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
@@ -1374,8 +1377,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   display: inline-block;
-  width: 230px;
-  height: 420px;
+  width: 240px;
+  height: 400px;
   padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
@@ -1507,8 +1510,8 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
   display: inline-block;
-  width: 230px;
-  height: 420px;
+  width: 240px;
+  height: 400px;
   padding: 325px 0 0 55px;
   position: absolute;
   left: 0;
