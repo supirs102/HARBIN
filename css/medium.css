@@ -168,6 +168,7 @@ a {
   right: 40px;
   bottom: 30px;
   cursor: pointer;
+  z-index: 999999;
 }
 #gotop img {
   width: 40px;
