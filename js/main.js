@@ -349,7 +349,6 @@ $(function(){
 		var w = $(window).width();
 		var x = 426;
 		if (w < x) {
-
 			    // headernavhover
 			    var nav = $('#navya');
 			    nav.append('<span class="navsankaku"></span>');
@@ -378,7 +377,6 @@ $(function(){
 				        },200);
 				    });
 				});
-
 		}
 	});
 
@@ -407,6 +405,16 @@ $(function(){
         $('#center-svg').show();
         $('a[href^="#element"]').triggerHandler('click');
     });
+
+	// ウィンドウリサイズ時挙動
+	$(window).on('load resize', function(){
+		var w = $(window).width();
+		var h = $(window).height();
+		if (w > h) {
+			$('#masterimage1').css({'background-image': 'url(images/master.jpg)'});
+			$('#cheffimage1').css({'background-image': 'url(images/cheff.png)'});
+		}
+	});
 
 
 });
