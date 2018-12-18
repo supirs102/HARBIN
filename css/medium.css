@@ -292,7 +292,7 @@ header nav#navya ul li a:hover span.navja {
   justify-content: center;
 }
 #about {
-  padding-top: calc(80px + (100vw - 426px) / 10);
+  padding-top: calc(140px + (100vw - 426px) / 10);
 }
 #about #about-content p {
   font-size: 15px;
