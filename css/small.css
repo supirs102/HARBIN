@@ -1218,7 +1218,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 }
 #cheff #cheffimage h2#cheffmodalttl {
   position: absolute;
-  right: 145px;
+  right: 165px;
   margin-top: 0;
   bottom: calc(12% + 125px + 70px);
 }
@@ -1876,6 +1876,7 @@ footer .ttlnotes {
 #footershopinfo {
   margin-bottom: 250px;
   line-height: 24px;
+  letter-spacing: 0.1em;
 }
 /* スマホ小 */
 @media screen and (max-width:374px) {
