@@ -228,24 +228,24 @@ $(function(){
 	});
 
 	// cuisinemonew
-	$("#cuisinemonew001").animatedModal({
-		animatedIn: 'fadeIn',
-		animatedOut: 'fadeOut',
-		animationDuration: '0.5s',
-		color: '#000417',
-		overflow: 'hidden'
-	});
-	$("#cuisinemonew002").animatedModal();
-	$("#cuisinemonew003").animatedModal();
-	$("#cuisinemonew004").animatedModal();
-	$("#cuisinemonew005").animatedModal();
-	$("#cuisinemonew006").animatedModal();
-	$("#cuisinemonew007").animatedModal();
-	$("#cuisinemonew008").animatedModal();
-	$("#cuisinemonew009").animatedModal();
-	$("#cuisinemonew010").animatedModal();
-	$("#cuisinemonew011").animatedModal();
-	$("#cuisinemonew012").animatedModal();
+	// $("#cuisinemonew001").animatedModal({
+	// 	animatedIn: 'fadeIn',
+	// 	animatedOut: 'fadeOut',
+	// 	animationDuration: '0.5s',
+	// 	color: '#000417',
+	// 	overflow: 'hidden'
+	// });
+	// $("#cuisinemonew002").animatedModal();
+	// $("#cuisinemonew003").animatedModal();
+	// $("#cuisinemonew004").animatedModal();
+	// $("#cuisinemonew005").animatedModal();
+	// $("#cuisinemonew006").animatedModal();
+	// $("#cuisinemonew007").animatedModal();
+	// $("#cuisinemonew008").animatedModal();
+	// $("#cuisinemonew009").animatedModal();
+	// $("#cuisinemonew010").animatedModal();
+	// $("#cuisinemonew011").animatedModal();
+	// $("#cuisinemonew012").animatedModal();
 
 	// element001imageslide
 	$('#element001image').each(function(){

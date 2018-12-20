@@ -788,3 +788,23 @@
 	padding: 0;
 	height: 100%;
 }
+.modaal-close:before, .modaal-close:after {
+	display: none;
+}
+.modaal-fullscreen .modaal-close {
+	background: url('../images/batu.png');
+	background-size: contain;
+	width: 50px;
+	height: 50px;
+	top: 30px;
+	right: 30px;
+}
+@media (max-width: 1023px) {
+	.modaal-fullscreen .modaal-close {
+		width: 25px;
+		height: 25px;
+	}
+}
+.modaal-close {
+	border-radius: 0;
+}
