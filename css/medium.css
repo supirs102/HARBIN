@@ -454,8 +454,241 @@ header nav#navya ul li a:hover span.navja {
   line-height: 24px;
 }
 
+/* #cuisinemokari */
+#cuisinemokari {
+  display: block;
+  padding-top: 140px;
+  width: 80%;
+  margin: 0 auto;
+}
+#cuisinemokari h2 {
+  font-size: 19px;
+}
+#cuisinemokari .ttlnotes {
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+#cuisinemokari ul {
+  font-size: 0;
+  margin-top: 30px;
+}
+#cuisinemokari ul li {
+  display: inline-block;
+  width: 22%;
+  padding: 4.5px;
+  cursor: pointer;
+}
+#cuisinemokari ul li img {
+  width: 100%;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+#cuisinemokari ul:hover li a:not(:hover) img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* transition: .3s ease; */
+}
+#cuisinemokari #modaalcontent001,
+#cuisinemokari #modaalcontent002,
+#cuisinemokari #modaalcontent003,
+#cuisinemokari #modaalcontent004,
+#cuisinemokari #modaalcontent005,
+#cuisinemokari #modaalcontent006,
+#cuisinemokari #modaalcontent007,
+#cuisinemokari #modaalcontent008,
+#cuisinemokari #modaalcontent009,
+#cuisinemokari #modaalcontent010,
+#cuisinemokari #modaalcontent011,
+#cuisinemokari #modaalcontent012 {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cuisinemokariimage1,
+#cuisinemokariimage2,
+#cuisinemokariimage3,
+#cuisinemokariimage4,
+#cuisinemokariimage5,
+#cuisinemokariimage6,
+#cuisinemokariimage7,
+#cuisinemokariimage8,
+#cuisinemokariimage9,
+#cuisinemokariimage10,
+#cuisinemokariimage11,
+#cuisinemokariimage12 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+}
+#cuisinemokariimage1 {
+  background-image: url("../series/menutb001.png");
+}
+#cuisinemokariimage2 {
+  background-image: url("../series/menutb002.png");
+}
+#cuisinemokariimage3 {
+  background-image: url("../series/menutb003.png");
+}
+#cuisinemokariimage4 {
+  background-image: url("../series/menutb004.png");
+}
+#cuisinemokariimage5 {
+  background-image: url("../series/menutb005.png");
+}
+#cuisinemokariimage6 {
+  background-image: url("../series/menutb006.png");
+}
+#cuisinemokariimage7 {
+  background-image: url("../series/menutb007.png");
+}
+#cuisinemokariimage8 {
+  background-image: url("../series/menutb008.png");
+}
+#cuisinemokariimage9 {
+  background-image: url("../series/menutb009.png");
+}
+#cuisinemokariimage10 {
+  background-image: url("../series/menutb010.png");
+}
+#cuisinemokariimage11 {
+  background-image: url("../series/menutb011.png");
+}
+#cuisinemokariimage12 {
+  background-image: url("../series/menutb012.png");
+}
+
+/* #cuisinemonew */
+#cuisinemonew {
+  display: none;
+  padding-top: 140px;
+  width: 80%;
+  margin: 0 auto;
+}
+#cuisinemonew h2 {
+  font-size: 19px;
+}
+#cuisinemonew .ttlnotes {
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+#cuisinemonew ul {
+  font-size: 0;
+  margin-top: 30px;
+}
+#cuisinemonew ul li {
+  display: inline-block;
+  width: 22%;
+  padding: 4.5px;
+  cursor: pointer;
+}
+#cuisinemonew ul li img {
+  width: 100%;
+  vertical-align: bottom;
+  cursor: pointer;
+}
+#cuisinemonew ul:hover li a:not(:hover) img {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* transition: .3s ease; */
+}
+#cuisinemonew #cuisinemonewimage001,
+#cuisinemonew #cuisinemonewimage002,
+#cuisinemonew #cuisinemonewimage003,
+#cuisinemonew #cuisinemonewimage004,
+#cuisinemonew #cuisinemonewimage005,
+#cuisinemonew #cuisinemonewimage006,
+#cuisinemonew #cuisinemonewimage007,
+#cuisinemonew #cuisinemonewimage008,
+#cuisinemonew #cuisinemonewimage009,
+#cuisinemonew #cuisinemonewimage010,
+#cuisinemonew #cuisinemonewimage011,
+#cuisinemonew #cuisinemonewimage012 {
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+#cuisinemonew #cuisinemonewimage1,
+#cuisinemonew #cuisinemonewimage2,
+#cuisinemonew #cuisinemonewimage3,
+#cuisinemonew #cuisinemonewimage4,
+#cuisinemonew #cuisinemonewimage5,
+#cuisinemonew #cuisinemonewimage6,
+#cuisinemonew #cuisinemonewimage7,
+#cuisinemonew #cuisinemonewimage8,
+#cuisinemonew #cuisinemonewimage9,
+#cuisinemonew #cuisinemonewimage10,
+#cuisinemonew #cuisinemonewimage11,
+#cuisinemonew #cuisinemonewimage12 {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  height: calc(100%*1380/2230);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+}
+#cuisinemonew #cuisinemonewimage1 {
+  background-image: url("../series/menutb001.png");
+}
+#cuisinemonew #cuisinemonewimage2 {
+  background-image: url("../series/menutb002.png");
+}
+#cuisinemonew #cuisinemonewimage3 {
+  background-image: url("../series/menutb003.png");
+}
+#cuisinemonew #cuisinemonewimage4 {
+  background-image: url("../series/menutb004.png");
+}
+#cuisinemonew #cuisinemonewimage5 {
+  background-image: url("../series/menutb005.png");
+}
+#cuisinemonew #cuisinemonewimage6 {
+  background-image: url("../series/menutb006.png");
+}
+#cuisinemonew #cuisinemonewimage7 {
+  background-image: url("../series/menutb007.png");
+}
+#cuisinemonew #cuisinemonewimage8 {
+  background-image: url("../series/menutb008.png");
+}
+#cuisinemonew #cuisinemonewimage9 {
+  background-image: url("../series/menutb009.png");
+}
+#cuisinemonew #cuisinemonewimage10 {
+  background-image: url("../series/menutb010.png");
+}
+#cuisinemonew #cuisinemonewimage11 {
+  background-image: url("../series/menutb011.png");
+}
+#cuisinemonew #cuisinemonewimage12 {
+  background-image: url("../series/menutb012.png");
+}
+
 /* #cuisinemo */
 #cuisinemo {
+  display: none;
   padding-top: 140px;
   width: 80%;
   margin: 0 auto;

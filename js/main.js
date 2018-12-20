@@ -177,6 +177,76 @@ $(function(){
 		loop: true // 切り替えを繰り返すか指定 true=繰り返す　false=繰り返さない
 	});
 
+	// cuisinemokari
+	$(".cuisinemokari001").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari002").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari003").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari004").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari005").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari006").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari007").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari008").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari009").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari010").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari011").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+	$(".cuisinemokari012").modaal({
+		animation: 'fade',
+		fullscreen: true
+	});
+
+	// cuisinemonew
+	$("#cuisinemonew001").animatedModal({
+		animatedIn: 'fadeIn',
+		animatedOut: 'fadeOut',
+		animationDuration: '0.5s',
+		color: '#000417',
+		overflow: 'hidden'
+	});
+	$("#cuisinemonew002").animatedModal();
+	$("#cuisinemonew003").animatedModal();
+	$("#cuisinemonew004").animatedModal();
+	$("#cuisinemonew005").animatedModal();
+	$("#cuisinemonew006").animatedModal();
+	$("#cuisinemonew007").animatedModal();
+	$("#cuisinemonew008").animatedModal();
+	$("#cuisinemonew009").animatedModal();
+	$("#cuisinemonew010").animatedModal();
+	$("#cuisinemonew011").animatedModal();
+	$("#cuisinemonew012").animatedModal();
+
 	// element001imageslide
 	$('#element001image').each(function(){
 		var $slides = $(this).find('.slide'),

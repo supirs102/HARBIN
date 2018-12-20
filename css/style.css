@@ -453,6 +453,16 @@ header nav#navya ul li a:hover span.navja {
   line-height: 29px;
 }
 
+/* #cuisinemonew */
+#cuisinemonew {
+  display: none;
+}
+
+/* #cuisinemokari */
+#cuisinemokari {
+  display: none;
+}
+
 /* #cuisinemo */
 #cuisinemo {
   display: block;
