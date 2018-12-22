@@ -117,7 +117,7 @@ a {
   bottom: calc(-120vh - 380 / 768 * 107vw);
   width: 100%;
   height: 200%;
-  background-image: url('../images/topline.svg');
+  background-image: url('../images/topline-tb.svg') !important;
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 2;
@@ -148,7 +148,7 @@ a {
   top: -200px;
   width: 100%;
   height: 100%;
-  background-image: url('../images/footerline.svg');
+  background-image: url('../images/footerline-mobile.svg') !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
