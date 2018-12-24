@@ -53,7 +53,7 @@ border-spacing: 0;
 }
 html,
 body {
-  font-family: YuMincho, 'Yu Mincho', serif;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	background-color: #000417;
 	color: #fff;
 	width: 100vw;
@@ -849,9 +849,9 @@ header nav#navya ul li a:hover span.navja {
   bottom: calc(4% + 125px + 55px);
 }
 #master #masterimage p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 26px;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   position: absolute;
   left: 70px;
   right: 70px;
@@ -983,9 +983,9 @@ header nav#navya ul li a:hover span.navja {
   bottom: calc(4% + 125px + 70px);
 }
 #cheff #cheffimage p {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 26px;
-  letter-spacing: 0;
+  letter-spacing: 1px;
   position: absolute;
   right: 70px;
   left: 70px;
@@ -1145,11 +1145,12 @@ header nav#navya ul li a:hover span.navja {
   font-size: 15px;
 }
 #element001 p {
-  font-size: 13px;
+  font-size: 14px;
+  letter-spacing: 1px;
   line-height: 29px;
   position: absolute;
   top: 230px;
-  right: 100px;
+  right: 45px;
 }
 #element001 .elementmodal001kana {
   letter-spacing: 1px;
@@ -1276,13 +1277,14 @@ header nav#navya ul li a:hover span.navja {
   display: inline-block;
   width: 222px;
   height: 270px;
-  padding: 200px 30px 30px 30px;
+  padding: 200px 0 30px 30px;
   position: absolute;
   left: 100px;
   font-size: 15px;
 }
 #element002 p {
-  font-size: 13px;
+  font-size: 14px;
+  letter-spacing: 1px;
   line-height: 29px;
   position: absolute;
   top: 230px;
@@ -1419,11 +1421,12 @@ header nav#navya ul li a:hover span.navja {
   font-size: 15px;
 }
 #element003 p {
-  font-size: 13px;
+  font-size: 14px;
+  letter-spacing: 1px;
   line-height: 29px;
   position: absolute;
   top: 230px;
-  right: 138px;
+  right: 90px;
 }
 #element003 .elementmodal003kana {
   letter-spacing: 1px;
@@ -1520,6 +1523,7 @@ header nav#navya ul li a:hover span.navja {
 #inforight p {
   font-size: 13px;
   margin-bottom: 23px;
+  letter-spacing: 2px;
 }
 
 /* footer */
