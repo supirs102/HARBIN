@@ -687,7 +687,9 @@ header nav#navya ul li a:hover span.navja {
 }
 #mastercheff p {
   margin-top: 40px;
-  font-size: 12px;
+  font-size: 13px;
+  letter-spacing: 2px;
+  line-height: 25px;
 }
 #mastercheff > #master > #mastercontent > p {
   padding-left: 30px;
@@ -844,12 +846,12 @@ header nav#navya ul li a:hover span.navja {
 }
 #master #masterimage h2#mastermodalttl {
   position: absolute;
-  left: 200px;
+  left: 220px;
   margin-top: 0;
   bottom: calc(4% + 125px + 55px);
 }
 #master #masterimage p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 26px;
   letter-spacing: 1px;
   position: absolute;
@@ -978,12 +980,12 @@ header nav#navya ul li a:hover span.navja {
 }
 #cheff #cheffimage h2#cheffmodalttl {
   position: absolute;
-  right: 220px;
+  right: 250px;
   margin-top: 0;
   bottom: calc(4% + 125px + 70px);
 }
 #cheff #cheffimage p {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 26px;
   letter-spacing: 1px;
   position: absolute;
@@ -1010,7 +1012,7 @@ header nav#navya ul li a:hover span.navja {
   letter-spacing: 5px;
 }
 #element p {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   margin-top: 67px;
   margin-bottom: 122px;
@@ -1145,12 +1147,12 @@ header nav#navya ul li a:hover span.navja {
   font-size: 15px;
 }
 #element001 p {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height: 29px;
   position: absolute;
   top: 230px;
-  right: 45px;
+  right: 16px;
 }
 #element001 .elementmodal001kana {
   letter-spacing: 1px;
@@ -1283,7 +1285,7 @@ header nav#navya ul li a:hover span.navja {
   font-size: 15px;
 }
 #element002 p {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height: 29px;
   position: absolute;
@@ -1421,12 +1423,12 @@ header nav#navya ul li a:hover span.navja {
   font-size: 15px;
 }
 #element003 p {
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   line-height: 29px;
   position: absolute;
   top: 230px;
-  right: 90px;
+  right: 64px;
 }
 #element003 .elementmodal003kana {
   letter-spacing: 1px;
@@ -1521,9 +1523,9 @@ header nav#navya ul li a:hover span.navja {
   font-size: 15px;
 }
 #inforight p {
-  font-size: 13px;
+  font-size: 14px;
   margin-bottom: 23px;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 /* footer */
@@ -1531,7 +1533,7 @@ footer {
   position: relative;
 }
 footer ul li {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 21px;
 }
 footer ul li a {
@@ -1570,6 +1572,7 @@ footer .ttlnotes {
 #footershopinfo {
   margin-bottom: 250px;
   line-height: 28px;
+  font-size: 14px;
 }
 #footerlogo {
   margin-bottom: 321px;
@@ -1579,7 +1582,7 @@ footer .ttlnotes {
   margin-bottom: 40px;
 }
 #footerlogo span {
-  font-size: 10px;
+  font-size: 13px;
 }
 
 /* .button1 */
