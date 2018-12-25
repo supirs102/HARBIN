@@ -477,41 +477,17 @@ $(function(){
 
 	// ピンチ禁止
 	/* ピッチインピッチアウトによる拡大縮小を禁止 */
-	// document.documentElement.addEventListener('touchstart', function (e) {
-	//   if (e.touches.length >= 2) {e.preventDefault();}
-	// }, {passive: false});
+	document.documentElement.addEventListener('touchstart', function (e) {
+	  if (e.touches.length >= 2) {e.preventDefault();}
+	}, {passive: false});
 	/* ダブルタップによる拡大を禁止 */
-	// var t = 0;
-	// document.documentElement.addEventListener('touchend', function (e) {
-	// 	var now = new Date().getTime();
-	// 	if ((now - t) < 350){
-	//     	e.preventDefault();
-	// 	}
-	// 	t = now;
-	// }, false);
-
-
-	let lastTouch = 0;
-	document.addEventListener('touchend', event => {
-	  const now = window.performance.now();
-	  if (now - lastTouch <= 500) {
-	    event.preventDefault();
-	  }
-	  lastTouch = now;
-	}, true);
-	let flag = false;
-	document.addEventListener('touchend', event => {
-	  if (flag) {
-	    event.preventDefault();
-	  } else {
-	    flag = true;
-	    setTimeout(() => {
-	      flag = false;
-	    }, 500);
-	  }
-	}, true);
-	element.addEventListener('touchend', event => {
-	  event.preventDefault();
+	var t = 0;
+	document.documentElement.addEventListener('touchend', function (e) {
+		var now = new Date().getTime();
+		if ((now - t) < 350){
+	    	e.preventDefault();
+		}
+		t = now;
 	}, false);
 
 });
