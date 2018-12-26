@@ -211,6 +211,7 @@ header nav#navya {
   position: relative;
   height: 210px;
   text-align: left;
+  font-size: 125%;
 }
 header nav#navya ul {
   width: 200px;
@@ -293,7 +294,7 @@ header nav#navya ul li a:hover span.navja {
   padding-top: calc(200px + (100vw - 1440px) / 10);
 }
 #about #about-content p {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 44px;
   margin-bottom: 172px;
 }
@@ -318,7 +319,7 @@ header nav#navya ul li a:hover span.navja {
   padding: 0;
   text-decoration: none;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 18px;
 }
 #about .about-link-wrapper .about-link::after {
   content: '';
@@ -447,10 +448,10 @@ header nav#navya ul li a:hover span.navja {
   display: none;
 }
 #about #aboutimage p {
-  padding-top: calc(50vh - 200px);
+  padding-top: calc(50vh - 250px);
   padding-bottom: 20px;
-  font-size: 15px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 35px;
 }
 
 /* #cuisinemonew */
@@ -472,11 +473,11 @@ header nav#navya ul li a:hover span.navja {
   margin: 0 auto;
 }
 #cuisinemo h2 {
-  font-size: 18px;
+  font-size: 23px;
 }
 #cuisinemo .ttlnotes {
-  font-size: 14px;
-  letter-spacing: 5px;
+  font-size: 15px;
+  letter-spacing: 10px;
 }
 #cuisinemo ul {
   font-size: 0;
@@ -1005,15 +1006,15 @@ header nav#navya ul li a:hover span.navja {
   display: none;
 }
 #element h2 {
-  font-size: 19px;
+  font-size: 23px;
 }
 #element .ttlnotes {
-  font-size: 14px;
-  letter-spacing: 5px;
+  font-size: 15px;
+  letter-spacing: 10px;
 }
 #element p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 20px;
+  line-height: 40px;
   margin-top: 67px;
   margin-bottom: 122px;
 }
@@ -1035,7 +1036,7 @@ header nav#navya ul li a:hover span.navja {
   width: 193px;
   height: 256px;
   margin: 34px 74px;
-  font-size: 15px;
+  font-size: 17px;
   position: relative;
   border: 1px solid #fff;
 }
@@ -1493,7 +1494,7 @@ header nav#navya ul li a:hover span.navja {
   padding-right: 60px;
 }
 #infoleft img {
-  width: 267px;
+  width: 300px;
 }
 .slideshow {
   position: relative;
@@ -1512,20 +1513,21 @@ header nav#navya ul li a:hover span.navja {
   padding-left: 60px;
 }
 #inforight h2 {
-  font-size: 18px;
+  font-size: 23px;
   margin-bottom: 70px;
 }
 #inforight .ttlnotes {
-  font-size: 13px;
-  letter-spacing: 5px;
+  font-size: 15px;
+  letter-spacing: 10px;
 }
 .infoname {
   font-size: 15px;
 }
 #inforight p {
-  font-size: 14px;
+  font-size: 15px;
   margin-bottom: 23px;
-  letter-spacing: 3px;
+  letter-spacing: 2.3px;
+  line-height: 25px;
 }
 
 /* footer */
@@ -1533,13 +1535,13 @@ footer {
   position: relative;
 }
 footer ul li {
-  font-size: 15px;
+  font-size: 16px;
   line-height: 21px;
 }
 footer ul li a {
   position: relative;
   display: inline-block;
-  padding: .8em 0 1px 0;
+  padding: .8em 0 3px 0;
   text-decoration: none;
 }
 footer ul li a::after {

@@ -190,7 +190,7 @@ header {
   width: 100vw;
   min-width: 320px;
   max-width: 425px;
-  min-height: 120% !important;
+  min-height: 110% !important;
 }
 header h1 {
   float: left;
@@ -208,7 +208,7 @@ header h1 {
   }
 }
 header h1 img {
-  margin-top: calc(36vh + 25px);
+  margin-top: calc(38vh + 25px);
   width: 50px;
 }
 header nav {
@@ -217,7 +217,7 @@ header nav {
   min-width: 192px;
   max-width: 255px;
   text-align: left;
-  margin-top: calc(36vh - 77px);
+  margin-top: calc(38vh - 77px);
   /* margin-top: 330px; */
 }
 header nav ul {
