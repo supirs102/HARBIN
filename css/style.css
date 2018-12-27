@@ -297,6 +297,7 @@ header nav#navya ul li a:hover span.navja {
   font-size: 20px;
   line-height: 44px;
   margin-bottom: 172px;
+  letter-spacing: 4px;
 }
 #about .about-link-wrapper {
   width: 80%;
@@ -474,10 +475,11 @@ header nav#navya ul li a:hover span.navja {
 }
 #cuisinemo h2 {
   font-size: 23px;
+  letter-spacing: 4px;
 }
 #cuisinemo .ttlnotes {
   font-size: 15px;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
 }
 #cuisinemo ul {
   font-size: 0;
@@ -1007,16 +1009,18 @@ header nav#navya ul li a:hover span.navja {
 }
 #element h2 {
   font-size: 23px;
+  letter-spacing: 4px;
 }
 #element .ttlnotes {
   font-size: 15px;
-  letter-spacing: 10px;
+  letter-spacing: 2px;
 }
 #element p {
   font-size: 20px;
   line-height: 40px;
   margin-top: 67px;
   margin-bottom: 122px;
+  letter-spacing: 4px;
 }
 #element ul {
   font-size: 0;
@@ -1515,6 +1519,7 @@ header nav#navya ul li a:hover span.navja {
 #inforight h2 {
   font-size: 23px;
   margin-bottom: 70px;
+  letter-spacing: 4px;
 }
 #inforight .ttlnotes {
   font-size: 15px;
