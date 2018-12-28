@@ -214,7 +214,7 @@ header nav#navya {
   font-size: 125%;
 }
 header nav#navya ul {
-  width: 200px;
+  width: 310px;
   margin-left: 37px;
   font-size: 100%;
   font-weight: bold;
@@ -294,10 +294,10 @@ header nav#navya ul li a:hover span.navja {
   padding-top: calc(200px + (100vw - 1440px) / 10);
 }
 #about #about-content p {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 44px;
   margin-bottom: 172px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 #about .about-link-wrapper {
   width: 80%;
@@ -474,8 +474,8 @@ header nav#navya ul li a:hover span.navja {
   margin: 0 auto;
 }
 #cuisinemo h2 {
-  font-size: 23px;
-  letter-spacing: 4px;
+  font-size: 22px;
+  letter-spacing: 2px;
 }
 #cuisinemo .ttlnotes {
   font-size: 15px;
@@ -1008,19 +1008,19 @@ header nav#navya ul li a:hover span.navja {
   display: none;
 }
 #element h2 {
-  font-size: 23px;
-  letter-spacing: 4px;
+  font-size: 22px;
+  letter-spacing: 2px;
 }
 #element .ttlnotes {
   font-size: 15px;
   letter-spacing: 2px;
 }
 #element p {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 40px;
   margin-top: 67px;
   margin-bottom: 122px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 #element ul {
   font-size: 0;
@@ -1040,7 +1040,7 @@ header nav#navya ul li a:hover span.navja {
   width: 193px;
   height: 256px;
   margin: 34px 74px;
-  font-size: 17px;
+  font-size: 16px;
   position: relative;
   border: 1px solid #fff;
 }
@@ -1517,9 +1517,9 @@ header nav#navya ul li a:hover span.navja {
   padding-left: 60px;
 }
 #inforight h2 {
-  font-size: 23px;
+  font-size: 22px;
   margin-bottom: 70px;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 #inforight .ttlnotes {
   font-size: 15px;
