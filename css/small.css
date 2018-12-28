@@ -124,7 +124,7 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  bottom: calc(-380 / 425 * 100vw - 20%);
+  bottom: calc(-380 / 425 * 100vw - 10%);
   width: 100%;
   height: 200%;
   background-image: url('../images/topline_mobile.svg') !important;
