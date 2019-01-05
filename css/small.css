@@ -244,6 +244,9 @@ header nav#navya ul li {
   margin-bottom: 0.8em;
   height: 1.5em;
 }
+header nav#navya ul li.navspbr {
+  height: 3.8em;
+}
 header nav#navya ul li a {
   text-decoration: none;
   color: #fff;
@@ -251,6 +254,9 @@ header nav#navya ul li a {
   position: relative;
   height: 27px;
   transition: .5s;
+}
+header nav#navya ul li.navspbr a {
+  height: 52px;
 }
 header nav#navya span.navsankaku {
   width: 25px;
@@ -1993,7 +1999,7 @@ footer .ttlnotes {
   margin-bottom: 40px;
 }
 .footeraddresssp {
-  letter-spacing: 0.6px !important;
+  letter-spacing: 0.3px !important;
   font-size: 12px;
 }
 
