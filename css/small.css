@@ -245,7 +245,7 @@ header nav#navya ul li {
   height: 1.5em;
 }
 header nav#navya ul li.navspbr {
-  height: 3.8em;
+  height: 2.3em;
 }
 header nav#navya ul li a {
   text-decoration: none;
@@ -256,7 +256,8 @@ header nav#navya ul li a {
   transition: .5s;
 }
 header nav#navya ul li.navspbr a {
-  height: 52px;
+  height: 38px;
+  line-height: 18px;
 }
 header nav#navya span.navsankaku {
   width: 25px;
@@ -289,6 +290,9 @@ header nav#navya ul li a:hover span.naven {
 }
 header nav#navya ul li a:hover span.navja {
  opacity: 1;
+}
+header nav#navya ul li.navspbr a span.navja {
+  padding-top: 6px;
 }
 
 /* #main */
