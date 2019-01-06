@@ -216,7 +216,7 @@ header nav#navya {
 header nav#navya ul {
   width: 310px;
   margin-left: 37px;
-  font-size: 100%;
+  font-size: 95%;
   font-weight: bold;
   position: absolute;
   top: 20px;
@@ -294,7 +294,7 @@ header nav#navya ul li a:hover span.navja {
   padding-top: calc(200px + (100vw - 1440px) / 10);
 }
 #about #about-content p {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 44px;
   margin-bottom: 172px;
   letter-spacing: 3px;
@@ -1016,7 +1016,7 @@ header nav#navya ul li a:hover span.navja {
   letter-spacing: 2px;
 }
 #element p {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 40px;
   margin-top: 67px;
   margin-bottom: 122px;
