@@ -217,7 +217,7 @@ header nav {
   min-width: 192px;
   max-width: 255px;
   text-align: left;
-  margin-top: calc(50vh - 134px);
+  margin-top: calc(50vh - 128px);
 }
 header nav ul {
   margin-left: 100px;
@@ -226,7 +226,7 @@ header nav ul {
 }
 header nav#navya {
   position: relative;
-  height: 240px;
+  height: 260px;
   text-align: left;
 }
 header nav#navya ul {
@@ -244,14 +244,15 @@ header nav#navya ul li {
   height: 1.65em;
 }
 header nav#navya ul li.navspbr {
-  height: 2.3em;
+  height: 2.85em;
+  margin-top: 1.2em;
 }
 header nav#navya ul li a {
   text-decoration: none;
   color: #fff;
   display: block;
   position: relative;
-  height: 27px;
+  height: 26px;
   transition: .5s;
 }
 header nav#navya ul li.navspbr a {
