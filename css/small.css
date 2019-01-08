@@ -1941,6 +1941,11 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 #inforight p:nth-of-type(1) {
   display: none;
 }
+#inforight a {
+  display: block;
+  max-width: 330px;
+  margin: 0 auto;
+}
 
 /* footer */
 footer {
@@ -1994,6 +1999,11 @@ footer .ttlnotes {
   #footershopinfo {
     font-size: 11px;
   }
+}
+#footershopinfo a {
+  display: block;
+  max-width: 330px;
+  margin: 0 auto;
 }
 #footerlogo {
   margin-bottom: 150px;

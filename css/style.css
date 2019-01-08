@@ -1536,6 +1536,10 @@ header nav#navya ul li a:hover span.navja {
   letter-spacing: 2.3px;
   line-height: 25px;
 }
+#inforight a {
+  display: block;
+  max-width: 500px;
+}
 
 /* footer */
 footer {
@@ -1582,6 +1586,11 @@ footer .ttlnotes {
   margin-bottom: 250px;
   line-height: 28px;
   font-size: 14px;
+}
+#footershopinfo a {
+  display: block;
+  width: 500px;
+  margin: 0 auto;
 }
 #footerlogo {
   margin-bottom: 321px;
