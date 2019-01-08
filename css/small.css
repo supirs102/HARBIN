@@ -208,7 +208,7 @@ header h1 {
   }
 }
 header h1 img {
-  margin-top: calc(50vh - 26px);
+  margin-top: calc(45vh - 26px);
   width: 50px;
 }
 header nav {
@@ -217,7 +217,7 @@ header nav {
   min-width: 192px;
   max-width: 255px;
   text-align: left;
-  margin-top: calc(50vh - 128px);
+  margin-top: calc(45vh - 146px);
 }
 header nav ul {
   margin-left: 100px;
