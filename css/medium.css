@@ -908,7 +908,7 @@ header nav#navya ul li a:hover span.navja {
 #mastercheff-tb {
   display: block;
   padding-top: 340px;
-  padding-bottom: 450px;
+  padding-bottom: 460px;
   background-image: url(../images/mastercheftb.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -1945,7 +1945,7 @@ footer .ttlnotes {
 }
 #footershopinfo a {
   display: block;
-  max-width: 450px;
+  max-width: 460px;
   margin: 0 auto;
 }
 #footerlogo {
