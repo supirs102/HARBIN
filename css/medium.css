@@ -114,7 +114,7 @@ a {
 /* #top-svg */
 #top-svg {
   position: absolute;
-  bottom: calc(-120vh - 380 / 768 * 107vw - 1%);
+  bottom: calc(-120vh - 380 / 768 * 107vw + 2%);
   width: 100%;
   height: 200%;
   background-image: url('../images/topline-tb.svg') !important;
@@ -305,7 +305,7 @@ header nav#navya ul li a:hover span.navja {
   justify-content: center;
 }
 #about {
-  padding-top: calc(140px + (100vw - 426px) / 10);
+  padding-top: calc(170px + (100vw - 426px) / 10);
 }
 #about #about-content p {
   font-size: 15px;
@@ -1891,7 +1891,7 @@ label#chefftbmore-modalopenlabel span:nth-child(2) {
 }
 #inforight a {
   display: block;
-  max-width: 450px;
+  max-width: 460px;
   margin: 0 auto;
 }
 
@@ -1945,7 +1945,7 @@ footer .ttlnotes {
 }
 #footershopinfo a {
   display: block;
-  max-width: 450px;
+  max-width: 460px;
   margin: 0 auto;
 }
 #footerlogo {
